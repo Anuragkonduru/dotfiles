@@ -1,26 +1,9 @@
-################# Start of all the settings
-# KEY DEFINITIONS TO REMEMBER
-# $mod = Set below
-# Mod4 = Super key
-# Mod1 = ALT key
-# Control = CTRL key
-# Shift = SHIFT key
-# Escape = ESCAPE key
-# Return = ENTER or RETURN key
-# KP_Enter = Keypad Enter
-# Pause = PAUSE key
-# Tab = TAB key
-# set Super key
 set $mod Mod4
 set $up h
 set $down j
 set $left k
 set $right l 
-
 exec --no-startup-id xrandr --output HDMI-A-1-0 --right-of eDP --auto
-#bindsym $mod+Shift+1 exec --no-startup-id xrandr --output HDMI-A-1-0 --right-of eDP --auto
-#bindsym $mod+Shift+2 exec --no-startup-id xrandr --output eDP 
-#bindsym $mod+Shift+3 exec --no-startup-id xrandr --output HDMI-A-1-0 
 set $firstMonitor eDP
 set $secondMonitor HDMI-A-1-0
 workspace 1 output $firstMonitor
@@ -33,7 +16,6 @@ workspace 7 output $secondMonitor
 workspace 8 output $secondMonitor
 workspace 9 output $secondMonitor
 workspace 0 output $secondMonitor
-# switch to workspace
 bindsym $mod+1 workspace 1
 bindsym $mod+2 workspace 2
 bindsym $mod+3 workspace 3
@@ -44,7 +26,6 @@ bindsym $mod+7 workspace 7
 bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
-# move focused container to workspace
 bindsym mod1+1 move container to workspace 1; workspace 1
 bindsym mod1+2 move container to workspace 2; workspace 2
 bindsym mod1+3 move container to workspace 3; workspace 3
@@ -55,21 +36,12 @@ bindsym mod1+7 move container to workspace 7; workspace 7
 bindsym mod1+8 move container to workspace 8; workspace 8
 bindsym mod1+9 move container to workspace 9; workspace 9
 bindsym mod1+0 move container to workspace 10; workspace 10
-# start dmenu
-#bindsym $mod+shift+d exec --no-startup-id dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
+
+for_window [urgent=latest] focus
+default_orientation horizontal
+font pango:Hack Nerd Font 14
+
 bindsym $mod+d exec --no-startup-id rofi -show drun -show-icons
-bindsym control+mod1+X mode "$mode_system"
-set $mode_system System (k) lock, (l) logout, (u) suspend, (h) hibernate, (r) reboot, (s) shutdown
-mode "$mode_system" {
-bindsym k exec --no-startup-id ~/.config/i3/scripts/i3exit.sh lock, mode "default"
-bindsym l exec --no-startup-id ~/.config/i3/scripts/i3exit.sh logout, mode "default"
-bindsym u exec --no-startup-id ~/.config/i3/scripts/i3exit.sh suspend, mode "default"
-bindsym h exec --no-startup-id ~/.config/i3/scripts/i3exit.sh hibernate, mode "default"
-bindsym r exec --no-startup-id ~/.config/i3/scripts/i3exit.sh reboot, mode "default"
-bindsym s exec --no-startup-id ~/.config/i3/scripts/i3exit.sh shutdown, mode "default"
-bindsym Return mode "default"
-bindsym Escape mode "default"
-}
 bindsym $mod+X exec --no-startup-id archlinux-logout
 bindsym $mod+Shift+r restart
 bindsym $mod+Shift+c reload
@@ -80,13 +52,6 @@ bindsym $mod+$left focus left
 bindsym $mod+$down focus down
 bindsym $mod+$up focus up
 bindsym $mod+$right focus right
-# alternatively, you can use the cursor keys:
-bindsym $mod+Left focus left
-bindsym $mod+Down focus down
-bindsym $mod+Up focus up
-bindsym $mod+Right focus right
-# move focused window
-# alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
@@ -94,79 +59,40 @@ bindsym $mod+Shift+Right move right
 bindsym Mod1+Tab workspace next
 bindsym Mod1+Shift+Tab workspace prev
 bindsym $mod+Tab workspace back_and_forth
-# navigate workspaces next / previous
 bindsym Mod1+Ctrl+Right workspace next
 bindsym Mod1+Ctrl+Left workspace prev
-# switch to workspace with urgent window automatically
-for_window [urgent=latest] focus
-default_orientation horizontal
-# split in horizontal orientation
-bindsym $mod+g split h
-# split in vertical orientation
-bindsym $mod+v split v
-bindsym $mod+f fullscreen toggle
-bindsym $mod+s layout stacking
-bindsym $mod+z layout tabbed
-bindsym $mod+e layout toggle split
-bindsym $mod+space focus mode_toggle
-bindsym $mod+a focus parent
-# Resizing by 1
 bindsym $mod+Mod1+Ctrl+Right resize shrink width 1 px or 1 ppt
 bindsym $mod+Mod1+Ctrl+Up resize grow height 1 px or 1 ppt
 bindsym $mod+Mod1+Ctrl+Down resize shrink height 1 px or 1 ppt
 bindsym $mod+Mod1+Ctrl+Left resize grow width 1 px or 1 ppt
-# bindsym $mod+r mode "resize"
-font pango:Hack Nerd Font 14
-exec --no-startup-id dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
+
 exec_always --no-startup-id autotiling
-for_window [class="Vivaldi-stable"] focus
-for_window [class="Spotify"] focus
+#for_window [class="Spotify"] focus
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 exec --no-startup-id pamac-tray
 exec --no-startup-id nm-applet
 exec_always --no-startup-id numlockx on
-# exec --no-startup-id pasystray
-exec --no-startup-id volumeicon
-# feh sets wallpaper
-exec --no-startup-id feh --bg-fill /usr/share/backgrounds/archlinux/arch-wallpaper.jpg &
-exec --no-startup-id feh --bg-fill /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg &
-# exec --no-startup-id feh --bg-fill /usr/share/archlinux-tweak-tool/data/wallpaper/wallpaper.png &
-# Polybar
+exec_always --no-startup-id nitrogen --restore &
 exec_always --no-startup-id ~/.config/polybar/launch.sh &
-exec --no-startup-id xfce4-power-manager &
-exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd &
-bindsym control+mod1+w exec --no-startup-id arcolinux-welcome-app
+
+exec --no-startup-id copyq;
 bindsym control+mod1+e exec --no-startup-id archlinux-tweak-tool
-# terminal
 bindsym $mod+Return exec --no-startup-id alacritty;focus
-bindsym $mod+KP_Enter exec --no-startup-id alacritty;focus
+bindsym $mod+KP_Enter exec --no-startup-id kitty;focus
 bindsym $mod+p exec --no-startup-id firefox ;focus
-bindsym F12 exec --no-startup-id xfce4-terminal --drop-down; focus
+bindsym $mod+a exec --no-startup-id emacs; focus
 bindsym $mod+c exec --no-startup-id copyq toggle; focus
-# System monitor
-bindsym control+Shift+Escape exec --no-startup-id xfce4-taskmanager;focus
-# settings
-bindsym control+mod1+m exec --no-startup-id xfce4-settings-manager
-# catfish
-# rofi theme selector
-bindsym control+mod1+r exec --no-startup-id rofi-theme-selector
-# arcolinux does not seem to work
-bindsym control+mod1+a exec --no-startup-id xfce4-appfinder
-# pamac-manager
+bindsym $mod+e exec --no-startup-id thunar ;focus
 bindsym control+mod1+p exec --no-startup-id pamac-manager
-# xkill
 bindsym --release $mod+Escape exec xkill
-# Browser
 bindsym control+mod1+f exec --no-startup-id firefox;focus
 bindsym control+mod1+g exec --no-startup-id chromium;focus
-bindsym $mod+F2 exec --no-startup-id vscode;focus
-#bindsym $mod+F3 exec --no-startup-id inkscape;focus
+bindsym $mod+v exec --no-startup-id code;focus
 bindsym $mod+F4 exec --no-startup-id gimp;focus
-bindsym $mod+F5 exec --no-startup-id meld;focus
 bindsym control+mod1+i exec --no-startup-id nitrogen;focus
 bindsym $mod+F6 exec --no-startup-id mpv;focus
 bindsym $mod+F7 exec --no-startup-id virt-manager;focus
-for_window [class="Nemo"] focus
+
 bindsym $mod+F8 exec --no-startup-id nemo;focus
 bindsym $mod+Shift+Return exec --no-startup-id nemo;focus
 bindsym $mod+Shift+KP_Enter exec --no-startup-id nemo;focus
@@ -177,98 +103,36 @@ bindsym Print exec --no-startup-id scrot 'ArcoLinux-%Y-%m-%d-%s_screenshot_$wx$h
 bindsym Control+Print exec --no-startup-id xfce4-screenshooter
 bindsym Control+Shift+Print exec --no-startup-id gnome-screenshot -i
 bindsym $mod+Control+Print exec --no-startup-id flameshot gui
-for_window [class="Arcolinux-welcome-app.py"] floating enable
-for_window [class="Arcolinux-calamares-tool.py"] floating enable
-for_window [class="Bleachbit"] floating disable
-for_window [class="Blueberry.py"] floating enable
-for_window [class="Brasero"] floating disable
-for_window [class="Galculator"] floating enable
-for_window [class="Gnome-disks"] floating disable
-for_window [class="^Gnome-font-viewer$"] floating enable
-for_window [class="^Gpick$"] floating enable
-for_window [class="Hexchat"] floating disable
-for_window [class="Imagewriter"] floating enable
-for_window [class="Font-manager"] floating enable
+for_window [class="Nemo"] focus
 for_window [class="Nitrogen"] floating disable
 for_window [class="Pavucontrol"] floating disable
-for_window [class="Peek"] floating enable
-for_window [class="^Skype$"] floating enable
 for_window [class="^Spotify$"] floating disable
-for_window [class="System-config-printer.py"] floating enable
-for_window [class="Unetbootin.elf"] floating enable
-for_window [class="Usb-creator-gtk"] floating enable
 for_window [class="^Vlc$"] floating disable
-for_window [class="Wine"] floating disable
-for_window [class="Xfburn"] floating disable
-for_window [class="Xfce4-appfinder"] floating enable
-for_window [class="Xfce4-settings-manager"] floating disable
-for_window [class="Xfce4-taskmanager"] floating enable
-for_window [instance="script-fu"] border normal
-for_window [instance="variety"] floating disable
 for_window [title="Copying"] floating enable
 for_window [title="Deleting"] floating enable
 for_window [title="Moving"] floating enable
-for_window [title="^Terminator Preferences$"] floating enable
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="^Preferences$"] floating enable
 for_window [window_role="setup"] floating enable
-for_window [class="Gnome-terminal"] focus
-for_window [class="Termite"] focus
-for_window [class="Terminator"] focus
-for_window [class="Urxvt"] focus
 for_window [class="Alacritty"] focus
-bindsym mod1+t exec --no-startup-id variety -t
-bindsym mod1+Right exec --no-startup-id variety -n
-bindsym mod1+Left exec --no-startup-id variety -p
-bindsym mod1+f exec --no-startup-id variety -f
-bindsym mod1+Up exec --no-startup-id variety --pause
-bindsym mod1+Down exec --no-startup-id variety --resume
-bindsym mod1+Shift+n exec --no-startup-id variety -n && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
-bindsym mod1+Shift+p exec --no-startup-id variety -p && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
-bindsym mod1+Shift+t exec --no-startup-id variety -t && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
-bindsym mod1+Shift+u exec --no-startup-id wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)
-################# audio settings                   
+for_window [class="kitty"] focus
 bindsym XF86AudioRaiseVolume exec --no-startup-id "amixer -D pulse sset Master '5%+'"
 bindsym XF86AudioLowerVolume exec --no-startup-id "amixer -D pulse sset Master '5%-'"
 bindsym XF86AudioMute exec --no-startup-id "amixer -D pulse set Master toggle"
-# https://github.com/acrisci/playerctl/
 bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
 bindsym XF86AudioNext exec --no-startup-id playerctl next
 bindsym XF86AudioPrev exec --no-startup-id playerctl previous
-bindsym XF86AudioStop exec --no-startup-id playerctl stop
-# bindsym XF86AudioPlay exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause"
-# bindsym XF86AudioNext exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next"
-# bindsym XF86AudioPrev exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"
-# bindsym XF86AudioStop exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Stop"
-
-################# xbacklight                       
+bindsym XF86AudioStop exec --no-startup-id playerctl stop               
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +20%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 20%-
-# bar toggle, hide or show
-bindsym $mod+b bar mode toggle
-# Border control
 hide_edge_borders both
-bindsym $mod+shift+b exec --no-startup-id i3-msg border toggle
-# super+t in arcolinux is starting terminal
-bindsym $mod+t border normal
 bindsym $mod+y border pixel 2
-bindsym $mod+u border none
-# new_window pixel 1
 new_window normal
-# new_window none
-# new_float pixel 1
 new_float normal
-# Popups during fullscreen mode
 popup_during_fullscreen smart
-################# i3 gaps next                     
-# Settings for I3 next gap git
-# https://github.com/Airblader/i3/tree/gaps-next
 for_window [class="^.*"] border pixel 2.5
 gaps inner 5
 gaps outer 5
-# smart_gaps on
-# smart_borders on
-################# i3 gaps change                   
 set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
 set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
@@ -303,22 +167,11 @@ mode "$mode_gaps_outer" {
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
-exec_always --no-startup-id picom --config ~/.config/i3/picom.conf
-bindsym control+mod1+o exec --no-startup-id ~/.config/i3/scripts/picom-toggle.sh
+exec_always --no-startup-id picom 
+
 
 ################# bar appearance                   
 
-    ##START THEMING WM
-    #Theme name : ArcoLinux Default
-
-    # Window color settings
-#    # class                 border  backgr. text    indicator
-#    client.focused          #6790EB #6790EB #e5e5e5 #6790EB
-#    client.unfocused        #222222 #222222 #aaaaaa #222222
-#    client.focused_inactive #222222 #222222 #a9a9a9 #222222
-#    client.placeholder      #222222 #222222 #aaaaaa #222222
-#    client.urgent           #d42121 #d42121 #f7f7f7 #d42121
-#    client.background       #242424
     # class                 border  backgr. text    indicator
     client.focused          #ff0293 #ff0293 #ff0293 #ff0293 
     client.unfocused        #ff57b8 #ff57b8 #ff57b8 #ff57b8
@@ -332,3 +185,75 @@ bindsym control+mod1+o exec --no-startup-id ~/.config/i3/scripts/picom-toggle.sh
 # KEY DEFINITIONS TO REMEMBER
 # $mod = Set below
 # Mod4 = Super key
+# Mod1 = ALT key
+# Control = CTRL key
+# Shift = SHIFT key
+# Escape = ESCAPE key
+# Return = ENTER or RETURN key
+# KP_Enter = Keypad Enter
+# Pause = PAUSE key
+# Tab = TAB key
+# set Super key
+
+################# Start of all the settings
+# KEY DEFINITIONS TO REMEMBER
+# $mod = Set below
+# Mod4 = Super key
+#bindsym $mod+Shift+1 exec --no-startup-id xrandr --output HDMI-A-1-0 --right-of eDP --auto
+#bindsym $mod+Shift+2 exec --no-startup-id xrandr --output eDP 
+#bindsym $mod+Shift+3 exec --no-startup-id xrandr --output HDMI-A-1-0 
+
+# start dmenu
+#bindsym $mod+shift+d exec --no-startup-id dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
+##Default logout options
+#bindsym control+mod1+X mode "$mode_system"
+#set $mode_system System (k) lock, (l) logout, (u) suspend, (h) hibernate, (r) reboot, (s) shutdown
+#mode "$mode_system" {
+#bindsym k exec --no-startup-id ~/.config/i3/scripts/i3exit.sh lock, mode "default"
+#bindsym l exec --no-startup-id ~/.config/i3/scripts/i3exit.sh logout, mode "default"
+#bindsym u exec --no-startup-id ~/.config/i3/scripts/i3exit.sh suspend, mode "default"
+#bindsym h exec --no-startup-id ~/.config/i3/scripts/i3exit.sh hibernate, mode "default"
+#bindsym r exec --no-startup-id ~/.config/i3/scripts/i3exit.sh reboot, mode "default"
+#bindsym s exec --no-startup-id ~/.config/i3/scripts/i3exit.sh shutdown, mode "default"
+#bindsym Return mode "default"
+#bindsym Escape mode "default"
+#}
+
+# alternatively, you can use the cursor keys:
+# bindsym $mod+Left focus left
+# bindsym $mod+Down focus down
+# bindsym $mod+Up focus up
+# bindsym $mod+Right focus right
+
+# bindsym $mod+g split h
+# bindsym $mod+v split v
+# bindsym $mod+f fullscreen toggle
+# bindsym $mod+s layout stacking
+# bindsym $mod+z layout tabbed
+# bindsym $mod+shift+e layout toggle split
+# bindsym $mod+space focus mode_toggle
+# bindsym $mod+space+a focus parent
+
+# bindsym XF86AudioPlay exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause"
+# bindsym XF86AudioNext exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next"
+# bindsym XF86AudioPrev exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"
+# bindsym XF86AudioStop exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Stop"
+# bindsym $mod+b bar mode toggle
+
+# bindsym $mod+shift+b exec --no-startup-id i3-msg border toggle
+# bindsym $mod+t border normal
+# bindsym $mod+u border none
+
+
+    ##START THEMING WM
+    #Theme name : ArcoLinux Default
+
+    # Window color settings
+#    # class                 border  backgr. text    indicator
+#    client.focused          #6790EB #6790EB #e5e5e5 #6790EB
+#    client.unfocused        #222222 #222222 #aaaaaa #222222
+#    client.focused_inactive #222222 #222222 #a9a9a9 #222222
+#    client.placeholder      #222222 #222222 #aaaaaa #222222
+#    client.urgent           #d42121 #d42121 #f7f7f7 #d42121
+#    client.background       #242424
+#bindsym control+mod1+o exec --no-startup-id ~/.config/i3/scripts/picom-toggle.sh
