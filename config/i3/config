@@ -74,12 +74,12 @@ exec --no-startup-id nm-applet
 exec_always --no-startup-id numlockx on
 exec_always --no-startup-id nitrogen --restore &
 exec_always --no-startup-id ~/.config/polybar/launch.sh &
-
 exec --no-startup-id copyq;
 bindsym control+mod1+e exec --no-startup-id archlinux-tweak-tool
 bindsym $mod+Return exec --no-startup-id alacritty;focus
 bindsym $mod+KP_Enter exec --no-startup-id kitty;focus
 bindsym $mod+p exec --no-startup-id firefox ;focus
+bindsym $mod+b exec --no-startup-id brave;focus
 bindsym $mod+a exec --no-startup-id emacs; focus
 bindsym $mod+c exec --no-startup-id copyq toggle; focus
 bindsym $mod+e exec --no-startup-id thunar ;focus
@@ -92,17 +92,18 @@ bindsym $mod+F4 exec --no-startup-id gimp;focus
 bindsym control+mod1+i exec --no-startup-id nitrogen;focus
 bindsym $mod+F6 exec --no-startup-id mpv;focus
 bindsym $mod+F7 exec --no-startup-id virt-manager;focus
-
 bindsym $mod+F8 exec --no-startup-id nemo;focus
 bindsym $mod+Shift+Return exec --no-startup-id nemo;focus
 bindsym $mod+Shift+KP_Enter exec --no-startup-id nemo;focus
 bindsym control+mod1+b exec --no-startup-id nemo;focus
 bindsym $mod+F10 exec --no-startup-id spotify;focus
 bindsym control+mod1+s exec --no-startup-id spotify;focus
-bindsym Print exec --no-startup-id scrot 'ArcoLinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
-bindsym Control+Print exec --no-startup-id xfce4-screenshooter
-bindsym Control+Shift+Print exec --no-startup-id gnome-screenshot -i
-bindsym $mod+Control+Print exec --no-startup-id flameshot gui
+#bindsym Print exec --no-startup-id scrot 'ArcoLinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
+#bindsym Control+Print exec --no-startup-id xfce4-screenshooter
+#bindsym Control+Shift+Print exec --no-startup-id gnome-screenshot -i
+bindsym Print exec --no-startup-id flameshot screen -p ~/Pictures/Screenshots
+bindsym $mod+Print exec --no-startup-id flameshot full -p ~/Pictures/Screenshots
+bindsym $mod+Shift+Print exec --no-startup-id flameshot gui
 for_window [class="Nemo"] focus
 for_window [class="Nitrogen"] floating disable
 for_window [class="Pavucontrol"] floating disable
@@ -167,7 +168,7 @@ mode "$mode_gaps_outer" {
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
-exec_always --no-startup-id picom 
+exec_always --no-startup-id picom --config ~/.config/i3/scripts/picom.conf
 
 
 ################# bar appearance                   
@@ -257,3 +258,4 @@ exec_always --no-startup-id picom
 #    client.urgent           #d42121 #d42121 #f7f7f7 #d42121
 #    client.background       #242424
 #bindsym control+mod1+o exec --no-startup-id ~/.config/i3/scripts/picom-toggle.sh
+
