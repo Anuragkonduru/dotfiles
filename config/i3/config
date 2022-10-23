@@ -2,6 +2,7 @@ include $HOME/.config/i3/scripts/rules.conf
 include $HOME/.config/i3/scripts/workspaces.conf
 include $HOME/.config/i3/scripts/autostart.conf
 include $HOME/.config/i3/scripts/bindsym.conf
+include $HOME/.config/i3/scripts/themes/initial.conf
 
 set $mod Mod4
 set $up h
@@ -9,5 +10,5 @@ set $down j
 set $left k
 set $right l 
 
-default_orientation horizontal
+
 font pango:Hack Nerd Font 14
