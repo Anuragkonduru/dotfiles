@@ -39,7 +39,7 @@ format-offset =
 
 [colors]
 ; Nord theme ============
-background = #2F343F
+background = #992F343F
 foreground = #f3f4f5
 foreground-active = #6790EB
 occupied = #cccccc
@@ -2765,6 +2765,7 @@ label-indicator-underline = ${colors.foreground}
 
 [module/xwindow]
 ;https://github.com/jaagr/polybar/wiki/Module:-xwindow
+
 type = internal/xwindow
 
 ; Available tokens:
@@ -2776,8 +2777,7 @@ label-maxlen = 50
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 
-###############################################################################
-
+###########################################################################
 
 [module/xworkspaces]
 type = internal/xworkspaces
