@@ -11,4 +11,4 @@ set $left k
 set $right l 
 
 
-font pango:Hack Nerd Font 14
+font pango:MesloLGS Nerd Font Mono 14
