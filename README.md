@@ -1,2 +1,2 @@
 # Linux
-# my Config files and other linux stuff
+### my Config files and other linux stuff
