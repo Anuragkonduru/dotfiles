@@ -1,39 +1,71 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
-# More info : https://github.com/jaagr/polybar/wiki
+dir="$HOME/.config/polybar"
+themes=(`ls --hide="launch.sh" $dir`)
 
-# Install the following applications for polybar and icons in polybar if you are on ArcoLinuxD
-# awesome-terminal-fonts
-# Tip : There are other interesting fonts that provide icons like nerd-fonts-complete
-# --log=error
-# Terminate already running bar instances
-killall -q polybar
+launch_bar() {
+	killall -q polybar
+	while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
+	for m in $(polybar --list-monitors | cut -d":" -f1); do
+		MONITOR=$m polybar -q main -c "$dir/$style/config.ini" 	&
+    done
+}
 
-# Wait until the processes have been shut down
-while pgrep -u $UID -x polybar > /dev/null; do sleep 1; done
+if [[ "$1" == "--material" ]]; then
+	style="material"
+	launch_bar
 
-desktop=$(echo $DESKTOP_SESSION)
-count=$(xrandr --query | grep " connected" | cut -d" " -f1 | wc -l)
+elif [[ "$1" == "--shades" ]]; then
+	style="shades"
+	launch_bar
 
+elif [[ "$1" == "--hack" ]]; then
+	style="hack"
+	launch_bar
 
-case $desktop in
+elif [[ "$1" == "--docky" ]]; then
+	style="docky"
+	launch_bar
 
-    i3|/usr/share/xsessions/i3)
-    if type "xrandr" > /dev/null; then
-      for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
-        MONITOR=$m polybar --reload mainbar-i3 -c ~/.config/polybar/config &
-      done
-    else
-    polybar --reload mainbar-i3 -c ~/.config/polybar/config &
-    fi
-    # second polybar at bottom
-    # if type "xrandr" > /dev/null; then
-    #   for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
-    #     MONITOR=$m polybar --reload mainbar-i3-extra -c ~/.config/polybar/config &
-    #   done
-    # else
-    # polybar --reload mainbar-i3-extra -c ~/.config/polybar/config &
-    # fi
-    ;;
+elif [[ "$1" == "--cuts" ]]; then
+	style="cuts"
+	launch_bar
 
-esac
+elif [[ "$1" == "--shapes" ]]; then
+	style="shapes"
+	launch_bar
+
+elif [[ "$1" == "--grayblocks" ]]; then
+	style="grayblocks"
+	launch_bar
+
+elif [[ "$1" == "--blocks" ]]; then
+	style="blocks"
+	launch_bar
+
+elif [[ "$1" == "--colorblocks" ]]; then
+	style="colorblocks"
+	launch_bar
+
+elif [[ "$1" == "--forest" ]]; then
+	style="forest"
+	launch_bar
+
+elif [[ "$1" == "--pwidgets" ]]; then
+	style="pwidgets"
+	launch_bar
+
+elif [[ "$1" == "--panels" ]]; then
+	style="panels"
+	launch_bar
+
+else
+	cat <<- EOF
+	Usage : launch.sh --theme
+		
+	Available Themes :
+	--blocks    --colorblocks    --cuts      --docky
+	--forest    --grayblocks     --hack      --material
+	--panels    --pwidgets       --shades    --shapes
+	EOF
+fi
