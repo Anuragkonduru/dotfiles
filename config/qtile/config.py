@@ -40,11 +40,11 @@ keys = [
     Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
     Key([mod], "x", lazy.shutdown(), desc="Shutdown Qtile"),
     Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
-    Key([mod], "d", lazy.spawn('/home/anu/.config/rofi/launchers/type-1/launcher.sh'), desc="Spawn Rofi"),
+    Key([mod],"d", lazy.spawn('/home/anu/.config/rofi/launchers/type-1/launcher.sh'), desc="Spawn Rofi"),
     Key([mod], "p", lazy.spawn("firefox"), desc="Spawn browser"),
     Key([mod], "e", lazy.spawn("thunar"), desc="Spawn file manager"),
     Key([mod], "v", lazy.spawn("code"), desc="Spawn Visual Studio code"),
-    Key([mod,"control"], "s", lazy.spawn("spotify"), desc="Spawn spotify"),
+   # Key([mod,"control"], "s", lazy.spawn("spotify"), desc="Spawn spotify"),
     Key([mod], "c", lazy.spawn("copyq menu"), desc="Spawn clipboard"),
     Key([mod], "o", lazy.spawn("md.obsidian.Obsidian"), desc="Spawn clipboard"),
     Key([mod,"shift"], "e", lazy.spawn("rofi -show emoji"), desc="Spawn rofi with emojis"),
@@ -110,15 +110,19 @@ dgroups_key_binder = simple_key_binder("mod4")
 groups.append(ScratchPad("scratchpad", [
     DropDown("term", "alacritty --class=scratch", width=0.5, height=0.5, x=0.25, y=0.22, opacity=1),
     DropDown("ranger", "alacritty --class=ranger -e ranger", width=0.5, height=0.5, x=0.25, y=0.22, opacity=0.9),
+    DropDown("music", "alacritty --class=ncmpcpp -e ncmpcpp", width=0.5, height=0.5, x=0.25, y=0.22, opacity=0.9),
     DropDown("volume", "pavucontrol", width=0.5, height=0.5, x=0.25, y=0.22, opacity=0.9),
     DropDown("bluetooth", "blueman-manager", width=0.5, height=0.5, x=0.25, y=0.22, opacity=0.9),
+    DropDown("spotify", "spotify", width=0.5, height=0.5, x=0.25, y=0.22, opacity=0.9),
 ]))
 # Scratchpad keybindings
 keys.extend([
     Key([mod, "shift"], "Return", lazy.group['scratchpad'].dropdown_toggle('term')),
     Key([mod, "shift"], "e", lazy.group['scratchpad'].dropdown_toggle('ranger')),
+    Key([mod, "shift"], "m", lazy.group['scratchpad'].dropdown_toggle('music')),
     Key([mod, "shift"], "v", lazy.group['scratchpad'].dropdown_toggle('volume')),
     Key([mod, "shift"], "b", lazy.group['scratchpad'].dropdown_toggle('bluetooth')),
+    Key([mod, "shift"], "s", lazy.group['scratchpad'].dropdown_toggle('spotify')),
 ])
 
 layout_theme = {"border_width": 2,
@@ -356,7 +360,7 @@ follow_mouse_focus = True
 bring_front_click = False
 cursor_warp = False
 floating_layout = layout.Floating(
-    float_rules=[
+        float_rules=[
         # Run the utility of `xprop` to see the wm class and name of an X client.
         *layout.Floating.default_float_rules,
         Match(wm_class="confirmreset"),  # gitk
