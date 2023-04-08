@@ -71,7 +71,8 @@ groups = []
 group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "minus", "equal"]
 
 #group_labels = ["", "", "", "", "", "", "", "", "ﭮ", "", "", "﨣"]
-group_labels = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+group_labels = ["", "", "", "󰨞", "", "", "󱑤", "󱄢", "", "", "󰺵", "󱧣"]
+#group_labels = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
 
 group_layouts = ["monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall"]
 
@@ -164,7 +165,7 @@ def init_widgets_list(monitor_num):
     widgets_list = [
         widget.GroupBox(
             font="Finger Paint",
-            fontsize = 16,
+            fontsize = 20,
             margin_y = 2,
             margin_x = 4,
             padding_y = 0,
