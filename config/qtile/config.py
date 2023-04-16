@@ -214,6 +214,23 @@ def init_widgets_list(monitor_num):
             background = backgroundColor,
             rounded = True,
         ),
+         widget.Sep(
+            linewidth = 0,
+            padding = 8
+        ),
+        widget.TextBox(
+            text = "",
+            fontsize = 26,
+            font = "Finger Paint",
+            foreground = colors[5],
+        ),
+        widget.Battery(
+            format = '{percent:2.0%}',
+            font = "Finger Paint",
+            padding = 8,
+            foreground = foregroundColor,
+            background = backgroundColor
+        ),
         widget.TextBox(
             text = "󰕾",
             fontsize = 28,
@@ -303,7 +320,7 @@ def init_widgets_list(monitor_num):
 
 def init_secondary_widgets_list(monitor_num):
     secondary_widgets_list = init_widgets_list(monitor_num)
-    del secondary_widgets_list[11:12]
+    del secondary_widgets_list[14:15]
     return secondary_widgets_list
 
 widgets_list = init_widgets_list("1")
