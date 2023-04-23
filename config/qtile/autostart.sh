@@ -7,7 +7,7 @@ flameshot &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 picom --config ~/.config/picom/picom.conf &
 nm-applet &
-kdeconnect-app &
+&kdeconnect-app &
 sleep 10 && mpd &
 #cbatticon -u 5 &
 #volumeicon &
