@@ -1,0 +1,131 @@
+bindsym $mod+Shift+r restart
+bindsym $mod+Shift+c reload
+bindsym $mod+q kill
+
+########## Applications ##############################
+bindsym $mod+Return exec --no-startup-id alacritty;focus
+bindsym $mod+p exec --no-startup-id firefox ;focus
+bindsym $mod+e exec --no-startup-id thunar ;focus
+bindsym $mod+v exec --no-startup-id code;focus
+#bindsym $mod+d exec --no-startup-id rofi -show drun -show-icons
+bindsym $mod+d exec --no-startup-id ~/.config/rofi/launchers/launcher.sh
+bindsym $mod+X exec --no-startup-id archlinux-logout
+bindsym $mod+F7 exec --no-startup-id virt-manager;focus
+bindsym control+mod1+s exec --no-startup-id spotify;focus
+bindsym $mod+b exec --no-startup-id brave;focus
+bindsym control+mod1+g exec --no-startup-id chromium;focus
+bindsym $mod+c exec --no-startup-id copyq menu; focus
+bindsym $mod+KP_Enter exec --no-startup-id kitty;focus
+bindsym $mod+F4 exec --no-startup-id gimp;focus
+bindsym control+mod1+e exec --no-startup-id archlinux-tweak-tool
+bindsym control+mod1+p exec --no-startup-id pamac-manager
+bindsym --release $mod+Escape exec xkill
+bindsym control+mod1+i exec --no-startup-id nitrogen;focus
+bindsym $mod+F6 exec --no-startup-id mpv;focus
+bindsym $mod+o exec --no-startup-id md.obsidian.Obsidian;focusbindsym $mod+Shift+e exec --no-startup-id rofi -show emoji;focus
+##############################################################
+bindsym $mod+Shift+a exec --no-startup-id rofi -show calc -no-show-match -no-sort;focus
+
+####### sys ##################################################
+bindsym $mod+Print exec --no-startup-id flameshot screen -n 0 -p ~/Pictures/Screenshots
+bindsym $mod+Shift+Print exec --no-startup-id flameshot full -p ~/Pictures/Screenshots
+bindsym Print exec --no-startup-id flameshot gui
+bindsym XF86AudioRaiseVolume exec --no-startup-id "pactl set-sink-volume @DEFAULT_SINK@ +5%"
+bindsym XF86AudioLowerVolume exec --no-startup-id "pactl set-sink-volume @DEFAULT_SINK@ -5%"
+bindsym XF86AudioMute exec --no-startup-id "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
+bindsym XF86AudioNext exec --no-startup-id playerctl next
+bindsym XF86AudioPrev exec --no-startup-id playerctl previous
+bindsym XF86AudioStop exec --no-startup-id playerctl stop               
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +20%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 20%-
+bindsym $mod+Mod1+Ctrl+Right resize shrink width 1 px or 1 ppt
+bindsym $mod+Mod1+Ctrl+Up resize grow height 1 px or 1 ppt
+bindsym $mod+Mod1+Ctrl+Down resize shrink height 1 px or 1 ppt
+bindsym $mod+Mod1+Ctrl+Left resize grow width 1 px or 1 ppt
+
+
+floating_modifier $mod
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+Left focus left
+bindsym $mod+Up focus up
+bindsym $mod+Down focus down
+bindsym $mod+Right focus right
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+bindsym $mod+y border pixel 2
+
+######################################## Tabs ############################################
+bindsym mod1+Shift+z layout tabbed
+bindsym mod1+Shift+s layout stacking
+bindsym mod1+Shift+e layout toggle split
+
+###################################################################################
+
+############### Gaps ###############################
+bindsym $mod+Shift+g mode "$mode_gaps"
+mode "$mode_gaps" {
+        bindsym o      mode "$mode_gaps_outer"
+        bindsym i      mode "$mode_gaps_inner"
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+mode "$mode_gaps_inner" {
+        bindsym plus  gaps inner current plus 5
+        bindsym minus gaps inner current minus 5
+        bindsym 0     gaps inner current set 0
+
+        bindsym Shift+plus  gaps inner all plus 5
+        bindsym Shift+minus gaps inner all minus 5
+        bindsym Shift+0     gaps inner all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+mode "$mode_gaps_outer" {
+        bindsym plus  gaps outer current plus 5
+        bindsym minus gaps outer current minus 5
+        bindsym 0     gaps outer current set 0
+
+        bindsym Shift+plus  gaps outer all plus 5
+        bindsym Shift+minus gaps outer all minus 5
+        bindsym Shift+0     gaps outer all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+# resize window (you can also use the mouse for that)
+mode "resize" {
+        # These bindings trigger as soon as you enter the resize mode
+
+        # Pressing left will shrink the window’s width.
+        # Pressing right will grow the window’s width.
+        # Pressing up will shrink the window’s height.
+        # Pressing down will grow the window’s height.
+        bindsym j resize shrink width 10 px or 10 ppt
+        bindsym k resize grow height 10 px or 10 ppt
+        bindsym l resize shrink height 10 px or 10 ppt
+        bindsym semicolon resize grow width 10 px or 10 ppt
+
+        # same bindings, but for the arrow keys
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        # back to normal: Enter or Escape or $mod+r
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+
+bindsym $mod+r mode "resize"
+
+
+bindsym $mod+f fullscreen toggle
+# exit i3 (logs you out of your X session)
+#bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"

@@ -1,7 +1,10 @@
-if status is-interactive
+#if status is-interactive
+set -U fish_greeting ""
 starship init fish | source
-end
+#end
 alias ls="exa -al --color=always --group-directories-first"
 alias ll="ls -la"
 alias vi="nvim"
 alias cd..="cd .."
+alias xcli="xclip -selection clipboard"
+alias icat="kitty +kitten icat"
