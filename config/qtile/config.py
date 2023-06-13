@@ -9,9 +9,15 @@ from qtile_extras.widget.decorations import BorderDecoration
 import colors
 
 mod = "mod4"
-terminal = guess_terminal()
+#terminal = guess_terminal()
+terminal = 'kitty'
 colors, backgroundColor, foregroundColor, workspaceColor, chordColor = colors.catppuccin()
 
+@lazy.function
+def minimize_all(qtile):
+    for win in qtile.current_group.windows:
+        if hasattr(win, "toggle_minimize"):
+            win.toggle_minimize()
 
 keys = [
     Key([mod], "h", lazy.layout.left(), desc="Move focus to left"),
@@ -38,8 +44,9 @@ keys = [
     Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
     Key([mod], "q", lazy.window.kill(), desc="Kill focused window"),
     Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
-    Key([mod], "x", lazy.shutdown(), desc="Shutdown Qtile"),
+   # Key([mod], "x", lazy.shutdown(), desc="Shutdown Qtile"),
     Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
+    Key([mod], "x", lazy.spawn("archlinux-logout"), desc="Shutdown Qtile"),
     Key([mod],"d", lazy.spawn('/home/anu/.config/rofi/launchers/type-1/launcher.sh'), desc="Spawn Rofi"),
     Key([mod], "p", lazy.spawn("firefox"), desc="Spawn browser"),
     Key([mod], "e", lazy.spawn("thunar"), desc="Spawn file manager"),
@@ -47,8 +54,8 @@ keys = [
    # Key([mod,"control"], "s", lazy.spawn("spotify"), desc="Spawn spotify"),
     Key([mod], "c", lazy.spawn("copyq menu"), desc="Spawn clipboard"),
     Key([mod], "o", lazy.spawn("md.obsidian.Obsidian"), desc="Spawn clipboard"),
-    Key([mod,"shift"], "e", lazy.spawn("rofi -show emoji"), desc="Spawn rofi with emojis"),
-    Key([mod,"shift"], "a", lazy.spawn("rofi -show calc -no-show-match -no-sort"), desc="Spawn rofi with calc"),
+    Key([mod,"shift"], "z", lazy.spawn("rofi -show emoji -theme /home/anu/.config/rofi/launchers/type-1/style-5.rasi"), desc="Spawn rofi with emojis"),
+    Key([mod,"shift"], "a", lazy.spawn("rofi -show calc -no-show-match -no-sort -theme /home/anu/.config/rofi/launchers/type-1/style-5.rasi"), desc="Spawn rofi with calc"),
     Key([],"Print", lazy.spawn("flameshot gui"), desc="screenshot"),
     Key([mod],"Print", lazy.spawn("flameshot screen -n 0 -p /home/anu/Pictures/Screenshots"), desc="screenshot"),
     Key([mod,"shift"],"Print", lazy.spawn("flameshot full -p /home/anu/Pictures/Screenshots"), desc="screenshot"),
@@ -64,6 +71,10 @@ keys = [
     Key([mod], "f",lazy.window.toggle_fullscreen(),desc='toggle fullscreen'),
     Key([mod], "period",lazy.next_screen(),desc='Move focus to next monitor'),
     Key([mod], "comma",lazy.prev_screen(),desc='Move focus to prev monitor'),
+    Key([mod, "control"], "right",lazy.spawn("variety -n"),desc='Next Wallpaper for Variety'),
+    Key([mod, "control"], "left",lazy.spawn("variety -p"),desc='Prev Wallpaper for Variety'),
+    Key([mod], "m",lazy.window.toggle_minimize(),desc='Toggle minimization on focused window'),
+    Key([mod, "control"], "m",minimize_all(),desc='Toggle minimise for all Windows'),
 
 ]
 groups = []
@@ -109,9 +120,9 @@ dgroups_key_binder = simple_key_binder("mod4")
 
 # Define scratchpads
 groups.append(ScratchPad("scratchpad", [
-    DropDown("term", "alacritty --class=scratch", width=0.5, height=0.5, x=0.25, y=0.22, opacity=1),
-    DropDown("ranger", "alacritty --class=ranger -e ranger", width=0.5, height=0.5, x=0.25, y=0.22, opacity=0.9),
-    DropDown("music", "alacritty --class=ncmpcpp -e ncmpcpp", width=0.5, height=0.5, x=0.25, y=0.22, opacity=0.9),
+    DropDown("term", "kitty --class=scratch", width=0.5, height=0.5, x=0.25, y=0.22, opacity=1),
+    DropDown("ranger", "kitty --class=ranger -e ranger", width=0.5, height=0.5, x=0.25, y=0.22, opacity=0.9),
+    DropDown("music", "kitty --class=ncmpcpp -e ncmpcpp", width=0.5, height=0.5, x=0.25, y=0.22, opacity=0.9),
     DropDown("volume", "pavucontrol", width=0.5, height=0.5, x=0.25, y=0.22, opacity=0.9),
     DropDown("bluetooth", "blueman-manager", width=0.5, height=0.5, x=0.25, y=0.22, opacity=0.9),
     DropDown("spotify", "spotify", width=0.5, height=0.5, x=0.25, y=0.22, opacity=0.9),
@@ -232,8 +243,8 @@ def init_widgets_list(monitor_num):
             background = backgroundColor
         ),
         widget.TextBox(
-            text = "󰕾",
-            fontsize = 28,
+            text = "󰕾.",
+            fontsize = 20,
             font = "Finger Paint",
             foreground = colors[8],
             linewidth = 0,
@@ -287,8 +298,8 @@ def init_widgets_list(monitor_num):
             padding = 8
         ),
         widget.TextBox(
-            text = "󱑋",
-            fontsize = 26,
+            text = "󱑋.",
+            fontsize = 20,
             font = "Finger Paint",
             foreground = colors[10],
         ),
@@ -409,5 +420,3 @@ wl_input_rules = None
 # We choose LG3D to maximize irony: it is a 3D non-reparenting WM written in
 # java that happens to be on java's whitelist.
 wmname = "Qtile"
-
-
