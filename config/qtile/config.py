@@ -48,7 +48,8 @@ keys = [
     Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
     Key([mod], "x", lazy.spawn("archlinux-logout"), desc="Shutdown Qtile"),
     Key([mod],"d", lazy.spawn('/home/anu/.config/rofi/launchers/type-1/launcher.sh'), desc="Spawn Rofi"),
-    Key([mod], "p", lazy.spawn("firefox"), desc="Spawn browser"),
+    #Key([mod], "p", lazy.spawn("firefox"), desc="Spawn browser"),
+    Key([mod], "p", lazy.spawn("librewolf"), desc="Spawn browser"),
     Key([mod], "e", lazy.spawn("thunar"), desc="Spawn file manager"),
     Key([mod], "v", lazy.spawn("code"), desc="Spawn Visual Studio code"),
    # Key([mod,"control"], "s", lazy.spawn("spotify"), desc="Spawn spotify"),
@@ -242,30 +243,30 @@ def init_widgets_list(monitor_num):
             foreground = foregroundColor,
             background = backgroundColor
         ),
-        widget.TextBox(
-            text = "󰕾.",
-            fontsize = 20,
-            font = "Finger Paint",
-            foreground = colors[8],
-            linewidth = 0,
-            padding = 0
-        ),
-        widget.Volume(
-                       foreground = foregroundColor,
-                       background = backgroundColor,
-                       fmt = '{}',
-                       padding = 5,
-                       rounded = True,
-                       decorations=[
-                           BorderDecoration(
-                               colour = colors[8],
-                               border_width = [0, 0, 2, 0],
-                               padding_x = 5,
-                               padding_y = None,
-                           )
-                       ],
-            
-        ),
+       # widget.TextBox(
+       #     text = "󰕾.",
+       #    fontsize = 20,
+       #     font = "Finger Paint",
+       #     foreground = colors[8],
+       #     linewidth = 0,
+       #     padding = 0
+       # ),
+       # widget.Volume(
+       #                foreground = foregroundColor,
+       #                background = backgroundColor,
+       #                fmt = '{}',
+       #                padding = 5,
+       #                rounded = True,
+       #                decorations=[
+       #                    BorderDecoration(
+       #                        colour = colors[8],
+       #                        border_width = [0, 0, 2, 0],
+       #                        padding_x = 5,
+       #                        padding_y = None,
+       #                    )
+       #                ],
+       #     
+       #),
         widget.Sep(
             linewidth = 0,
             padding = 10
@@ -331,7 +332,7 @@ def init_widgets_list(monitor_num):
 
 def init_secondary_widgets_list(monitor_num):
     secondary_widgets_list = init_widgets_list(monitor_num)
-    del secondary_widgets_list[14:15]
+    del secondary_widgets_list[12:13]
     return secondary_widgets_list
 
 widgets_list = init_widgets_list("1")
@@ -345,7 +346,7 @@ screens = [
             size=30,
             background=backgroundColor,
             margin=6, 
-            opacity=0.8,
+            opacity=1,
             # border_width=[2, 0, 2, 0],  # Draw top and bottom borders
             # border_color=["ff00ff", "000000", "ff00ff", "000000"]  # Borders are magenta
         ),
