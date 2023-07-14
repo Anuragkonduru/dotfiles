@@ -76,6 +76,9 @@ keys = [
     Key([mod, "control"], "left",lazy.spawn("variety -p"),desc='Prev Wallpaper for Variety'),
     Key([mod], "m",lazy.window.toggle_minimize(),desc='Toggle minimization on focused window'),
     Key([mod, "control"], "m",minimize_all(),desc='Toggle minimise for all Windows'),
+    Key([mod,"shift"],"1", lazy.spawn("xrandr --output HDMI-A-1-0 --rate 75 --right-of eDP --rate 60 --auto"), desc="Extended Monitors"),
+    Key([mod,"shift"],"2", lazy.spawn("xrandr --output eDP --off --output DisplayPort-0 --off --output HDMI-A-1-0 --primary --mode 1920x1080 --pos 1920x0 --rotate normal"), desc="Monitor Only"),
+    Key([mod,"shift"],"3", lazy.spawn("xrandr --output eDP --primary --mode 1920x1080 --pos 0x0 --rotate normal --output DisplayPort-0 --off --output HDMI-A-1-0 --off"), desc="Laptop only"),
 
 ]
 groups = []
@@ -226,23 +229,23 @@ def init_widgets_list(monitor_num):
             background = backgroundColor,
             rounded = True,
         ),
-         widget.Sep(
-            linewidth = 0,
-            padding = 8
-        ),
-        widget.TextBox(
-            text = "",
-            fontsize = 26,
-            font = "Finger Paint",
-            foreground = colors[5],
-        ),
-        widget.Battery(
-            format = '{percent:2.0%}',
-            font = "Finger Paint",
-            padding = 8,
-            foreground = foregroundColor,
-            background = backgroundColor
-        ),
+        # widget.Sep(
+        # linewidth = 0,
+       #     padding = 8
+       #),
+       # widget.TextBox(
+       #     text = "",
+       #     fontsize = 26,
+       #     font = "Finger Paint",
+       #     foreground = colors[5],
+       # ),
+       # widget.Battery(
+       #    format = '{percent:2.0%}',
+       #     font = "Finger Paint",
+       #     padding = 8,
+       #     foreground = foregroundColor,
+       #     background = backgroundColor
+       # ),
        # widget.TextBox(
        #     text = "󰕾.",
        #    fontsize = 20,
@@ -280,7 +283,7 @@ def init_widgets_list(monitor_num):
             padding = 0
         ),
         widget.Net(
-                       interface = "wlo1",
+                       interface = "wlan0",
                        format = '{down}',
                        foreground = foregroundColor,
                        background = backgroundColor,
@@ -299,7 +302,7 @@ def init_widgets_list(monitor_num):
             padding = 8
         ),
         widget.TextBox(
-            text = "󱑋.",
+            text = "󱑋",
             fontsize = 20,
             font = "Finger Paint",
             foreground = colors[10],
@@ -332,7 +335,7 @@ def init_widgets_list(monitor_num):
 
 def init_secondary_widgets_list(monitor_num):
     secondary_widgets_list = init_widgets_list(monitor_num)
-    del secondary_widgets_list[12:13]
+    del secondary_widgets_list[9:10]
     return secondary_widgets_list
 
 widgets_list = init_widgets_list("1")
