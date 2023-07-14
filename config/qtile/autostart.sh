@@ -1,7 +1,7 @@
 #!/bin/sh
 xrandr --output HDMI-A-1-0 --rate 75 --right-of eDP --rate 60 --auto &
-#nitrogen --restore &
-variety &
+nitrogen --restore &
+#variety &
 copyq &
 dunst &
 flameshot &
@@ -13,3 +13,4 @@ sleep 10 && mpd &
 volumeicon &
 kitty
 #cbatticon -u 5 &
+xfce4-power-manager &
