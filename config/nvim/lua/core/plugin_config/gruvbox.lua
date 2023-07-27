@@ -1,2 +1,2 @@
 vim.o.termguicolors = true
-vim.com [[ colorscheme gruvbox ]]
+vim.com [[ colorscheme wal ]]

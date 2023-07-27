@@ -2,7 +2,7 @@
 -------------------------------------------------
 
 -- Uncomment just ONE of the following colorschemes!
-local ok, _ = pcall(vim.cmd, 'colorscheme base16-dracula')
+--local ok, _ = pcall(vim.cmd, 'colorscheme wal')
 -- local ok, _ = pcall(vim.cmd, 'colorscheme base16-nord')
 --local ok, _ = pcall(vim.cmd, 'colorscheme base16-oceanicnext')
 --local ok, _ = pcall(vim.cmd, "colorscheme base16-onedark")

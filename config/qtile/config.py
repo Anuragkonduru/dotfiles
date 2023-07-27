@@ -11,7 +11,7 @@ import colors
 mod = "mod4"
 #terminal = guess_terminal()
 terminal = 'kitty'
-colors, backgroundColor, foregroundColor, workspaceColor, chordColor = colors.catppuccin()
+#colors, backgroundColor, foregroundColor, workspaceColor, chordColor = colors.catppuccin()
 
 @lazy.function
 def minimize_all(qtile):
@@ -46,7 +46,9 @@ keys = [
     Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
    # Key([mod], "x", lazy.shutdown(), desc="Shutdown Qtile"),
     Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
-    Key([mod], "x", lazy.spawn("archlinux-logout"), desc="Shutdown Qtile"),
+    Key([mod], "w", lazy.spawn('/home/anu/.config/pywal.sh'), desc="pywal"),
+    #Key([mod], "x", lazy.spawn("archlinux-logout"), desc="Shutdown Qtile"),
+    Key([mod], "x", lazy.spawn('archlinux-logout'), desc="Shutdown Qtile"),
     Key([mod],"d", lazy.spawn('/home/anu/.config/rofi/launchers/type-1/launcher.sh'), desc="Spawn Rofi"),
     #Key([mod], "p", lazy.spawn("firefox"), desc="Spawn browser"),
     Key([mod], "p", lazy.spawn("librewolf"), desc="Spawn browser"),
@@ -86,10 +88,10 @@ groups = []
 group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "minus", "equal"]
 
 #group_labels = ["", "", "", "", "", "", "", "", "ﭮ", "", "", "﨣"]
-group_labels = ["", "", "", "󰨞", "", "", "󱑤", "󱄢", "", "", "󰺵", "󱧣"]
-#group_labels = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+#group_labels = ["", "", "", "󰨞", "", "", "󱑤", "󱄢", "", "", "󰺵", "󱧣"]
+group_labels = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
 
-group_layouts = ["monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall"]
+group_layouts = ["bsp", "bsp", "bsp", "bsp", "bsp", "bsp", "bsp", "bsp", "bsp", "bsp", "bsp", "bsp", "bsp", "bsp"]
 
 # Add group names, labels, and default layouts to the groups object.
 for i in range(len(group_names)):
@@ -141,17 +143,37 @@ keys.extend([
     Key([mod, "shift"], "s", lazy.group['scratchpad'].dropdown_toggle('spotify')),
 ])
 
-layout_theme = {"border_width": 2,
-            "margin_y" : 6,
-            "margin_x" : 6,
-            "margin": 6,
-                "border_focus": colors[2],
-                "border_normal": backgroundColor
-                }
+colors = []
+cache='/home/anu/.cache/wal/colors'
+def load_colors(cache):
+    with open(cache, 'r') as file:
+        for i in range(8):
+            colors.append(file.readline().strip())
+    colors.append('#ffffff')
+    lazy.reload()
+load_colors(cache)
+
+# Define layouts and layout themes
+layout_theme = {
+        "margin":9,
+        "border_width": 2,
+        "border_focus": colors[3],
+        "border_normal": colors[1]
+    }
+
+
+#layout_theme = {"border_width": 2,
+#            "margin_y" : 6,
+#            "margin_x" : 6,
+#            "margin": 6,
+#                "border_focus": colors[2],
+#                "border_normal": backgroundColor
+#                }
 
 
 
 layouts = [
+    layout.Bsp(**layout_theme),
     layout.MonadTall(**layout_theme),
     layout.MonadWide(**layout_theme),
     layout.VerticalTile(**layout_theme),
@@ -160,7 +182,6 @@ layouts = [
     #layout.Max(),
     # Try more layouts by unleashing below layouts.
     #layout.Stack(num_stacks=2),
-    layout.Bsp(**layout_theme),
     #layout.RatioTile(border_focus_stack=["#d75f5f", "#8f3d3d"], border_width=4),
     #layout.Tile(border_focus_stack=["#d75f5f", "#8f3d3d"], border_width=4),
     #layout.TreeTab(border_focus_stack=["#d75f5f", "#8f3d3d"], border_width=4),
@@ -171,7 +192,7 @@ widget_defaults = dict(
     font="Finger Paint",
     fontsize=13,
     padding=3,
-    background=backgroundColor,
+    background=colors[0],
 )
 extension_defaults = widget_defaults.copy()
 
@@ -183,40 +204,50 @@ def init_widgets_list(monitor_num):
             fontsize = 20,
             margin_y = 2,
             margin_x = 4,
-            padding_y = 0,
-            padding_x = 4,
+            padding_y = 6,
+            padding_x = 6,
             borderwidth = 2,
             disable_drag = True,
-            active = colors[4],
-            inactive = foregroundColor,
-            hide_unused = False,
-            rounded = True,
-            highlight_method = "default",
-            highlight_color = [backgroundColor, backgroundColor],
-            this_current_screen_border = colors[5],
-            this_screen_border = colors[7],
-            other_screen_border = colors[6],
-            other_current_screen_border = colors[6],
+            active = colors[1],
+            inactive = colors[1],
+            hide_unused = True,
+            rounded = False,
+            highlight_method = "line",
+     	    block_highlight_text_color = colors[4],
+            highlight_color = [colors[0], colors[0]],
+            this_current_screen_border = colors[7],
+            this_screen_border = colors[4],
+            other_screen_border = colors[3],
+            other_current_screen_border = colors[3],
             urgent_alert_method = "line",
-            urgent_border = colors[9],
+            urgent_border = colors[6],
             urgent_text = colors[1],
-            foreground = foregroundColor,
-            background = backgroundColor,
+            foreground = colors[8],
+            background = colors[0],
             use_mouse_wheel = False
+
+        ),
+         widget.Sep(
+            linewidth = 1,
+            padding = 8,
+            foreground = colors[1],
+            background = colors[0],
+            rounded = True,
         ),
         widget.TaskList(
-            icon_size = 0,
+            icon_size = 24,
             font = "Finger Paint",
-            foreground = colors[5],
-            background = colors[0],
+            foreground = colors[8],
+            background = colors[3],
             borderwidth = 0,
-            border = colors[1],
+            border = colors[2],
             margin = 0,
             padding = 6,
             highlight_method = "block",
             title_width_method = "uniform",
             urgent_alert_method = "border",
             urgent_border = colors[1],
+            unfocused_border = colors[0],
             rounded = True,
             txt_floating = "🗗 ",
             txt_maximized = "🗖 ",
@@ -225,8 +256,8 @@ def init_widgets_list(monitor_num):
         widget.Sep(
             linewidth = 1,
             padding = 8,
-            foreground = colors[5],
-            background = backgroundColor,
+            foreground = colors[1],
+            background = colors[0],
             rounded = True,
         ),
         # widget.Sep(
@@ -278,19 +309,19 @@ def init_widgets_list(monitor_num):
             text = "↓",
             fontsize = 15,
             font = "Finger Paint",
-            foreground = colors[9],
+            foreground = colors[7],
             linewidth = 0,
             padding = 0
         ),
         widget.Net(
                        interface = "wlan0",
                        format = '{down}',
-                       foreground = foregroundColor,
-                       background = backgroundColor,
+                       foreground = colors[1],
+                       background = colors[0],
                        padding = 5,
                        decorations=[
                            BorderDecoration(
-                               colour = colors[8],
+                               colour = colors[6],
                                border_width = [0, 0, 2, 0],
                                padding_x = 5,
                                padding_y = None,
@@ -305,16 +336,16 @@ def init_widgets_list(monitor_num):
             text = "󱑋",
             fontsize = 20,
             font = "Finger Paint",
-            foreground = colors[10],
+            foreground = colors[4],
         ),
         widget.Clock(
             format='%I:%M %p',
             font = "Finger Paint",
             padding = 8,
-            foreground = foregroundColor
+            foreground = colors[1]
         ),
         widget.Systray(
-            background = backgroundColor,
+            background = colors[0],
             icon_size = 20,
             padding = 4,
         ),
@@ -322,12 +353,12 @@ def init_widgets_list(monitor_num):
             linewidth = 1,
             padding = 6,
             foreground = colors[5],
-            background = backgroundColor
+            background = colors[0]
         ),
         widget.CurrentLayoutIcon(
             scale = 0.5,
-            foreground = foregroundColor,
-            background = backgroundColor
+            foreground = colors[1],
+            background = colors[4],
         ),
     ]
 
@@ -335,7 +366,7 @@ def init_widgets_list(monitor_num):
 
 def init_secondary_widgets_list(monitor_num):
     secondary_widgets_list = init_widgets_list(monitor_num)
-    del secondary_widgets_list[9:10]
+    del secondary_widgets_list[10:11]
     return secondary_widgets_list
 
 widgets_list = init_widgets_list("1")
@@ -347,7 +378,7 @@ screens = [
         top=bar.Bar(
             widgets=widgets_list,
             size=30,
-            background=backgroundColor,
+            background=colors[0],
             margin=6, 
             opacity=1,
             # border_width=[2, 0, 2, 0],  # Draw top and bottom borders
@@ -358,7 +389,7 @@ screens = [
          top=bar.Bar(
             widgets=secondary_widgets_list,
             size=30,
-            background=backgroundColor,
+            background=colors[0],
             margin=6, 
             opacity=0.8
                       

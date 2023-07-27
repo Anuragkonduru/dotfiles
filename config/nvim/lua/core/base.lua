@@ -1,7 +1,7 @@
 local g = vim.g
 local o = vim.o
 local opt = vim.opt
-o.termguicolors = true
+--o.termguicolors = true
 o.timeoutlen = 500
 o.updatetime = 200
 o.scrolloff = 8
@@ -40,3 +40,4 @@ opt.autowrite = true
 opt.autoread = true
 opt.shiftround = true
 opt.iskeyword:append("-")
+

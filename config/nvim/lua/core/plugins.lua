@@ -26,7 +26,7 @@ end
 
 return require('packer').startup(function(use)
   use ('wbthomason/packer.nvim')
-  use("RRethy/nvim-base16")
+  --use("RRethy/nvim-base16")
   use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
   use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
   use("tpope/vim-surround") -- add, delete, change surroundings (it's awesome)
@@ -64,7 +64,8 @@ use("glepnir/dashboard-nvim")
   -- configuring lsp servers
   use("neovim/nvim-lspconfig") -- easily configure language servers
   use("hrsh7th/cmp-nvim-lsp") -- for autocompletion
-  use({ "glepnir/lspsaga.nvim", branch = "main" }) -- enhanced lsp uis
+  --use({ "glepnir/lspsaga.nvim", branch = "main" }) -- enhanced lsp uis
+  use({ "glepnir/lspsaga.nvim", commit = 'ae099d5844b005cec66a66ab30a44d3bf8867af9' }) -- enhanced lsp uis
   use("jose-elias-alvarez/typescript.nvim") -- additional functionality for typescript server (e.g. rename file & update imports)
   use("onsails/lspkind.nvim") -- vs-code like icons for autocompletion
   -- formatting & linting
@@ -105,6 +106,8 @@ use("glepnir/dashboard-nvim")
   -- 	use("junegunn/goyo.vim")
 	use("junegunn/limelight.vim")
 	-- use("junegunn/vim-emoji")
+	 use("dylanaraps/wal.vim")
+
 
   if packer_bootstrap then
     require('packer').sync()
