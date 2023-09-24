@@ -1,0 +1,8 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/nvme0n1p8
+UUID=61945486-a93c-47e1-83fd-a1dc72410439	/         	ext4      	rw,relatime	0 1
+UUID=e81f958a-73cf-495e-a41f-60b13caf4fd3       /home           ext4            defaults 	0 2
+UUID=F4B27E81B27E485E                           /media/Data     ntfs            rw,exec         0 0
