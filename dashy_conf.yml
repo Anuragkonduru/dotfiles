@@ -1,0 +1,297 @@
+appConfig:
+  theme: colorful
+  layout: horizontal
+  iconSize: large
+  language: en
+pageInfo:
+  title: Dashy
+  description: ''
+  navLinks:
+    - title: GitHub
+      path: https://github.com/Lissy93/dashy
+      target: sametab
+    - title: Documentation
+      path: https://dashy.to/docs
+      target: sametab
+  footerText: ''
+sections:
+  - name: Anime, Movies & TV
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: AnimePahe
+        icon: >-
+          https://animepahe.ru/app/images/apdoesnthavelogotheysaidapistooplaintheysaid.svg
+        url: https://animepahe.ru/
+        target: sametab
+        id: 0_1465_animepahe
+      - title: YIFY
+        icon: https://yts.mx/assets/images/website/logo-YTS.svg
+        url: https://yts.mx/
+        target: sametab
+        id: 1_1465_yify
+      - title: Baby Torrent
+        icon: https://babytorrent.uno/img/logo-baby.png
+        url: https://babytorrent.uno/
+        target: sametab
+        id: 2_1465_babytorrent
+      - title: TamilMV
+        icon: >-
+          https://www.1tamilmv.cafe/uploads/monthly_2022_04/logo.png.48e7e1b21914fd0b2a6e9a3d1b1d7db2.png
+        url: https://www.1tamilmv.nexus/
+        target: sametab
+        id: 3_1465_tamilmv
+      - title: Cartoon - Goku
+        icon: >-
+          https://img.goku.sx/xxrz/400x400/100/9c/e7/9ce7510639c4204bfe43904fad8f361f/9ce7510639c4204bfe43904fad8f361f.png
+        url: https://goku.sx/home
+        target: sametab
+        id: 4_1465_cartoongoku
+      - title: Anidex
+        icon: https://anidex.info/favicon.ico
+        url: https://anidex.info/
+        target: sametab
+        id: 5_1465_anidex
+      - title: AcgnX Torrent
+        icon: https://www.acgnx.se/images/logo.png
+        url: https://www.acgnx.se/
+        target: sametab
+        id: 6_1465_acgnxtorrent
+      - title: Anidl
+        icon: >-
+          https://anidl.org/wp-content/uploads/2020/09/logo_drak_theme_by_abhishek1996-370d.png.webp
+        url: https://anidl.org/
+        target: sametab
+        id: 7_1465_anidl
+      - title: Anime Kaizoku
+        icon: https://animekaizoku.com/wp-content/uploads/2019/12/kaizokublue.png
+        url: https://animekaizoku.com/
+        target: sametab
+        id: 8_1465_animekaizoku
+      - title: Stremio
+        icon: favicon
+        url: http://127.0.0.1:11470
+        id: 9_1465_stremio
+  - name: Social
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Gmail
+        icon: >-
+          https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1280px-Gmail_icon_%282020%29.svg.png
+        url: https://mail.google.com/mail/u/0/#inbox
+        target: sametab
+        id: 0_603_gmail
+      - title: Youtube
+        icon: favicon
+        url: https://www.youtube.com/feed/subscriptions
+        target: sametab
+        id: 1_603_youtube
+      - title: LinkedIn
+        icon: favicon
+        url: https://www.linkedin.com/in/anurag-konduru/
+        target: sametab
+        id: 2_603_linkedin
+      - title: Naukri
+        icon: https://static.naukimg.com/s/4/100/i/naukri_Logo.png
+        url: https://www.naukri.com/mnjuser/homepage
+        target: sametab
+        id: 3_603_naukri
+      - title: Foundit
+        icon: >-
+          https://media.foundit.in/trex/public/theme_3/src/assets/images/header/companyLogo.svg
+        url: https://www.foundit.in/
+        id: 4_603_foundit
+      - title: SHINE
+        icon: favicon
+        url: https://www.shine.com/myshine/mydashboard/
+        target: sametab
+        id: 5_603_shine
+      - title: INDEED
+        icon: favicon
+        url: https://in.indeed.com/
+        target: sametab
+        id: 6_603_indeed
+      - title: Fish Bowl
+        icon: favicon
+        url: https://www.fishbowlapp.com/feed
+        target: sametab
+        id: 7_603_fishbowl
+      - title: glassdoor
+        icon: favicon
+        url: https://www.glassdoor.co.in/member/home/index.htm
+        target: sametab
+        id: 8_603_glassdoor
+      - title: Twitch
+        icon: favicon
+        url: https://www.twitch.tv/directory/following
+        target: sametab
+        id: 9_603_twitch
+      - title: cuvette
+        icon: favicon
+        url: https://cuvette.tech/app/student/
+        id: 10_603_cuvette
+  - name: Coding
+    icon: favicon
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Jira
+        icon: https://clipartart.com/images/jira-icon-clipart-3.png
+        url: https://anurag0987.atlassian.net/jira/software/projects/PP/boards/1
+        id: 0_596_jira
+      - title: Angular Docs
+        icon: favicon
+        url: https://angular.io/docs
+        target: sametab
+        id: 1_596_angulardocs
+      - title: React
+        icon: favicon
+        url: https://legacy.reactjs.org/docs/getting-started.html
+        id: 2_596_react
+      - title: Over API
+        icon: https://overapi.com/static/images/overapi-logo.png
+        url: https://overapi.com/
+        target: sametab
+        id: 3_596_overapi
+      - title: LEET CODE
+        icon: favicon
+        url: https://leetcode.com/
+        target: sametab
+        id: 4_596_leetcode
+      - title: React Local
+        description: React Local
+        icon: favicon
+        url: http://localhost:3000
+        target: sametab
+        id: 5_596_reactlocal
+      - title: cALENDER
+        icon: favicon
+        url: https://calendar.google.com/
+        target: sametab
+        id: 6_596_calender
+  - name: GitHub
+    icon: favicon
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Linux
+        icon: favicon
+        url: https://github.com/Shadow-Monarch98/Linux
+        target: sametab
+        id: 0_579_linux
+      - title: Learning
+        icon: favicon
+        url: https://github.com/Shadow-Monarch98/Learning_Journey001
+        id: 1_579_learning
+      - title: Notes
+        icon: far fa-book
+        url: https://github.com/Shadow-Monarch98/Obsidian-Notes
+        target: sametab
+        id: 2_579_notes
+      - title: Home
+        icon: far fa-home
+        url: https://github.com/Shadow-Monarch98
+        target: sametab
+        id: 3_579_home
+  - name: 'AI Section '
+    icon: favicon
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: ChatGPT
+        icon: favicon
+        url: https://chat.openai.com/
+        target: sametab
+        id: 0_927_chatgpt
+      - title: Vidyo
+        icon: favicon
+        url: https://vidyo.ai/
+        target: sametab
+        id: 1_927_vidyo
+      - title: BARD
+        icon: >-
+          https://www.gstatic.com/lamda/images/sparkle_resting_v2_darkmode_2bdb7df2724e450073ede.gif
+        url: https://bard.google.com/
+        target: sametab
+        id: 2_927_bard
+      - title: Flair
+        icon: >-
+          https://imagedelivery.net/i1XPW6iC_chU01_6tBPo8Q/1e973b34-893d-4911-7a11-f239528e4b00/public
+        url: https://flair.ai/
+        target: sametab
+        id: 3_927_flair
+      - title: Beatoven
+        icon: favicon
+        url: https://www.beatoven.ai/
+        target: sametab
+        id: 4_927_beatoven
+      - title: Runway
+        icon: favicon
+        url: https://runwayml.com/
+        id: 5_927_runway
+      - title: Scribble
+        icon: favicon
+        url: https://scribblediffusion.com/
+        id: 6_927_scribble
+      - title: tome
+        icon: favicon
+        url: https://tome.app/
+        target: sametab
+        id: 7_927_tome
+      - title: Framer
+        description: AI for maing websites
+        icon: favicon
+        url: https://www.framer.com/
+        target: sametab
+        id: 8_927_framer
+      - title: Musicgen
+        description: AI website for music generation
+        icon: favicon
+        url: https://huggingface.co/spaces/facebook/MusicGen
+        target: sametab
+        id: 9_927_musicgen
+  - name: Info
+    icon: favicon
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: RSS Reader
+        icon: favicon
+        url: http://localhost:49999/i/
+        target: sametab
+        id: 0_396_rssreader
+      - title: RSS Filter
+        icon: favicon
+        url: http://localhost:50000/
+        target: sametab
+        id: 1_396_rssfilter
+      - title: portainer
+        icon: favicon
+        url: https://localhost:9443/
+        target: sametab
+        id: 2_396_portainer
