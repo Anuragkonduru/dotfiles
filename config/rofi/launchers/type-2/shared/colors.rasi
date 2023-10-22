@@ -12,7 +12,6 @@
  * black     dracula       lovelace      onedark    yousai
  *
  **/
-
-/* Import color-scheme from `colors` directory */
+// Example snippet.
 
 @import "~/.config/rofi/colors/onedark.rasi"

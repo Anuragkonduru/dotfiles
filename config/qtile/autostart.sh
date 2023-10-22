@@ -9,6 +9,7 @@ dunst &
 flameshot &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 #picom --config ~/.config/picom/picom.conf &
+picom --config ~/.config/picom/picom.conf &
 #picom --animations --animation-for-open-window fly-in -b --experimental-backends
 #picom --animations --animation-for-open-window fly-in -b --experimental-backends --config ~/.config/picom/picom.conf & 
 nm-applet &

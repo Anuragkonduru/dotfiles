@@ -51,9 +51,9 @@ keys = [
     Key([mod], "w", lazy.spawn('/home/anu/.config/pywal.sh'), desc="pywal"),
     #Key([mod], "x", lazy.spawn("archlinux-logout"), desc="Shutdown Qtile"),
     Key([mod], "x", lazy.spawn('archlinux-logout'), desc="Shutdown Qtile"),
-    Key([mod],"d", lazy.spawn('/home/anu/.config/rofi/launchers/type-1/launcher.sh'), desc="Spawn Rofi"),
+    Key([mod],"d", lazy.spawn('/home/anu/.config/rofi/launchers/type-2/launcher.sh'), desc="Spawn Rofi"),
     #Key([mod], "p", lazy.spawn("firefox"), desc="Spawn browser"),
-    Key([mod], "p", lazy.spawn("brave"), desc="Spawn browser"),
+    Key([mod], "p", lazy.spawn("thorium-browser"), desc="Spawn browser"),
     Key([mod], "e", lazy.spawn("thunar"), desc="Spawn file manager"),
     Key([mod], "v", lazy.spawn("code"), desc="Spawn Visual Studio code"),
    # Key([mod,"control"], "s", lazy.spawn("spotify"), desc="Spawn spotify"),
@@ -336,7 +336,7 @@ def init_widgets_list(monitor_num):
             padding = 0
         ),
         widget.Net(
-                       interface = "wlan0",
+                       interface = "wlo1",
                        format = '{down}',
                        foreground = colors[1],
                        background = colors[0],
