@@ -24,3 +24,5 @@ pywalfox update
 wal-telegram --wal
 qtile cmd-obj -o cmd -f restart
 
+source ~/.config/dunst/wal.sh
+
