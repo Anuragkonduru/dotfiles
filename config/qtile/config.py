@@ -58,7 +58,7 @@ keys = [
     Key([mod], "v", lazy.spawn("code"), desc="Spawn Visual Studio code"),
    # Key([mod,"control"], "s", lazy.spawn("spotify"), desc="Spawn spotify"),
     Key([mod], "c", lazy.spawn("copyq menu"), desc="Spawn clipboard"),
-    Key([mod], "o", lazy.spawn("obsidian"), desc="Spawn clipboard"),
+    Key([mod], "o", lazy.spawn("obsidian"), desc="Spawn Notes App"),
     Key([mod,"shift"], "z", lazy.spawn("rofi -show emoji -theme /home/anu/.config/rofi/launchers/type-1/style-5.rasi"), desc="Spawn rofi with emojis"),
     Key([mod,"shift"], "a", lazy.spawn("rofi -show calc -no-show-match -no-sort -theme /home/anu/.config/rofi/launchers/type-1/style-5.rasi"), desc="Spawn rofi with calc"),
     Key([],"Print", lazy.spawn("flameshot gui"), desc="screenshot"),
@@ -81,7 +81,7 @@ keys = [
     Key([mod], "m",lazy.window.toggle_minimize(),desc='Toggle minimization on focused window'),
     Key([mod, "control"], "m",minimize_all(),desc='Toggle minimise for all Windows'),
     Key([mod,"shift"],"1", lazy.spawn("xrandr --output HDMI-A-1-0 --rate 75 --right-of eDP --rate 60 --auto"), desc="Extended Monitors"),
-    Key([mod,"shift"],"2", lazy.spawn("xrandr --output eDP --off --output DisplayPort-0 --off --output HDMI-A-1-0 --primary --mode 1920x1080 --pos 1920x0 --rotate normal"), desc="Monitor Only"),
+    Key([mod,"shift"],"2", lazy.spawn("xrandr --output eDP --off --output DisplayPort-0 --off --output HDMI-A-1-0 --primary --mode 1920x1080 --pos 1920x0 --rotate normal --rate 75"), desc="Monitor Only"),
     Key([mod,"shift"],"3", lazy.spawn("xrandr --output eDP --primary --mode 1920x1080 --pos 0x0 --rotate normal --output DisplayPort-0 --off --output HDMI-A-1-0 --off"), desc="Laptop only"),
 
 ]
@@ -134,7 +134,8 @@ groups.append(ScratchPad("scratchpad", [
     DropDown("music", "kitty --class=ncmpcpp -e ncmpcpp", width=0.5, height=0.5, x=0.25, y=0.22, opacity=0.9),
     DropDown("volume", "pavucontrol", width=0.5, height=0.5, x=0.25, y=0.22, opacity=0.9),
     DropDown("bluetooth", "blueman-manager", width=0.5, height=0.5, x=0.25, y=0.22, opacity=0.9),
-    DropDown("youtube-music", "youtube-music", width=0.5, height=0.5, x=0.25, y=0.22, opacity=0.9),
+    DropDown("youtube-music", "youtube-music", width=0.5, height=0.7, x=0.25, y=0.13, opacity=0.9),
+    DropDown("ticktick", "ticktick", width=0.4, height=0.5, x=0.25, y=0.22, opacity=0.9),
     DropDown("movie", "kitty --class=scratch -e /home/anu/.config/scripts/movie.sh", width=0.5, height=0.5, x=0.25, y=0.22, opacity=1),
     DropDown("videos", "kitty --class=scratch -e /home/anu/.config/scripts/videos.sh", width=0.5, height=0.5, x=0.25, y=0.22, opacity=1),
 ]))
@@ -148,6 +149,7 @@ keys.extend([
     Key([mod, "shift"], "s", lazy.group['scratchpad'].dropdown_toggle('youtube-music')),
     Key([mod, "shift"], "f", lazy.group['scratchpad'].dropdown_toggle('movie')),
     Key([mod,], "s", lazy.group['scratchpad'].dropdown_toggle('videos')),
+    Key([mod,], "t", lazy.group['scratchpad'].dropdown_toggle('ticktick')),
 ])
 
 colors = []

@@ -13,6 +13,7 @@ flameshot &
 #picom --animations --animation-for-open-window fly-in -b --experimental-backends
 #picom --animations --animation-for-open-window fly-in -b --experimental-backends --config ~/.config/picom/picom.conf & 
 nm-applet &
+kdeconnect-indicator &
 #kdeconnect-app &
 sleep 10 && mpd &
 volumeicon &
@@ -20,4 +21,3 @@ kitty
 #cbatticon -u 5 &
 xfce4-power-manager &
 xset -dpms &
-kdeconnect-indicator &
