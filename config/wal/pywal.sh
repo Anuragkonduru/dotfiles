@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the wallpaper directory
-wallpaper_directory="$HOME/Pictures/walls/"
+wallpaper_directory="$HOME/Pictures/wallpapers/"
 
 # Find all image files within the wallpaper directory and its subdirectories
 image_files=()
