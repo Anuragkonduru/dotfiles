@@ -3,28 +3,28 @@
 	"position": "top",
 
 	"modules-left": [
-		"hyprland/workspaces"
+		"hyprland/workspaces",
+        "mpd"
 	],
-	"modules-center": [
+	"modules-center": ["hyprland/window"
 	],
 	"modules-right": [
-        "custom/packages",
-		"cpu",
-		"memory",
-		"disk",
-        "network#wifi",
-        "battery",
+		// "cpu",
+		// "memory",
+		// "disk",
+        "network",
         "pulseaudio",
+        "battery",
 		"clock",
-		"tray",
-        "custom/notification"
+		"tray"
+      /*  "custom/notification"*/
 	],
     "hyprland/workspaces": {
-        "format": "{icon}",
+        "format": "{id}{icon}",
         "format-icons": {
-            "default": " ",
-            "active": " ",
-            "urgent": " "
+            "default": "",
+            "active": "",
+            "urgent": ""
             /* "default": "", */
             /* "active": "", */
             /* "urgent": "" */
@@ -32,13 +32,22 @@
         "on-scroll-up": "hyprctl dispatch workspace e+1",
         "on-scroll-down": "hyprctl dispatch workspace e-1",
     },
+    "hyprland/window": {
+        "rewrite": {
+            "(.*) - Brave": "$1",
+            "(.*) - Firefox": "$1",
+            "(.*) - Floorp": "$1",
+            "(.*) - Chromium": "$1",
+            "(.*) - Brave Search": "$1",
+            "(.*) - Outlook": "$1",
+            "(.*) Microsoft Teams": "$1"
+        },
+        "max-length": 40,
+        "separate-outputs": true
+    },
 	"clock": {
         "format": "{: %I:%M %p}",
 		"tooltip": false
-	},
-	"hyprland/window": {
-		"max-length": 60,
-		"separate-outputs": false
 	},
 	"memory": {
 		"interval": 5,
@@ -50,7 +59,7 @@
         "tooltip": false
 	},
     "disk": {
-        "format": "  {free}/{total}",
+        "format": "  {free}",
         "tooltip": false
     },
 	"custom/packages": {
@@ -60,13 +69,21 @@
 	},
     "network#wifi": {
         "interval": 1,
-        "interface": "wlp6s0",
+        "interface": "wlan0",
         //"interface": "wlp62s0",
         "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
         "format-wifi": "{icon} {signalStrength}%",
         "format-disconnected": "󰤮",
         "tooltip": false,
     },
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-ethernet": "{bandwidthTotalBytes} 󰈀",
+        "format-disconnected": "⚠",
+        "tooltip": false,
+    },
+
 	"tray": {
 		//"icon-size": 24,
 		"spacing": 12
@@ -119,5 +136,23 @@
         "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
         "on-click": "",
         "tooltip": false
+    },
+    "mpd": 
+    {
+    "format": "{stateIcon} {elapsedTime:%M:%S}  {title}",
+    "format-disconnected": "Disconnected ",
+    "max-length": 30,
+    "format-stopped": " Stopped ",
+    "interval": 10,   
+    "tooltip-format": "MPD (connected)",
+    "tooltip-format-disconnected": "MPD (disconnected)",
+     "state-icons": {
+        "paused": "",
+        "playing": ""        
+    },
+    "on-click":"mpc toggle",
+    "on-scroll-down": "mpc next",
+    "on-scroll-up": "mpc prev"
     }
+   
 }
