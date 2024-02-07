@@ -78,8 +78,8 @@
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "{essid} ({signalStrength}%) ",
-        "format-ethernet": "{bandwidthTotalBytes} 󰈀",
+        "format-wifi": " {essid} {bandwidthTotalBytes}",
+        "format-ethernet": "󰈀 {bandwidthTotalBytes}",
         "format-disconnected": "⚠",
         "tooltip": false,
     },

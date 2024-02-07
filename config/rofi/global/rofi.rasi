@@ -12,7 +12,7 @@ configuration {
 
 * {
     transparent: #00000000;
-    foreground: #F2F2F2EE;
+    foreground: #ffffff;
     background-selected: #F2F2F245;
     background-active: #F2F2F230;
     background-white: #F2F2F211;
@@ -24,7 +24,7 @@ configuration {
 window {
     transparency: "real";
     background-color: #1917244D;
-    text-color: #6e6a86;
+    text-color: #ffffff;
     location: west;
     anchor: west;
     x-offset: 5px;
@@ -43,7 +43,7 @@ button {
     str: " ";
     font: "FantasqueSansMono Nerd Font 16";
     expand: false;
-    text-color: #6e6a86;
+    text-color: #ffffff;
     background-color: @transparent;
     vertical-align: 0.5;
     horizontal-align: 0.5;
@@ -52,7 +52,7 @@ button {
 entry {
     font: "Inter Regular 12";
     background-color: @transparent;
-    text-color: #6e6a86;
+    text-color: #ffffff;
     expand: true;
     vertical-align: 0.5;
     horizontal-align: 0;
@@ -74,7 +74,7 @@ inputbar {
     padding: 14px;
     margin: 10px 10px 14px 10px;
     background-color: #26233a;
-    text-color: @foreground;
+    text-color: #ffffff;
     expand: false;
     border-radius: 9px;
     position: north;
@@ -107,7 +107,7 @@ scrollbar {
 
 element {
     background-color: @transparent;
-    text-color: @foreground;
+    text-color: #ffffff;
     orientation: horizontal;
     border: 0;
     border-color: @background-white;
@@ -136,24 +136,24 @@ element-text {
 element normal.urgent,
 element alternate.urgent {
     background-color: @urgent;
-    text-color: @foreground;
+    text-color: #ffffff;
     border-radius: 9px;
 }
 
 element normal.active,
 element alternate.active {
     background-color: @background-active;
-    text-color: @foreground;
+    text-color: #ffffff;
 }
 
 element selected {
     background-color: #403d5220;
-    text-color: @foreground;
+    text-color: #ffffff;
 }
 
 element selected.urgent {
     background-color: @urgent-selected;
-    text-color: @foreground;
+    text-color: #ffffff;
 }
 
 element selected.active {

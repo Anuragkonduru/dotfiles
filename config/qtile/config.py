@@ -94,7 +94,7 @@ group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "minus", "equal
 #group_labels = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
 group_labels=["一","二","三","四","五","六","七","八","九","十","十一","十二"] # Kanji Numbers
 
-group_layouts = ["bsp", "bsp", "bsp", "bsp", "bsp", "bsp", "bsp", "bsp", "bsp", "bsp", "bsp", "bsp", "bsp", "bsp"]
+group_layouts = ["MonadWide", "bMonadWide", "MonadWide", "MonadWide", "MonadWide", "MonadWide", "MonadWide", "MonadWide", "MonadWide", "MonadWide", "MonadWide", "MonadWide", "MonadWide", "MonadWide"]
 
 # Add group names, labels, and default layouts to the groups object.
 for i in range(len(group_names)):
@@ -212,7 +212,7 @@ def calendar_notification_next(qtile):{
 }
 
 widget_defaults = dict(
-    font="Finger Paint",
+    font="JetBrainsMono Nerd Font Mono",
     fontsize=13,
     padding=3,
     background=colors[0],
@@ -359,7 +359,7 @@ def init_widgets_list(monitor_num):
         ),
         widget.TextBox(
             text = "󱑋",
-            fontsize = 26,
+            fontsize = 16,
             font = "Finger Paint",
             foreground = colors[4],
         ),

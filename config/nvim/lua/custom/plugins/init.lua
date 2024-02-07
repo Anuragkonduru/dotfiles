@@ -11,6 +11,8 @@ return {
 -- Use Ctrl+fp to list recent git projects
   "ahmedkhalf/project.nvim",
 -- alpha dashboard
+  'nvim-tree/nvim-tree.lua',
+  'nvim-tree/nvim-web-devicons',
   {
   'goolord/alpha-nvim',
   dependencies = { 'nvim-tree/nvim-web-devicons' },
