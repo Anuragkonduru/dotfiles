@@ -106,7 +106,7 @@
           "car": "",
 	  "default": ["", "", ""]
 	},
-	"on-click": "pavucontrol",
+	"on-click": "pypr toggle pavucontrol",
 	"input": true
 
   },
@@ -144,7 +144,7 @@
     "restart-interval": 1,
 },
   "bluetooth": {
-		  "on-click": "blueman-manager",
+		  "on-click": "pypr toggle bluetooth",
 		  "format": "{icon}",
 		  "interval": 15,
 		  "format-icons": {

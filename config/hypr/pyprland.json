@@ -1,0 +1,64 @@
+{
+  "pyprland": {
+    "plugins": ["scratchpads", "magnify"]
+  },
+  "scratchpads": {
+    "term": {
+      "command": "kitty --class term1",
+      "animation": "fromTop",
+      "class": "term1",
+      "unfocus": "hide",
+      "size": "40% 60%",
+      "margin": 50,
+      "position": "50% 0%"
+    },
+    "ranger": {
+      "command": "kitty --class rangerf -e ranger",
+      "unfocus": "hide",
+      "animation": "fromTop",
+      "lazy": "true",
+      "class": "rangerf",
+      "size": "40% 60%"
+    },
+    "ncmpcpp": {
+      "command": "kitty --class ncmpcppm -e ncmpcpp",
+      "unfocus": "hide",
+      "animation": "fromTop",
+      "lazy": "true",
+      "class": "ncmpcppm",
+      "size": "40% 60%"
+    },
+    "music": {
+      "command": "youtube-music",
+      "unfocus": "hide",
+      "animation": "fromTop",
+      "lazy": "true",
+      "class": "YouTube Music",
+      "size": "40% 60%"
+    },
+    "pavucontrol": {
+      "command": "pavucontrol",
+      "unfocus": "hide",
+      "animation": "fromTop",
+      "lazy": "true",
+      "class": "pavucontrol",
+      "size": "40% 60%"
+    },
+    "bluetooth": {
+      "command": "blueman-manager",
+      "unfocus": "hide",
+      "animation": "fromTop",
+      "lazy": "true",
+      "class": "blueman-manager",
+      "size": "40% 60%"
+    },
+    "ticktick": {
+      "command": "ticktick",
+      "unfocus": "hide",
+      "animation": "fromTop",
+      "lazy": "true",
+      "class": "ticktick",
+      "size": "40% 60%"
+    }
+  }
+}
