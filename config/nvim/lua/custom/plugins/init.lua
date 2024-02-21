@@ -1,41 +1,66 @@
--- You can add your own plugins here or in other files in this directory!
---  I promise not to create any merge conflicts in this directory :)
---
--- See the kickstart.nvim README for more information
 return {
- -- File Explorer in Vim Ctrl+f
- {
- "nvim-telescope/telescope-file-browser.nvim",
- dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
- };
--- Use Ctrl+fp to list recent git projects
-  "ahmedkhalf/project.nvim",
--- alpha dashboard
-  'nvim-tree/nvim-tree.lua',
-  'nvim-tree/nvim-web-devicons',
   {
-  'goolord/alpha-nvim',
-  dependencies = { 'nvim-tree/nvim-web-devicons' },
-    config = function ()
-        require'alpha'.setup(require'alpha.themes.startify'.config)
-  end
-  };
-  "jvgrootveld/telescope-zoxide",
-  -- Colorschemes
-  "lunarvim/darkplus.nvim",
-  "arcticicestudio/nord-vim",
+    "nvim-telescope/telescope.nvim", branch = '0.1.x',
+    dependencies = { "nvim-lua/plenary.nvim" }
+  },
   "lunarvim/synthwave84.nvim",
-  "emacs-grammarly/lsp-grammarly",
--- Quick word search under cursor alt+p and alt+n
-  "RRethy/vim-illuminate",
--- Titus Custom
-  "postfen/clipboard-image.nvim",
+  {
+    'nvim-treesitter/nvim-treesitter',
+    dependencies = {
+      'nvim-treesitter/nvim-treesitter-textobjects',
+    },
+    build = ':TSUpdate'
+  },
   "mbbill/undotree",
-  --usage metrics for cooding need to check on this
-  --"wakatime/vim-wakatime",
-  "Pocco81/auto-save.nvim",
- -- for different modes need to work on this
-  --"Pocco81/true-zen.nvim",
-  "github/copilot.vim",
+  'tpope/vim-fugitive',--need to learn this is for git
+  {
+    "nvim-tree/nvim-tree.lua",
+    version = "*",
+    lazy = false,
+    dependencies = {
+      "nvim-tree/nvim-web-devicons",
+    },
+    config = function()
+      require("nvim-tree").setup {}
+    end,
+  },
+  {
+    'nvim-lualine/lualine.nvim',
+    opts = {
+      options = {
+        icons_enabled = false,
+        theme = 'synthwave84',
+        component_separators = '|',
+        section_separators = '',
+      },
+    },
+  },
+  { 'numToStr/Comment.nvim', opts = {} },
+  {
+    'goolord/alpha-nvim',
+    dependencies = { 'nvim-tree/nvim-web-devicons' },
+    config = function ()
+      require'alpha'.setup(require'alpha.themes.startify'.config)
+    end
+  },
   "lambdalisue/suda.vim",
+  "jvgrootveld/telescope-zoxide",
+  {
+    "nvim-telescope/telescope-file-browser.nvim",
+    dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
+  },
+  --Lsp from Here on
+  {
+    'williamboman/mason.nvim',
+    'williamboman/mason-lspconfig.nvim',
+    {
+      'VonHeikemen/lsp-zero.nvim', 
+      branch = 'v3.x'
+    },
+    'neovim/nvim-lspconfig',
+    'hrsh7th/cmp-nvim-lsp',
+    'hrsh7th/nvim-cmp',
+    'L3MON4D3/LuaSnip',
+
+  }
 }
