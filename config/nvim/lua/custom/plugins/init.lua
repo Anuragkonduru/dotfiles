@@ -49,6 +49,7 @@ return {
     "nvim-telescope/telescope-file-browser.nvim",
     dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
   },
+   { 'folke/which-key.nvim', opts = {} },
   --Lsp from Here on
   {
     'williamboman/mason.nvim',

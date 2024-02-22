@@ -8,9 +8,7 @@
       "animation": "fromTop",
       "class": "term1",
       "unfocus": "hide",
-      "size": "40% 60%",
-      "margin": 50,
-      "position": "50% 0%"
+      "size": "50% 60%"
     },
     "ranger": {
       "command": "kitty --class rangerf -e ranger",
@@ -18,7 +16,7 @@
       "animation": "fromTop",
       "lazy": "true",
       "class": "rangerf",
-      "size": "40% 60%"
+      "size": "50% 60%"
     },
     "ncmpcpp": {
       "command": "kitty --class ncmpcppm -e ncmpcpp",
@@ -26,7 +24,7 @@
       "animation": "fromTop",
       "lazy": "true",
       "class": "ncmpcppm",
-      "size": "40% 60%"
+      "size": "50% 60%"
     },
     "music": {
       "command": "youtube-music",
@@ -34,7 +32,7 @@
       "animation": "fromTop",
       "lazy": "true",
       "class": "YouTube Music",
-      "size": "40% 60%"
+      "size": "60% 70%"
     },
     "pavucontrol": {
       "command": "pavucontrol",
@@ -42,7 +40,7 @@
       "animation": "fromTop",
       "lazy": "true",
       "class": "pavucontrol",
-      "size": "40% 60%"
+      "size": "50% 60%"
     },
     "bluetooth": {
       "command": "blueman-manager",
@@ -50,7 +48,7 @@
       "animation": "fromTop",
       "lazy": "true",
       "class": "blueman-manager",
-      "size": "40% 60%"
+      "size": "50% 60%"
     },
     "ticktick": {
       "command": "ticktick",
@@ -58,7 +56,7 @@
       "animation": "fromTop",
       "lazy": "true",
       "class": "ticktick",
-      "size": "40% 60%"
+      "size": "5q0% 60%"
     }
   }
 }

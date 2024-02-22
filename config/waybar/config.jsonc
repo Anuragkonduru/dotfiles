@@ -15,7 +15,7 @@
             "(.*) - Outlook": "$1",
             "(.*) Microsoft Teams": "$1"
         },
-        "max-length": 333,
+        "max-length": 55,
 	    "seperate-outputs": true
   },
   "clock": {
@@ -187,7 +187,7 @@
     {
     "format": "{stateIcon} {elapsedTime:%M:%S}  {title}",
     "format-disconnected": "Disconnected ",
-    "max-length": 30,
+    "max-length": 40,
     "format-stopped": " Stopped ",
     "interval": 10,   
     "tooltip-format": "MPD (connected)",
