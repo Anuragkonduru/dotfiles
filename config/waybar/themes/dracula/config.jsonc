@@ -27,7 +27,7 @@
     "seperate-outputs": true
   },
   "clock": {
-    "format": "<span foreground='#e6b673'> </span><span>{:%I:%M %a %d}</span>",
+    "format": "<span foreground='#FFB86C'> </span><span>{:%I:%M %a %d}</span>",
     "tooltip-format": "{calendar}",
     "calendar": {
       "mode": "month",
@@ -35,11 +35,11 @@
       "on-scroll": 1,
       "on-click-right": "mode",
       "format": {
-        "months": "<span color='#f9e2af'><b>{}</b></span>",
+        "months": "<span color='#F1FA8C'><b>{}</b></span>",
         "days": "<span color='#cdd6f4'><b>{}</b></span>",
         "weeks": "<span color='#99ffdd'><b>{%W}</b></span>",
         "weekdays": "<span color='#89b4fa'><b>{}</b></span>",
-        "today": "<span color='#f38ba8'><b>{}</b></span>"
+        "today": "<span color='#FF5555'><b>{}</b></span>"
       }
     },
     "actions": {
@@ -74,7 +74,7 @@
   },
   "backlight": {
     "device": "intel_backlight",
-    "format": "<span foreground='#FFA066'>{icon}</span> {percent}%",
+    "format": "<span foreground='#FFB86C'>{icon}</span> {percent}%",
     "states": [0, 25, 50, 100],
     "format-icons": ["", "󰃝", "󰃟", ""],
     "tooltip-format": "{percent}%",
@@ -91,10 +91,10 @@
   "pulseaudio": {
     "format": "<span foreground='#f26d78'>{icon}</span> {volume}%  {format_source}",
     "format-bluetooth": "<span foreground='#95e6cb'>{icon}</span> {volume}%  {format_source}",
-    "format-bluetooth-muted": "<span foreground='#95e6cb'>󰖁</span>  {format_source}",
-    "format-muted": "<span foreground='#F38BA8'>󰖁</span>  {format_source}",
-    "format-source": "<span foreground='#fab387'></span> {volume}%",
-    "format-source-muted": "<span foreground='#F38BA8'></span>",
+    "format-bluetooth-muted": "<span foreground='#FF5555'>󰖁</span>  {format_source}",
+    "format-muted": "<span foreground='#FF5555'>󰖁</span>  {format_source}",
+    "format-source": "<span foreground='#FFB86C'></span> {volume}%",
+    "format-source-muted": "<span foreground='#FF5555'></span>",
     "format-icons": {
       "headphone": "",
       "phone": "",
@@ -154,9 +154,9 @@
   },
   "network": {
     // "interface": "wlp2*", // (Optional) To force the use of this interface
-    "format-wifi": "<span foreground='#aad94c'></span> {bandwidthTotalBytes}",
-    "format-ethernet": "<span foreground='#aad94c'>󰈀<span> {bandwidthTotalBytes}",
-    "format-disconnected": "<span foreground='#F57D1F'>⚠</span>",
+    "format-wifi": "<span foreground='#50FA7B'></span> {bandwidthTotalBytes}",
+    "format-ethernet": "<span foreground='#50FA7B'>󰈀<span> {bandwidthTotalBytes}",
+    "format-disconnected": "<span foreground='#FFB86C'> ⚠ </span>",
     "tooltip": false
   },
   "battery": {
@@ -165,11 +165,11 @@
       "critical": 15
     },
     "format": "{icon} {capacity}%",
-    "format-charging": "<span foreground='#74E291'>󰂄</span> {capacity}%",
+    "format-charging": "<span foreground='#50FA7B'>󰂄</span> {capacity}%",
     "format-plugged": "<span foreground='#FF9800'>󱘖</span> {capacity}%",
     "format-icons": [
-      "<span foreground='#FF004D'>󰁺</span>",
-      "<span foreground='#FF004D'>󰁻</span>",
+      "<span foreground='#FF5555'>󰁺</span>",
+      "<span foreground='#FF5555'>󰁻</span>",
       "<span foreground='#F57D1F'>󰁼</span>",
       "<span foreground='#F57D1F'>󰁽</span>",
       "<span foreground='#74E291'>󰁾</span>",
