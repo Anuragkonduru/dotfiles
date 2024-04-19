@@ -1,0 +1,62 @@
+[pyprland]
+plugins = [   
+	"scratchpads"
+]
+
+[scratchpads.term]
+animation = "fromTop"
+command = "kitty --class term1"
+class = "term1"
+lazy = true
+unfocus = "hide"
+size = "60% 60%"
+
+
+[scratchpads.rangerf]
+animation = "fromTop"
+command = "kitty --class rangerf -e ranger"
+class = "rangerf"
+lazy = true
+unfocus = "hide"
+size = "60% 60%"
+
+[scratchpads.ncmpcpp]
+animation = "fromTop"
+command = "kitty --class ncmpcpp -e ncmpcpp"
+class = "ncmpcpp"
+lazy = true
+unfocus = "hide"
+size = "60% 60%"
+
+[scratchpads.music]
+animation = "fromTop"
+command = "youtube-music"
+class = "Youtube Music"
+lazy = true
+unfocus = "hide"
+size = "60% 60%"
+
+[scratchpads.pavucontrol]
+animation = "fromTop"
+command = "pavucontrol"
+class = "pavucontrol"
+lazy = true
+unfocus = "hide"
+size = "60% 60%"
+
+[scratchpads.bluetooth]
+animation = "fromTop"
+command = "blueman-manager"
+class = "blueman-manager"
+lazy = true
+unfocus = "hide"
+size = "60% 60%"
+
+[scratchpads.ticktick]
+animation = "fromTop"
+command = "ticktick"
+class = "ticktick"
+lazy = true
+unfocus = "hide"
+size = "60% 60%"
+

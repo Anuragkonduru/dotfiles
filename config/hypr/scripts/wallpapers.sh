@@ -109,7 +109,7 @@ rm -rf $HOME/.cache/swww
 # Send notification
 # ----------------------------------------------------- 
 sleep 1
-notify-send "Colors and Wallpaper updated" "with image $newwall"
+notify-send "Colors and Wallpaper updated" "with image $wallpaper"
 
 echo "DONE!"
 
