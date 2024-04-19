@@ -1,5 +1,5 @@
 [global]
-    monitor = 1
+    monitor = 2
     follow = none
     width = 350
     height = 140
@@ -73,9 +73,9 @@ separator_color= frame
 [urgency_normal]
     background = "#282828"
     foreground = "#ebdbb2"
-    timeout = 20
+    timeout = 5
 
 [urgency_critical]
     background = "#282828"
     foreground = "#ebdbb2"
-    timeout = 0
+    timeout = 10
