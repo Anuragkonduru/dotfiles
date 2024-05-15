@@ -11,7 +11,7 @@ import colors
 mod = "mod4"
 #terminal = guess_terminal()
 terminal = 'kitty'
-#colors, backgroundColor, foregroundColor, workspaceColor, chordColor = colors.catppuccin()
+colors, backgroundColor, foregroundColor, workspaceColor, chordColor = colors.current()
 
 home = "/home/anu"
 
@@ -152,15 +152,15 @@ keys.extend([
     Key([mod,], "t", lazy.group['scratchpad'].dropdown_toggle('ticktick')),
 ])
 
-colors = []
-cache='/home/anu/.cache/wal/colors'
-def load_colors(cache):
-    with open(cache, 'r') as file:
-        for i in range(8):
-            colors.append(file.readline().strip())
-    colors.append('#ffffff')
-    lazy.reload()
-load_colors(cache)
+#colors = []
+#cache='/home/anu/.cache/wal/colors'
+#def load_colors(cache):
+#    with open(cache, 'r') as file:
+#        for i in range(8):
+#            colors.append(file.readline().strip())
+#    colors.append('#ffffff')
+#    lazy.reload()
+#load_colors(cache)
 
 # Define layouts and layout themes
 layout_theme = {

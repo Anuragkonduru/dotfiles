@@ -11,18 +11,19 @@ configuration {
 }
 
 * {
-    transparent: #00000000;
-    foreground: #ffffff;
-    background-selected: #F2F2F245;
-    background-active: #F2F2F230;
-    background-white: #F2F2F211;
-    background-black: #00000000;
-    urgent: #E91E6366;
-    urgent-selected: #E91E6377;
+  transparent: #00000077;
+  foreground: #ffffff;
+  background-selected: #f2f2f27a;
+  background-active: #f2f2f275;
+  background-white: #f2f2f273;
+  background-black: #0000002a;
+  urgent: #e91e6366;
+  urgent-selected: #e91e6377;
 }
 
+
 window {
-    transparency: "real";
+    // transparency: "real";
     background-color: #1917244D;
     text-color: #ffffff;
     location: west;

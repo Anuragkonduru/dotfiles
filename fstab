@@ -2,7 +2,13 @@
 # See fstab(5) for details.
 
 # <file system> <dir> <type> <options> <dump> <pass>
-# /dev/nvme0n1p8
-UUID=61945486-a93c-47e1-83fd-a1dc72410439	/         	ext4      	rw,relatime	0 1
-UUID=e81f958a-73cf-495e-a41f-60b13caf4fd3       /home           ext4            defaults 	0 2
-UUID=F4B27E81B27E485E                           /media/Data     ntfs            rw,exec         0 0
+# /dev/nvme0n1p7
+UUID=cac33ecf-cad9-49d3-8445-d7dfe4bd89ab	/         	ext4      	rw,relatime	0 1
+
+# /dev/nvme0n1p5
+UUID=F175-C9E9      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# /dev/nvme0n1p4
+UUID=04f6e417-f7df-432a-8b7a-bf231cf659a4	/home     	ext4      	rw,relatime	0 2
+
+UUID=606C2A416C2A1278 /media/Data ntfs rw,exec 0 0
