@@ -56,10 +56,3 @@ keymap("v", "<leader>y", '"+y')
 keymap("n", "<leader>Y", '"+Y')
 keymap("n", "<leader>x", "<cmd>!chmod +x %<CR>")
 
-
-
-
-
-
-
-
