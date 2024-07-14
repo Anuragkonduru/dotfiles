@@ -96,7 +96,7 @@
     "format-source": "<span foreground='#fab387'></span> {volume}%",
     "format-source-muted": "<span foreground='#F38BA8'></span>",
     "format-icons": {
-      "headphone": "",
+      "headphone": "󰓃",
       "phone": "",
       "portable": "",
       "hands-free": "",
@@ -142,7 +142,7 @@
   },
   "bluetooth": {
     "on-click": "pypr toggle bluetooth",
-    "format": "{icon}",
+    "format": "{icon} {device_battery_percentage}",
     "interval": 15,
     "format-icons": {
       "on": "<span foreground='#43242B'></span>",
