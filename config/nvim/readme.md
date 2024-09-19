@@ -1,31 +1,51 @@
-**At Start**
+At Start
 
 ```lua
 require("keymaps")
 ```
-**Change tan from >> to space**
 
-**Add this at the start of lazy setup for Comment Funtionality**
-```lua
-  --  This is equivalent to:
-  --    require("Comment").setup({})
-
-  -- "gc" to comment visual regions/lines
-  { "numToStr/Comment.nvim", opts = {} },
-```
-**Change Autoformat to**
+Change Autoformat to
 
 ```lua
 lazy = false,
 ```
 
-**Uncomment for custiom packages**
+autoformate setup
+
+```lua
+svelte = { { "prettierd", "prettier", stop_after_first = true } },
+          astro = { { "prettierd", "prettier", stop_after_first = true } },
+          javascript = { { "prettierd", "prettier", stop_after_first = true } },
+          typescript = { { "prettierd", "prettier", stop_after_first = true } },
+          javascriptreact = { { "prettierd", "prettier", stop_after_first = true } },
+          typescriptreact = { { "prettierd", "prettier", stop_after_first = true } },
+          json = { { "prettierd", "prettier", stop_after_first = true } },
+          graphql = { { "prettierd", "prettier", stop_after_first = true } },
+          java = { "google-java-format" },
+          kotlin = { "ktlint" },
+          ruby = { "standardrb" },
+          markdown = { { "prettierd", "prettier", stop_after_first = true } },
+          erb = { "htmlbeautifier" },
+          html = { "htmlbeautifier" },
+          bash = { "beautysh" },
+          proto = { "buf" },
+          rust = { "rustfmt" },
+          yaml = { "yamlfix" },
+          toml = { "taplo" },
+          css = { { "prettierd", "prettier", stop_after_first = true } },
+          scss = { { "prettierd", "prettier", stop_after_first = true } },
+          sh = { "shellcheck" },
+          go = { "gofmt" },
+```
+
+
+Uncomment for custiom packages
 
 ```lua
    { import = 'custom.plugins' },
 ```
 
-**At END**
+At END
 
 ```lua
 vim.o.background = "dark" -- or "light" for light mode

@@ -13,7 +13,6 @@ keymap("n", "<leader>fp", ":Telescope zoxide list<CR>", opts)
 keymap("n", "<leader>fb", ":Telescope buffers<CR>", opts)
 keymap("n", "<space>fe", ":Telescope file_browser<CR>", opts)
 
-keymap("n", "<leader>n", ":NvimTreeToggle<CR>", { noremap = true, silent = true })
 
 keymap("n", "<F5>", "<cmd> UndotreeToggle <CR> <cmd> UndotreeFocus <CR>", opts)
 

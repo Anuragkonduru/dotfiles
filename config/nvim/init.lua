@@ -696,7 +696,26 @@ require("lazy").setup({
 				-- python = { "isort", "black" },
 				--
 				-- You can use 'stop_after_first' to run the first available formatter from the list
-				-- javascript = { "prettierd", "prettier", stop_after_first = true },
+				javascript = { "prettierd", "prettier", stop_after_first = true },
+        svelte = { { "prettierd", "prettier", stop_after_first = true } },
+        astro = { { "prettierd", "prettier", stop_after_first = true } },
+        typescript = { { "prettierd", "prettier", stop_after_first = true } },
+        javascriptreact = { { "prettierd", "prettier", stop_after_first = true } },
+        typescriptreact = { { "prettierd", "prettier", stop_after_first = true } },
+        json = { { "prettierd", "prettier", stop_after_first = true } },
+        java = { "google-java-format" },
+        markdown = { { "prettierd", "prettier", stop_after_first = true } },
+        erb = { "htmlbeautifier" },
+        html = { "htmlbeautifier" },
+        bash = { "beautysh" },
+        proto = { "buf" },
+        rust = { "rustfmt" },
+        yaml = { "yamlfix" },
+        toml = { "taplo" },
+        css = { { "prettierd", "prettier", stop_after_first = true } },
+        scss = { { "prettierd", "prettier", stop_after_first = true } },
+        sh = { "shellcheck" },
+        go = { "gofmt" },
 			},
 		},
 	},
@@ -931,7 +950,7 @@ require("lazy").setup({
 	-- require 'kickstart.plugins.indent_line',
 	-- require 'kickstart.plugins.lint',
 	-- require 'kickstart.plugins.autopairs',
-	-- require 'kickstart.plugins.neo-tree',
+	require 'kickstart.plugins.neo-tree',
 	-- require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
 
 	-- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
@@ -965,6 +984,6 @@ require("lazy").setup({
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
 vim.o.background = "dark" -- or "light" for light mode
---vim.cmd([[colorscheme gruvbox]])
-vim.cmd([[colorscheme catppuccin-mocha]])
+vim.cmd([[colorscheme gruvbox]])
+--vim.cmd([[colorscheme catppuccin-mocha]])
 --vim.cmd([[colorscheme dracula]])
