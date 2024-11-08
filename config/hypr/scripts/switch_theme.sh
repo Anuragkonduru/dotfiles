@@ -2,7 +2,12 @@
 
 selected=$(echo "Catpuccin Mocha
 GruvBox
-Dracula" | rofi -show drun -theme gruvbox-dark-hard -dmenu -p "Slect Color Scheme: ")
+Dracula
+RosePine
+OneDark
+TokyoNight
+EverForest
+Sonokai" | rofi -show drun -theme gruvbox-dark-hard -dmenu -p "Slect Color Scheme: ")
 
 echo you Picked: "$selected"
 
@@ -17,11 +22,25 @@ fi
 if [ "$selected" == "Dracula" ]; then
    theme="dracula"
 fi
+if [ "$selected" == "RosePine" ]; then
+   theme="rosepine"
+fi
+if [ "$selected" == "OneDark" ]; then
+   theme="onedark"
+fi
+if [ "$selected" == "TokyoNight" ]; then
+   theme="tokyonight"
+fi
+if [ "$selected" == "EverForest" ]; then
+   theme="everforest"
+fi
+if [ "$selected" == "Sonokai" ]; then
+   theme="sonokai"
+fi
 
 echo "y" | cp -f $HOME/.config/hypr/themes/$theme.conf $HOME/.config/hypr/conf/color.conf
 echo "y" | cp -f $HOME/.config/kitty/themes/$theme.conf $HOME/.config/kitty/colors.conf
-echo "y" | cp -f $HOME/.config/waybar/themes/$theme/config.jsonc $HOME/.config/waybar/config.jsonc
-echo "y" | cp -f $HOME/.config/waybar/themes/$theme/style.css $HOME/.config/waybar/style.css
+echo "y" | cp -f $HOME/.config/waybar/themes/$theme/$theme.css $HOME/.config/waybar/default.css
 echo "y" | cp -f $HOME/.config/dunst/themes/$theme.conf $HOME/.config/dunst/dunstrc
 
 killall waybar
