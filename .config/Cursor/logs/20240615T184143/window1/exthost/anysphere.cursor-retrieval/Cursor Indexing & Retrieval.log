@@ -1,0 +1,22 @@
+2024-06-15 18:41:54.419 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-06-15 18:41:54.419 [info] Creating merkle client.
+2024-06-15 18:41:54.419 [info] Done creating merkle client.
+2024-06-15 18:41:54.419 [info] Doing a startup handshake.
+2024-06-15 18:41:54.419 [info] Finished initializing merkle tree in 209.2073040008545 ms.
+2024-06-15 18:41:54.419 [info] Doing the initial handshake with hash: 023c16f450d22947b5b30062f174185777fa88db381dcbb66804343bcf449ff0
+2024-06-15 18:41:54.419 [info] Handshake start
+2024-06-15 18:41:55.639 [info] Handshake timing: 1233.6119499988854
+2024-06-15 18:41:55.639 [info] Handshake result:
+2024-06-15 18:41:55.639 [info] Starting fast remote sync.
+2024-06-15 18:41:55.640 [info] Total num embeddable files: 44
+2024-06-15 18:41:55.641 [info] Root hash: 023c16f450d22947b5b30062f174185777fa88db381dcbb66804343bcf449ff0
+2024-06-15 18:41:55.641 [info] In the out of sync case.
+2024-06-15 18:41:55.641 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"023c16f450d22947b5b30062f174185777fa88db381dcbb66804343bcf449ff0"}
+2024-06-15 18:41:55.643 [info] Waiting on semaphore to be released 1
+2024-06-15 18:41:55.842 [info] Waiting on semaphore to be released 1
+2024-06-15 18:41:56.043 [info] setting numJobsToGo to 1
+2024-06-15 18:41:56.043 [info] [startSync]: numJobs: 1
+2024-06-15 18:41:56.044 [info] Uploading 1 files.
+2024-06-15 18:41:58.184 [info] Finished indexing repository.
+2024-06-15 18:41:58.184 [info] Indexing job successfully done or aborted.

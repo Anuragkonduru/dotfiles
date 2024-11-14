@@ -1,0 +1,52 @@
+<div class="flex gap-4 justify-center items-center">
+  <form
+    [formGroup]="login"
+    (ngSubmit)="onLogin()"
+    class="flex flex-col border-2 border-black p-8"
+  >
+    <label for="userName">Email</label>
+    <input
+      id="userName"
+      type="email"
+      formControlName="userName"
+      placeholder="Example@mail.com"
+      class="border-2 border-gray-600"
+    />
+    <label for="password">Password</label>
+    <input id="password" type="text" formControlName="password" class="border-2 border-gray-600"/>
+    <button
+      class="w-48 mt-4 text-xl px-4 py-3 m-0 bg-black text-white rounded-lg"
+    >
+      Login
+    </button>
+  </form>
+  <form
+    [formGroup]="signUp"
+    (ngSubmit)="onSignUp()"
+    class="flex flex-col border-2 border-black p-8"
+  >
+    <label for="userName">Email</label>
+    <input
+      id="userName"
+      type="email"
+      formControlName="userName"
+      placeholder="Example@mail.com"
+      class="border-2 border-gray-600"
+    />
+    <label for="password"> Password</label>
+    <input id="password" type="text" formControlName="password" class="border-2 border-gray-600"/>
+    <label for="matchPassword">Confirm Password</label>
+    <input id="matchPassword" type="text" formControlName="matchPassword" class="border-2 border-gray-600"/>
+    <label for="firstName">First Name</label>
+    <input id="firstName" type="text" formControlName="firstName" class="border-2 border-gray-600"/>
+    <label for="lastName">Last Name</label>
+    <input id="lastName" type="text" formControlName="lastName" class="border-2 border-gray-600"/>
+    <label for="telephone">Phone No.</label>
+    <input id="telephone" type="text" formControlName="telephone" class="border-2 border-gray-600"/>
+    <button
+      class="w-48 mt-4 text-xl px-4 py-3 m-0 bg-black text-white rounded-lg"
+    >
+      SignUp
+    </button>
+  </form>
+</div>

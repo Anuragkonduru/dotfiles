@@ -1,0 +1,22 @@
+{
+  "name": "arc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "drizzle-kit genrate:mysql"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.31.2",
+    "mysql2": "^3.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "drizzle-kit": "^0.22.7"
+  }
+}

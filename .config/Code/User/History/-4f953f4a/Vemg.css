@@ -1,0 +1,13 @@
+.tab {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.inner > * {
+  display: flex;
+  padding: 4px;
+  border: 0.2em solid rgb(0, 0, 0);
+  width: 45vw;
+  height: 80vh;
+  justify-content: center;
+}

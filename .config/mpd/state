@@ -1,0 +1,38 @@
+sw_volume: 59
+audio_device_state:1:pulseaudio
+audio_device_state:1:Visualizer
+state: pause
+current: 20
+time: 27.328000
+random: 1
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:New/Get out of my way.mp3
+1:New/Ludwig van Beethoven - PIANO SONATA NO. 14, ”MOONLIGHT”- I. ADAGIO SOSTENUTO.mp3
+2:New/Kenichiro Suehiro - PIANO SONATA NO. 14, ”MOONLIGHT”- I. ADAGIO SOSTENUTO PIPE ORGAN ARRANGEMENT.mp3
+3:New/Hanumankind, Kalmi - Big Dawgs.mp3
+4:New/Shilpa Rao, Anirudh Ravichander, Ramajogayya Sastry - Chuttamalle (From 'Devara Part 1').mp3
+5:New/Dyan Dxddy - CUTE DEPRESSED.mp3
+6:New/Nakash Aziz, AKASA, Anirudh Ravichander - Daavudi (From 'Devara Part 1').mp3
+7:New/Kala Bhairava, Anirudh Ravichander, Ramajogayya Sastry - Ayudha Pooja [TELUGU].mp3
+8:New/Sabrina Carpenter - Espresso.mp3
+9:New/Anirudh Ravichander, Ramajogayya Sastry - Fear Song (From 'Devara Part 1') [Telugu].mp3
+10:New/Anirudh Ravichander, Malaysia Vasudevan, Deepthi Suresh, Yugendran Vasudevan - Manasilaayo (From 'Vettaiyan').mp3
+11:New/Ammayi Kitiki Pakkana - SenSongsmp3.Co.mp3
+12:New/Udyogam Oodipoyindi - SenSongsmp3.Co.mp3
+13:New/Telugammayi - SenSongsmp3.Co.mp3
+14:New/Raaye Raaye - SenSongsmp3.Co.mp3
+15:New/Parugulu Thiyy - SenSongsmp3.Co.mp3
+16:New/Ashe - Moral of the Story.mp3
+17:New/A.R. Rahman, Dhanush - Adangaatha Asuran.mp3
+18:New/Anirudh Ravichander - Red Sea (From 'Devara Part 1').mp3
+19:New/Ravi Basrur - Mayhem At Mahara.mp3
+20:New/Jakes Bejoy, Deepak Blue, Sanapati Bharadwaj Patrudu - Veta Vinodham.mp3
+21:New/NF - The Search.mp3
+22:New/Kala Bhairava, Ananthu, Gowtham Bharadwaj, Santhosh Narayanan, Chandra Bose - Theme Of Kalki (From 'Kalki 2898 AD').mp3
+playlist_end

@@ -1,0 +1,7 @@
+[Global] Creating projects: [{"folder":"/home/anu/Documents/GitHub/countweather","configPath":"/home/anu/Documents/GitHub/countweather/tailwind.config.js","isUserConfigured":false,"documentSelector":[{"pattern":"/home/anu/Documents/GitHub/countweather/tailwind.config.js","priority":0},{"pattern":"/home/anu/Documents/GitHub/countweather/src/**/*.{html,ts}","priority":1},{"pattern":"/home/anu/Documents/GitHub/countweather/**","priority":3}]}]
+[Global] Adding watch patterns: /home/anu/Documents/GitHub/countweather/tailwind.config.js, /home/anu/Documents/GitHub/countweather
+[tailwind.config.js] Initializing...
+[tailwind.config.js] Failed to load workspace modules.
+[tailwind.config.js] Using bundled version of `tailwindcss`: v3.4.1
+[tailwind.config.js] Using bundled version of `postcss`: v8.4.31
+[tailwind.config.js] Building...

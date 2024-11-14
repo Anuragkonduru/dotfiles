@@ -1,0 +1,7 @@
+2024-06-18 20:41:40.916 [info] [Info  - 8:41:40 PM] (50735) Pylance language server 2023.10.40 (pyright 088ebaa5) starting
+2024-06-18 20:41:40.916 [info] [Info  - 8:41:40 PM] (50735) Server root directory: /home/anu/.cursor/extensions/ms-python.vscode-pylance-2023.10.40/dist
+2024-06-18 20:41:40.920 [info] [Info  - 8:41:40 PM] (50735) Starting service instance "Coding"
+2024-06-18 20:41:40.951 [info] [Info  - 8:41:40 PM] (50735) Setting pythonPath for service "Coding": "/bin/python"
+2024-06-18 20:41:40.953 [info] [Warn  - 8:41:40 PM] (50735) stubPath /home/anu/Documents/GitHub/Coding/typings is not a valid directory.
+2024-06-18 20:41:40.982 [info] [Info  - 8:41:40 PM] (50735) Assuming Python version 3.12
+2024-06-18 20:41:41.062 [info] [Info  - 8:41:41 PM] (50735) Found 4 source files

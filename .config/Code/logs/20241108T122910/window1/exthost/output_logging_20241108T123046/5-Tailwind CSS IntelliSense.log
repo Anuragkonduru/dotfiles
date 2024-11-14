@@ -1,0 +1,243 @@
+Locating server…
+Booting server...
+Checking if /home/anu/.config/waybar/themes/gruvbox/style.css may be Tailwind-related…
+Checking if /home/anu/.config/waybar/themes/rosepine/style.css may be Tailwind-related…
+Checking if /home/anu/.config/waybar/themes/dracula/style.css may be Tailwind-related…
+Checking if /home/anu/.config/waybar/themes/mocha/style.css may be Tailwind-related…
+Checking if /home/anu/.config/waybar/themes/default/style.css may be Tailwind-related…
+Checking if /home/anu/.config/waybar/style.css may be Tailwind-related…
+Setting up server…
+Listening for messages…
+Searching for Tailwind CSS projects in the workspace's folders.
+[Global] Creating projects: []
+[Global] Preparing projects...
+[Global] Initializing projects...
+[Info  - 12:30:52 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Global] Initialized 0 projects
+[Info  - 12:31:04 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:31:05 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:31:05 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:31:05 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:31:06 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:31:43 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:32:22 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:33:52 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:33:53 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:33:53 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:33:54 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:33:58 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:33:58 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:33:59 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:34:03 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:34:03 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:34:04 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:34:04 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:34:11 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:34:12 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:34:13 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:34:13 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:34:13 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:34:15 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:34:16 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:34:16 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:34:16 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:34:24 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:34:25 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:34:25 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:34:26 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:34:37 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:34:41 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:34:42 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:34:43 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:34:44 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:35:32 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:35:35 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:35:42 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:35:44 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:35:44 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:35:45 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:35:48 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:35:49 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:35:55 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:35:56 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:35:56 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:35:58 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:36:00 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:36:15 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:36:16 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:36:28 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/config.jsonc',
+  normalPath: '/home/anu/.config/waybar/config.jsonc'
+}
+[Info  - 12:37:04 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}
+[Info  - 12:37:21 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/config.jsonc',
+  normalPath: '/home/anu/.config/waybar/config.jsonc'
+}
+[Info  - 12:37:22 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/config.jsonc',
+  normalPath: '/home/anu/.config/waybar/config.jsonc'
+}
+[Info  - 12:37:27 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/.config/waybar/style.css',
+  normalPath: '/home/anu/.config/waybar/style.css'
+}

@@ -1,0 +1,87 @@
+2024-06-16 16:41:33.329 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-06-16 16:41:33.329 [info] Creating merkle client.
+2024-06-16 16:41:33.329 [info] Done creating merkle client.
+2024-06-16 16:41:33.329 [info] Doing a startup handshake.
+2024-06-16 16:41:33.329 [info] Finished initializing merkle tree in 80.64862199997879 ms.
+2024-06-16 16:41:33.344 [info] Doing the initial handshake with hash: 07c6d930a1eac7ce922921e43489093eb4235e5f77fc487e22a8dd059d00a99d
+2024-06-16 16:41:33.495 [info] Handshake start
+2024-06-16 16:41:34.694 [info] Handshake timing: 1203.0671030000085
+2024-06-16 16:41:34.694 [info] Handshake result:
+2024-06-16 16:41:34.694 [info] Starting fast remote sync.
+2024-06-16 16:41:34.699 [info] Total num embeddable files: 29
+2024-06-16 16:41:34.700 [info] Root hash: 07c6d930a1eac7ce922921e43489093eb4235e5f77fc487e22a8dd059d00a99d
+2024-06-16 16:41:34.700 [info] Finished indexing repository.
+2024-06-16 16:41:34.700 [info] Indexing job successfully done or aborted.
+2024-06-16 16:41:49.414 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-06-16 16:41:49.499 [info] Creating merkle client.
+2024-06-16 16:41:49.499 [info] Done creating merkle client.
+2024-06-16 16:41:49.499 [info] Doing a startup handshake.
+2024-06-16 16:41:49.545 [info] Finished initializing merkle tree in 45.468579000007594 ms.
+2024-06-16 16:41:49.564 [info] Doing the initial handshake with hash: 91ef23a8ee9749897f6b9648f7bbf3486ca93390459b0c97b5d07dd9a48a1fac
+2024-06-16 16:41:49.573 [info] Handshake start
+2024-06-16 16:41:49.602 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/anu/.config/Cursor/User/workspaceStorage/17c3902f8b1c41591d078d3e1e5b500b/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2024-06-16 16:41:51.477 [info] Handshake timing: 1906.6203420000093
+2024-06-16 16:41:51.477 [info] Handshake result:
+2024-06-16 16:41:51.477 [info] Starting fast remote sync.
+2024-06-16 16:41:51.479 [info] Total num embeddable files: 68
+2024-06-16 16:41:51.481 [info] Root hash: 91ef23a8ee9749897f6b9648f7bbf3486ca93390459b0c97b5d07dd9a48a1fac
+2024-06-16 16:41:51.481 [info] Starting repository upload from scratch.
+2024-06-16 16:41:51.490 [info] Uploading 68 files.
+2024-06-16 16:41:58.588 [info] Completed 50 jobs for absoluteDirectoryPath: undefined
+2024-06-16 16:43:01.557 [info] Finished indexing repository.
+2024-06-16 16:43:01.563 [info] Indexing job successfully done or aborted.
+2024-06-16 16:43:21.049 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-06-16 16:43:21.229 [info] Creating merkle client.
+2024-06-16 16:43:21.229 [info] Done creating merkle client.
+2024-06-16 16:43:21.229 [info] Doing a startup handshake.
+2024-06-16 16:43:21.244 [info] Finished initializing merkle tree in 14.413477000023704 ms.
+2024-06-16 16:43:21.244 [info] Doing the initial handshake with hash: dcf388d0e1086a8cef45163d25ec104daa42ef77dc378fc5b9e31ceab50baa14
+2024-06-16 16:43:21.246 [info] Handshake start
+2024-06-16 16:43:21.247 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/anu/.config/Cursor/User/workspaceStorage/19be046c2fd782a173a9b3562a5854ac/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2024-06-16 16:43:22.848 [info] Handshake timing: 1603.5374409999931
+2024-06-16 16:43:22.848 [info] Handshake result:
+2024-06-16 16:43:22.848 [info] Starting fast remote sync.
+2024-06-16 16:43:22.848 [info] Total num embeddable files: 79
+2024-06-16 16:43:22.849 [info] Root hash: dcf388d0e1086a8cef45163d25ec104daa42ef77dc378fc5b9e31ceab50baa14
+2024-06-16 16:43:22.849 [info] Starting repository upload from scratch.
+2024-06-16 16:43:22.850 [info] Uploading 79 files.
+2024-06-16 16:43:34.199 [info] Completed 50 jobs for absoluteDirectoryPath: undefined
+2024-06-16 16:45:34.468 [info] Finished indexing repository.
+2024-06-16 16:45:34.468 [info] Indexing job successfully done or aborted.
+2024-06-16 16:53:21.230 [info] Creating merkle client.
+2024-06-16 16:53:21.230 [info] Done creating merkle client.
+2024-06-16 16:53:21.230 [info] Doing a startup handshake.
+2024-06-16 16:53:21.235 [info] Finished initializing merkle tree in 4.207422000123188 ms.
+2024-06-16 16:53:21.235 [info] Doing the initial handshake with hash: dcf388d0e1086a8cef45163d25ec104daa42ef77dc378fc5b9e31ceab50baa14
+2024-06-16 16:53:21.236 [info] Handshake start
+2024-06-16 16:53:22.441 [info] Handshake timing: 1206.5530530000106
+2024-06-16 16:53:22.442 [info] Handshake result:
+2024-06-16 16:53:22.442 [info] Starting fast remote sync.
+2024-06-16 16:53:22.442 [info] Total num embeddable files: 79
+2024-06-16 16:53:22.442 [info] Root hash: dcf388d0e1086a8cef45163d25ec104daa42ef77dc378fc5b9e31ceab50baa14
+2024-06-16 16:53:22.442 [info] In the out of sync case.
+2024-06-16 16:53:22.443 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"dcf388d0e1086a8cef45163d25ec104daa42ef77dc378fc5b9e31ceab50baa14"}
+2024-06-16 16:53:22.443 [info] Waiting on semaphore to be released 1
+2024-06-16 16:53:22.643 [info] Waiting on semaphore to be released 1
+2024-06-16 16:53:22.844 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src","hash":"d630323f6395fce1357e98337ece7430876bb868d47f6b36d4e84292ffa0909c"}
+2024-06-16 16:53:22.845 [info] Waiting on semaphore to be released 1
+2024-06-16 16:53:23.045 [info] Waiting on semaphore to be released 1
+2024-06-16 16:53:23.245 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/app","hash":"da8e08efd075b5e61d921588cb335a6f0c8212ff3538a33507c7f2bc277262a8"}
+2024-06-16 16:53:23.246 [info] Waiting on semaphore to be released 1
+2024-06-16 16:53:23.445 [info] Waiting on semaphore to be released 1
+2024-06-16 16:53:23.646 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/app/Components","hash":"47752b772bd62646446b626bf3ea5ef330ef9cbb76bd181420aa14eb3fb60947"}
+2024-06-16 16:53:23.647 [info] Waiting on semaphore to be released 1
+2024-06-16 16:53:23.847 [info] Waiting on semaphore to be released 1
+2024-06-16 16:53:24.048 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/app/Components/not-found","hash":"5fd5327cbab00bda2629c8024cc1ac4247e45cbeb6e396795cf809f746624d04"}
+2024-06-16 16:53:24.048 [info] Waiting on semaphore to be released 1
+2024-06-16 16:53:24.248 [info] Waiting on semaphore to be released 1
+2024-06-16 16:53:24.449 [info] setting numJobsToGo to 1
+2024-06-16 16:53:24.449 [info] [startSync]: numJobs: 1
+2024-06-16 16:53:24.449 [info] Uploading 1 files.
+2024-06-16 16:53:25.206 [info] Finished indexing repository.
+2024-06-16 16:53:25.206 [info] Indexing job successfully done or aborted.

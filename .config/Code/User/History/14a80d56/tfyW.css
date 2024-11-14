@@ -1,0 +1,8 @@
+.tab{
+    display:flex;
+    gap:2rem;
+
+}
+.tab >*{
+    border:2px solid;
+}

@@ -1,0 +1,318 @@
+2024-06-18 16:48:18.491 [info] Extension host with pid 15151 started
+2024-06-18 16:48:18.491 [info] Skipping acquiring lock for /home/anu/.config/Cursor/User/workspaceStorage/d60cc4fc0409fa1ab52eac1800260dae.
+2024-06-18 16:48:18.657 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-18 16:48:18.664 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2024-06-18 16:48:18.690 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2024-06-18 16:48:18.692 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-06-18 16:48:18.701 [info] ExtensionService#_doActivateExtension johnpapa.vscode-cloak, startup: true, activationEvent: '*'
+2024-06-18 16:48:18.706 [info] ExtensionService#_doActivateExtension kamikillerto.vscode-colorize, startup: true, activationEvent: '*'
+2024-06-18 16:48:18.739 [info] ExtensionService#_doActivateExtension oouo-diogo-perdigao.docthis, startup: true, activationEvent: '*'
+2024-06-18 16:48:18.795 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-06-18 16:48:18.896 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-18 16:48:19.013 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-18 16:48:19.275 [info] ExtensionService#_doActivateExtension AykutSarac.jsoncrack-vscode, startup: true, activationEvent: 'workspaceContains:**/*.{json}'
+2024-06-18 16:48:19.372 [info] Eager extensions activated
+2024-06-18 16:48:19.413 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2024-06-18 16:48:19.936 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2024-06-18 16:48:20.194 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2024-06-18 16:48:20.255 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2024-06-18 16:48:20.490 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-18 16:48:20.494 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-18 16:48:20.515 [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+2024-06-18 16:48:20.528 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2024-06-18 16:48:20.542 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-06-18 16:48:20.544 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-06-18 16:48:20.570 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-06-18 16:48:20.594 [info] ExtensionService#_doActivateExtension kisstkondoros.vscode-gutter-preview, startup: false, activationEvent: 'onStartupFinished'
+2024-06-18 16:48:20.610 [info] ExtensionService#_doActivateExtension miguelsolorio.symbols, startup: false, activationEvent: 'onStartupFinished'
+2024-06-18 16:48:20.615 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-06-18 16:48:20.625 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-06-18 16:48:20.855 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-18 16:48:20.928 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-18 16:48:20.991 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-18 16:48:21.026 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-06-18 16:48:37.075 [info] ExtensionService#_doActivateExtension YoavBls.pretty-ts-errors, startup: false, activationEvent: 'onLanguage:typescript'
+2024-06-18 16:54:17.266 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:https'
+2024-06-18 17:16:05.952 [info] ExtensionService#_doActivateExtension humao.rest-client, startup: false, activationEvent: 'onLanguage:http'
+2024-06-18 17:16:34.453 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-06-18 17:16:34.469 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-06-18 18:06:45.301 [error] [vscode.typescript-language-features] provider FAILED
+2024-06-18 18:06:45.301 [error] Error: <semantic> TypeScript Server Error (5.4.5)
+Debug Failure. False expression: Token end is child end
+Error: Debug Failure. False expression: Token end is child end
+    at processChildNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173446:17)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173377:9
+    at visitNode2 (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30479:18)
+    at forEachChildInPropertySignature (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30535:59)
+    at forEachChild (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30996:35)
+    at processNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173374:5)
+    at processChildNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173453:7)
+    at processChildNodes (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173496:32)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173390:9
+    at visitNodes (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30484:14)
+    at forEachChildInTypeLiteral (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30594:12)
+    at forEachChild (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30996:35)
+    at processNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173374:5)
+    at processChildNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173453:7)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173377:9
+    at visitNode2 (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30479:18)
+    at forEachChildInParameter (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30529:177)
+    at forEachChild (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30996:35)
+    at processNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173374:5)
+    at processChildNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173453:7)
+    at processChildNodes (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173496:32)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173390:9
+    at visitNodes (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30484:14)
+    at forEachChildInFunctionType (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30553:111)
+    at forEachChild (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30996:35)
+    at processNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173374:5)
+    at processChildNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173453:7)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173377:9
+    at visitNode2 (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30479:18)
+    at forEachChildInParenthesizedTypeOrTypeOperator (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30946:10)
+    at forEachChild (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30996:35)
+    at processNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173374:5)
+    at processChildNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173453:7)
+    at processChildNodes (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173496:32)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173390:9
+    at visitNodes (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30484:14)
+    at forEachChildInUnionOrIntersectionType (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30943:10)
+    at forEachChild (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30996:35)
+    at processNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173374:5)
+    at processChildNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173453:7)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173377:9
+    at visitNode2 (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30479:18)
+    at forEachChildInFunctionDeclaration (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30573:234)
+    at forEachChild (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30996:35)
+    at processNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173374:5)
+    at formatSpanWorker (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173176:5)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173116:105
+    at getFormattingScanner (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171919:15)
+    at Object.formatNodeGivenIndentation (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173116:10)
+    at getFormattedTextOfNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171316:43)
+    at format (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171296:27)
+    at computeNewText (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171297:217)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171258:25
+    at mapDefined (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:2680:22)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171255:28
+    at mapDefined (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:2680:22)
+    at Object.getTextChangesFromChanges (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171249:12)
+    at _ChangeTracker.getChanges (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171146:35)
+    at _ChangeTracker.with (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:170625:20)
+    at Object.getCodeActions (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:153818:64)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:148588:46
+    at flatMap (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:2609:17)
+    at Object.getFixes (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:148588:10)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:146859:33
+    at flatMap (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:2609:17)
+    at Object.getCodeFixesAtPosition (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:146857:12)
+    at IpcIOSession.getCodeFixes (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187265:50)
+    at getCodeFixes (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:185371:43)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187569:69
+    at IpcIOSession.executeWithRequestId (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187561:14)
+    at IpcIOSession.executeCommand (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187569:29)
+    at IpcIOSession.onMessage (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187611:51)
+    at process.<anonymous> (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:189220:14)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+    at Function.create (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/typescript-language-features/dist/extension.js:1:469425)
+    at v.dispatchResponse (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/typescript-language-features/dist/extension.js:1:463395)
+    at v.dispatchMessage (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/typescript-language-features/dist/extension.js:1:462239)
+    at ChildProcess.<anonymous> (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/typescript-language-features/dist/extension.js:1:461732)
+    at ChildProcess.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-06-18 18:06:46.117 [error] [vscode.typescript-language-features] provider FAILED
+2024-06-18 18:06:46.117 [error] Error: <semantic> TypeScript Server Error (5.4.5)
+Debug Failure. False expression: Token end is child end
+Error: Debug Failure. False expression: Token end is child end
+    at processChildNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173446:17)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173377:9
+    at visitNode2 (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30479:18)
+    at forEachChildInPropertySignature (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30535:59)
+    at forEachChild (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30996:35)
+    at processNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173374:5)
+    at processChildNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173453:7)
+    at processChildNodes (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173496:32)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173390:9
+    at visitNodes (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30484:14)
+    at forEachChildInTypeLiteral (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30594:12)
+    at forEachChild (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30996:35)
+    at processNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173374:5)
+    at processChildNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173453:7)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173377:9
+    at visitNode2 (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30479:18)
+    at forEachChildInParameter (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30529:177)
+    at forEachChild (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30996:35)
+    at processNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173374:5)
+    at processChildNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173453:7)
+    at processChildNodes (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173496:32)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173390:9
+    at visitNodes (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30484:14)
+    at forEachChildInFunctionType (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30553:111)
+    at forEachChild (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30996:35)
+    at processNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173374:5)
+    at processChildNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173453:7)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173377:9
+    at visitNode2 (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30479:18)
+    at forEachChildInParenthesizedTypeOrTypeOperator (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30946:10)
+    at forEachChild (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30996:35)
+    at processNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173374:5)
+    at processChildNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173453:7)
+    at processChildNodes (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173496:32)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173390:9
+    at visitNodes (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30484:14)
+    at forEachChildInUnionOrIntersectionType (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30943:10)
+    at forEachChild (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30996:35)
+    at processNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173374:5)
+    at processChildNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173453:7)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173377:9
+    at visitNode2 (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30479:18)
+    at forEachChildInFunctionDeclaration (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30573:234)
+    at forEachChild (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:30996:35)
+    at processNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173374:5)
+    at formatSpanWorker (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173176:5)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173116:105
+    at getFormattingScanner (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171919:15)
+    at Object.formatNodeGivenIndentation (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:173116:10)
+    at getFormattedTextOfNode (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171316:43)
+    at format (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171296:27)
+    at computeNewText (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171297:217)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171258:25
+    at mapDefined (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:2680:22)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171255:28
+    at mapDefined (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:2680:22)
+    at Object.getTextChangesFromChanges (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171249:12)
+    at _ChangeTracker.getChanges (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171146:35)
+    at _ChangeTracker.with (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:170625:20)
+    at Object.getCodeActions (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:153818:64)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:148588:46
+    at flatMap (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:2609:17)
+    at Object.getFixes (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:148588:10)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:146859:33
+    at flatMap (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:2609:17)
+    at Object.getCodeFixesAtPosition (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:146857:12)
+    at IpcIOSession.getCodeFixes (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187265:50)
+    at getCodeFixes (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:185371:43)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187569:69
+    at IpcIOSession.executeWithRequestId (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187561:14)
+    at IpcIOSession.executeCommand (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187569:29)
+    at IpcIOSession.onMessage (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187611:51)
+    at process.<anonymous> (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/node_modules/typescript/lib/tsserver.js:189220:14)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+    at Function.create (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/typescript-language-features/dist/extension.js:1:469425)
+    at v.dispatchResponse (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/typescript-language-features/dist/extension.js:1:463395)
+    at v.dispatchMessage (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/typescript-language-features/dist/extension.js:1:462239)
+    at ChildProcess.<anonymous> (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/typescript-language-features/dist/extension.js:1:461732)
+    at ChildProcess.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-06-18 18:14:07.614 [warning] vscode.json-language-features - Code actions of kind 'source.fixAll 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-06-18 18:14:07.615 [warning] vscode.json-language-features - Code actions of kind 'source.organizeImports 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-06-18 18:19:08.206 [error] Error: [UriError]: If a URI contains an authority component, then the path component must either be empty or begin with a slash ("/") character
+    at y (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:31533)
+    at new S (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:32620)
+    at new u (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:34390)
+    at u.with (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:33047)
+    at t.ExtensionLinter.getUriFolder (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/extension-editing/dist/extensionEditingMain.js:1:283354)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/extension-editing/dist/extensionEditingMain.js:1:283240
+    at Array.filter (<anonymous>)
+    at t.ExtensionLinter.packageJsonChanged (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/extension-editing/dist/extensionEditingMain.js:1:283224)
+    at u.value (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/extension-editing/dist/extensionEditingMain.js:1:273682)
+    at f.y (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:660)
+    at fire (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:877)
+    at u.value (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:162:87668)
+    at f.y (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:660)
+    at f.z (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:730)
+    at fire (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:946)
+    at E.$onFileEvent (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:162:89341)
+    at h.S (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:5511)
+    at h.Q (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:5277)
+    at h.M (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:4361)
+    at h.L (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:3440)
+    at u.value (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:2227)
+    at f.y (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:660)
+    at fire (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:877)
+    at w.fire (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:105:14325)
+    at u.value (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:185:8045)
+    at f.y (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:660)
+    at fire (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:877)
+    at w.fire (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:105:14325)
+    at MessagePortMain.<anonymous> (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:185:6325)
+    at MessagePortMain.emit (node:events:517:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
+2024-06-18 18:33:57.159 [info] Extension host terminating: renderer closed the MessagePort
+2024-06-18 18:33:57.231 [error] Canceled: Canceled
+    at new F (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:47715)
+    at h.U (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:5548)
+    at Proxy.j.<computed>.V.charCodeAt.j.<computed> (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:2993)
+    at s.g (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:162:191862)
+    at s.executeCommand (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:162:191300)
+    at N.registerCommand.description (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:162:190624)
+    at s.h (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:162:192401)
+    at s.g (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:162:191393)
+    at s.executeCommand (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:162:191300)
+    at Object.executeCommand (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:172:25801)
+    at u.O [as value] (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/git/dist/main.js:2:945393)
+    at f.y (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:660)
+    at f.z (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:730)
+    at fire (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:946)
+    at Object.f [as dispose] (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/git/dist/main.js:2:964445)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/git/dist/main.js:2:970483
+    at Array.forEach (<anonymous>)
+    at y.dispose (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/git/dist/main.js:2:970469)
+    at a.<anonymous> (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:3973)
+    at a.dispose (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:4070)
+    at a.<anonymous> (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/git/dist/main.js:2:947650)
+    at a.dispose (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:4070)
+    at u (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:744)
+    at d.eb (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:9985)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:7831
+    at Array.map (<anonymous>)
+    at d.$ (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:7818)
+    at d.terminate (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:8094)
+    at u.terminate (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:172:1511)
+    at n (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:185:9944)
+    at MessagePortMain.<anonymous> (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:185:6369)
+    at MessagePortMain.emit (node:events:517:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-06-18 18:33:57.256 [error] Canceled: Canceled
+    at new F (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:47715)
+    at h.U (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:5548)
+    at Proxy.j.<computed>.V.charCodeAt.j.<computed> (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:2993)
+    at s.g (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:162:191862)
+    at s.executeCommand (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:162:191300)
+    at N.registerCommand.description (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:162:190624)
+    at s.h (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:162:192401)
+    at s.g (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:162:191393)
+    at s.executeCommand (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:162:191300)
+    at Object.executeCommand (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:172:25801)
+    at a.VscodeDevShareProvider.set hasGitHubRepositories [as hasGitHubRepositories] (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/github/dist/extension.js:2:322968)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/github/dist/extension.js:2:323927
+    at u.value (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/git/dist/main.js:2:1052859)
+    at f.y (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:660)
+    at f.z (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:730)
+    at fire (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:946)
+    at Object.f [as dispose] (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/git/dist/main.js:2:964445)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/extensions/git/dist/main.js:2:970483
+    at Array.forEach (<anonymous>)
+    at y.dispose (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/git/dist/main.js:2:970469)
+    at a.<anonymous> (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:3973)
+    at a.dispose (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:4070)
+    at a.<anonymous> (/tmp/.mount_cursor8ua4Gs/resources/app/extensions/git/dist/main.js:2:947650)
+    at a.dispose (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:4070)
+    at u (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:744)
+    at d.eb (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:9985)
+    at /tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:7831
+    at Array.map (<anonymous>)
+    at d.$ (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:7818)
+    at d.terminate (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:8094)
+    at u.terminate (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:172:1511)
+    at n (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:185:9944)
+    at MessagePortMain.<anonymous> (/tmp/.mount_cursor8ua4Gs/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:185:6369)
+    at MessagePortMain.emit (node:events:517:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-06-18 18:33:57.260 [info] Extension host with pid 15151 exiting with code 0

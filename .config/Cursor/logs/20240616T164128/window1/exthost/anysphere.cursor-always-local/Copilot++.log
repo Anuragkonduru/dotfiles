@@ -1,0 +1,122 @@
+2024-06-16 16:41:33.329 [info] CURSOR LOG: Finished creating provider!
+2024-06-16 16:41:49.414 [info] CURSOR LOG: Finished creating provider!
+2024-06-16 16:41:58.746 [info] CURSOR LOG: restFunc initiated e4982710-87df-41db-b1f4-8b56302698d4
+2024-06-16 16:41:59.999 [info] CURSOR LOG: Done streaming cpp with id e4982710-87df-41db-b1f4-8b56302698d4
+2024-06-16 16:41:59.999 [info] CPP RT LOG: Time taken for streaming cpp 1254.158203125 with request e4982710-87df-41db-b1f4-8b56302698d4
+2024-06-16 16:41:59.999 [info] CPP Request Log with id e4982710-87df-41db-b1f4-8b56302698d4
+2024-06-16 16:41:59.999 [info] =======>Model input 
+2024-06-16 16:41:59.999 [info] =======>Model output   constructor(private http: HttpClient, private cities: ManageCitiesService) {
+    this.cities.getCitiesList().subscribe((citieslist) => {
+      this.citiesList = citieslist;
+    });
+2024-06-16 16:41:59.999 [info] =======>Debug stream time 171.26662000082433
+2024-06-16 16:41:59.999 [info] =======>Debug ttft time 169.11792100034654
+2024-06-16 16:41:59.999 [info] Average of latest 20 ttft time 169.11792100034654
+2024-06-16 16:41:59.999 [info] Average of latest 20 stream time 171.26662000082433
+2024-06-16 16:41:59.999 [info] Average of latest 20 total time NaN
+2024-06-16 16:41:59.999 [info] Average of latest 20 client time 1254.158203125
+2024-06-16 16:41:59.999 [info] CPP RT LOG: All stats {"streamingtime":1254.158203125,"actualTtftFromStart":1258.678466796875,"timeTillServerRequest":5.475341796875,"requestToTtft":1253.203125,"totalTime":1259.188232421875}
+2024-06-16 16:41:59.999 [info] CURSOR LOG: restFunc done e4982710-87df-41db-b1f4-8b56302698d4
+2024-06-16 16:42:44.497 [info] CURSOR LOG: restFunc initiated 3d923747-1c38-4ef0-9b1d-b7de6c46f7e6
+2024-06-16 16:42:45.059 [info] CURSOR LOG: Done streaming cpp with id 3d923747-1c38-4ef0-9b1d-b7de6c46f7e6
+2024-06-16 16:42:45.059 [info] CPP RT LOG: Time taken for streaming cpp 561.9033203125 with request 3d923747-1c38-4ef0-9b1d-b7de6c46f7e6
+2024-06-16 16:42:45.059 [info] CPP Request Log with id 3d923747-1c38-4ef0-9b1d-b7de6c46f7e6
+2024-06-16 16:42:45.059 [info] =======>Model input 
+2024-06-16 16:42:45.059 [info] =======>Model output     return this.http
+      .get<any>(this.apiUrl, { params })
+      .pipe(map((response) => this.filterWeatherData(response)));
+  }
+2024-06-16 16:42:45.059 [info] =======>Debug stream time 146.72991899959743
+2024-06-16 16:42:45.059 [info] =======>Debug ttft time 144.35684400051832
+2024-06-16 16:42:45.059 [info] Average of latest 20 ttft time 156.73738250043243
+2024-06-16 16:42:45.059 [info] Average of latest 20 stream time 158.99826950021088
+2024-06-16 16:42:45.059 [info] Average of latest 20 total time NaN
+2024-06-16 16:42:45.059 [info] Average of latest 20 client time 908.03076171875
+2024-06-16 16:42:45.059 [info] CPP RT LOG: All stats {"streamingtime":561.9033203125,"actualTtftFromStart":564.862060546875,"timeTillServerRequest":3.5859375,"requestToTtft":561.276123046875,"totalTime":565.448974609375}
+2024-06-16 16:42:45.059 [info] CURSOR LOG: restFunc done 3d923747-1c38-4ef0-9b1d-b7de6c46f7e6
+2024-06-16 16:42:46.375 [info] CURSOR LOG: restFunc initiated 30f55888-084e-435e-9cce-040d0491298a
+2024-06-16 16:42:46.903 [info] CURSOR LOG: Done streaming cpp with id 30f55888-084e-435e-9cce-040d0491298a
+2024-06-16 16:42:46.903 [info] CPP RT LOG: Time taken for streaming cpp 528.337646484375 with request 30f55888-084e-435e-9cce-040d0491298a
+2024-06-16 16:42:46.903 [info] CPP Request Log with id 30f55888-084e-435e-9cce-040d0491298a
+2024-06-16 16:42:46.903 [info] =======>Model input 
+2024-06-16 16:42:46.903 [info] =======>Model output     return this.http
+      .get<any>(this.apiUrl, { params })
+      .pipe(map((response) => this.filterWeatherData(response)));
+  }
+2024-06-16 16:42:46.903 [info] =======>Debug stream time 151.23979900032282
+2024-06-16 16:42:46.903 [info] =======>Debug ttft time 149.46726500056684
+2024-06-16 16:42:46.903 [info] Average of latest 20 ttft time 154.31401000047723
+2024-06-16 16:42:46.903 [info] Average of latest 20 stream time 156.41211266691485
+2024-06-16 16:42:46.903 [info] Average of latest 20 total time NaN
+2024-06-16 16:42:46.903 [info] Average of latest 20 client time 781.4663899739584
+2024-06-16 16:42:46.903 [info] CPP RT LOG: All stats {"streamingtime":528.337646484375,"actualTtftFromStart":573.918212890625,"timeTillServerRequest":45.754150390625,"requestToTtft":528.1640625,"totalTime":574.06298828125}
+2024-06-16 16:42:46.903 [info] CURSOR LOG: restFunc done 30f55888-084e-435e-9cce-040d0491298a
+2024-06-16 16:42:47.190 [info] CURSOR LOG: restFunc initiated 89c7d188-b861-4276-9db3-586dcdc09a06
+2024-06-16 16:42:47.928 [info] CURSOR LOG: Done streaming cpp with id 89c7d188-b861-4276-9db3-586dcdc09a06
+2024-06-16 16:42:47.928 [info] CPP RT LOG: Time taken for streaming cpp 737.508544921875 with request 89c7d188-b861-4276-9db3-586dcdc09a06
+2024-06-16 16:42:47.928 [info] CPP Request Log with id 89c7d188-b861-4276-9db3-586dcdc09a06
+2024-06-16 16:42:47.928 [info] =======>Model input 
+2024-06-16 16:42:47.928 [info] =======>Model output     return this.http
+      .get<any>(this.apiUrl, { params })
+      .pipe(map((response) => this.filterWeatherData(response)));
+  }
+2024-06-16 16:42:47.928 [info] =======>Debug stream time 320.3352020010352
+2024-06-16 16:42:47.928 [info] =======>Debug ttft time 136.69486900046468
+2024-06-16 16:42:47.928 [info] Average of latest 20 ttft time 149.9092247504741
+2024-06-16 16:42:47.928 [info] Average of latest 20 stream time 197.39288500044495
+2024-06-16 16:42:47.928 [info] Average of latest 20 total time NaN
+2024-06-16 16:42:47.928 [info] Average of latest 20 client time 770.4769287109375
+2024-06-16 16:42:47.928 [info] CPP RT LOG: All stats {"streamingtime":737.508544921875,"actualTtftFromStart":539.900390625,"timeTillServerRequest":7.056640625,"requestToTtft":532.84375,"totalTime":744.529052734375}
+2024-06-16 16:42:47.928 [info] CURSOR LOG: restFunc done 89c7d188-b861-4276-9db3-586dcdc09a06
+2024-06-16 16:42:48.283 [info] CURSOR LOG: restFunc initiated 8993539b-4ee1-464b-8de3-cfd54a318f15
+2024-06-16 16:42:48.850 [info] CURSOR LOG: Done streaming cpp with id 8993539b-4ee1-464b-8de3-cfd54a318f15
+2024-06-16 16:42:48.850 [info] CPP RT LOG: Time taken for streaming cpp 568.18994140625 with request 8993539b-4ee1-464b-8de3-cfd54a318f15
+2024-06-16 16:42:48.850 [info] CPP Request Log with id 8993539b-4ee1-464b-8de3-cfd54a318f15
+2024-06-16 16:42:48.850 [info] =======>Model input 
+2024-06-16 16:42:48.850 [info] =======>Model output     return this.http
+      .get<any>(this.apiUrl, { params })
+      .pipe(map((response) => this.filterWeatherData(response)));
+  }
+2024-06-16 16:42:48.850 [info] =======>Debug stream time 128.61588600091636
+2024-06-16 16:42:48.850 [info] =======>Debug ttft time 125.92496700026095
+2024-06-16 16:42:48.850 [info] Average of latest 20 ttft time 145.11237320043148
+2024-06-16 16:42:48.850 [info] Average of latest 20 stream time 183.63748520053923
+2024-06-16 16:42:48.850 [info] Average of latest 20 total time NaN
+2024-06-16 16:42:48.850 [info] Average of latest 20 client time 730.01953125
+2024-06-16 16:42:48.850 [info] CPP RT LOG: All stats {"streamingtime":568.18994140625,"actualTtftFromStart":570.772705078125,"timeTillServerRequest":2.86865234375,"requestToTtft":567.904052734375,"totalTime":571.0244140625}
+2024-06-16 16:42:48.850 [info] CURSOR LOG: restFunc done 8993539b-4ee1-464b-8de3-cfd54a318f15
+2024-06-16 16:42:53.815 [info] CURSOR LOG: restFunc initiated e90272ab-5479-44f3-b44b-81dae3cbfcdc
+2024-06-16 16:42:54.385 [info] CURSOR LOG: Done streaming cpp with id e90272ab-5479-44f3-b44b-81dae3cbfcdc
+2024-06-16 16:42:54.385 [info] CPP RT LOG: Time taken for streaming cpp 569.717041015625 with request e90272ab-5479-44f3-b44b-81dae3cbfcdc
+2024-06-16 16:42:54.385 [info] CPP Request Log with id e90272ab-5479-44f3-b44b-81dae3cbfcdc
+2024-06-16 16:42:54.385 [info] =======>Model input 
+2024-06-16 16:42:54.385 [info] =======>Model output   constructor(private http: HttpClient, private cities: ManageCitiesService) {
+    this.cities.getCitiesList().subscribe((citieslist) => {
+      this.citiesList = citieslist;
+    });
+2024-06-16 16:42:54.385 [info] =======>Debug stream time 152.97724799998105
+2024-06-16 16:42:54.385 [info] =======>Debug ttft time 150.5531689990312
+2024-06-16 16:42:54.385 [info] Average of latest 20 ttft time 146.0191725001981
+2024-06-16 16:42:54.385 [info] Average of latest 20 stream time 178.52744566711286
+2024-06-16 16:42:54.385 [info] Average of latest 20 total time NaN
+2024-06-16 16:42:54.385 [info] Average of latest 20 client time 703.3024495442709
+2024-06-16 16:42:54.385 [info] CPP RT LOG: All stats {"streamingtime":569.717041015625,"actualTtftFromStart":571.66455078125,"timeTillServerRequest":2.220947265625,"requestToTtft":569.443603515625,"totalTime":571.91650390625}
+2024-06-16 16:42:54.385 [info] CURSOR LOG: restFunc done e90272ab-5479-44f3-b44b-81dae3cbfcdc
+2024-06-16 16:43:00.675 [info] CURSOR LOG: restFunc initiated 03515598-2a70-476f-affd-d0e944aa09d6
+2024-06-16 16:43:01.251 [info] CURSOR LOG: Done streaming cpp with id 03515598-2a70-476f-affd-d0e944aa09d6
+2024-06-16 16:43:01.251 [info] CPP RT LOG: Time taken for streaming cpp 575.58544921875 with request 03515598-2a70-476f-affd-d0e944aa09d6
+2024-06-16 16:43:01.251 [info] CPP Request Log with id 03515598-2a70-476f-affd-d0e944aa09d6
+2024-06-16 16:43:01.251 [info] =======>Model input 
+2024-06-16 16:43:01.251 [info] =======>Model output     return this.http
+      .get<any>(this.apiUrl, { params })
+      .pipe(map((response) => this.filterWeatherData(response)));
+  }
+2024-06-16 16:43:01.251 [info] =======>Debug stream time 145.1667919997126
+2024-06-16 16:43:01.251 [info] =======>Debug ttft time 140.64500799961388
+2024-06-16 16:43:01.251 [info] Average of latest 20 ttft time 145.25143471440035
+2024-06-16 16:43:01.251 [info] Average of latest 20 stream time 173.7616380003414
+2024-06-16 16:43:01.251 [info] Average of latest 20 total time NaN
+2024-06-16 16:43:01.251 [info] Average of latest 20 client time 685.0571637834821
+2024-06-16 16:43:01.251 [info] CPP RT LOG: All stats {"streamingtime":575.58544921875,"actualTtftFromStart":577.936279296875,"timeTillServerRequest":2.587158203125,"requestToTtft":575.34912109375,"totalTime":578.14892578125}
+2024-06-16 16:43:01.251 [info] CURSOR LOG: restFunc done 03515598-2a70-476f-affd-d0e944aa09d6
+2024-06-16 16:43:21.048 [info] CURSOR LOG: Finished creating provider!

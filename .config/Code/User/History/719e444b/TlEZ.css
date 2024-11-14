@@ -1,0 +1,39 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #000000;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 80vh;
+  aspect-ratio: 16/9;
+  /* border:8px solid #4040F2; */
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 8px #4040f2;
+  transform-style: preserve-3d;
+  transform: perspective(5000px) rotateY(0deg);
+  animation: CardEnter 5s;
+}
+@keyframes CardEnter {
+  0% {
+      transform-style: preserve-3d;
+    transform: perspective(5000px) rotateY(0deg) rotateX(40deg);
+  }
+  50% {
+      transform-style: preserve-3d;
+    transform: perspective(5000px) rotateY(0deg) rotateX(20deg);
+  }
+  100% {
+      transform-style: preserve-3d;
+    transform: perspective(5000px) rotateY(0deg) rotateX(0deg);
+  }
+}

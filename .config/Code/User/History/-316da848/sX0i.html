@@ -1,0 +1,5 @@
+<p>Success If Even and Error If Eveb</p>
+<input type="number" [(ngModel)]="value" />
+<button (click)="sendToPromise()"></button>
+<H1 class="success" *ngIf="{{Message}}=='Success">Message : {{ Message }}</H1>
+<H1 class="error" *ngIf="{{Message}}=='Error">Message : {{ Message }}</H1>

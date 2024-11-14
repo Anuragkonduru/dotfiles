@@ -1,0 +1,15 @@
+<a
+  [routerLink]="['/users', 1, 'bot1', 'fishing']"
+  [queryParams]="{ page: 1, user: 'first' }"
+  [fragment]="'loading'"
+  >Go to User with Id 1</a
+>
+<a
+  [routerLink]="['/users/1/bot1/fishing']"
+  [queryParams]="{ page: 1, user: 'second' }"
+  [fragment]="'Loaded'"
+>
+  Go to User with Id 2
+</a>
+<button (click)="">Go to User with Id 3</button>
+<button >Go to User with Id 4</button>

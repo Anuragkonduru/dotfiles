@@ -1,0 +1,3 @@
+2024-11-08 20:46:51.247 [info] Started local extension host with pid 90697.
+2024-11-08 20:46:51.508 [error] Extension 'ms-python.python' wants API proposal 'terminalShellIntegration' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-11-08 20:46:53.927 [info] [perf] Render performance baseline is 21ms

@@ -1,0 +1,24 @@
+2024-10-11 11:18:35.279 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-10-11 11:18:35.279 [info] Auto Sync is enabled.
+2024-10-11 11:18:35.279 [info] Auto Sync: Suspended until auth token is available.
+2024-10-11 11:18:37.383 [info] Auto Sync: Triggered by Interval
+2024-10-11 11:18:37.384 [info] Sync started.
+2024-10-11 11:18:38.293 [info] Settings: No changes found during synchronizing settings.
+2024-10-11 11:18:38.307 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-10-11 11:18:38.323 [info] Snippets: No changes found during synchronizing snippets.
+2024-10-11 11:18:38.331 [info] Tasks: No changes found during synchronizing tasks.
+2024-10-11 11:18:39.340 [info] GlobalState: Updated remote ui state. Updated: cpp.1.lastSessionDate,cpp.1.sessionCount,java.2.lastSessionDate,java.2.sessionCount,csharp.1.lastSessionDate,csharp.1.sessionCount.
+2024-10-11 11:18:39.348 [info] GlobalState: Updated last synchronized ui state
+2024-10-11 11:18:39.379 [info] Extensions: No changes found during synchronizing extensions.
+2024-10-11 11:18:39.380 [info] Profiles: No changes found during synchronizing profiles.
+2024-10-11 11:18:39.381 [info] Sync done. Took 1997ms
+2024-10-11 11:23:39.386 [info] Auto Sync: Triggered by Interval
+2024-10-11 11:23:39.386 [info] Sync started.
+2024-10-11 11:23:39.932 [info] Settings: No changes found during synchronizing settings.
+2024-10-11 11:23:39.934 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-10-11 11:23:39.936 [info] Snippets: No changes found during synchronizing snippets.
+2024-10-11 11:23:39.938 [info] Tasks: No changes found during synchronizing tasks.
+2024-10-11 11:23:39.940 [info] GlobalState: No changes found during synchronizing ui state.
+2024-10-11 11:23:39.984 [info] Extensions: No changes found during synchronizing extensions.
+2024-10-11 11:23:39.985 [info] Profiles: No changes found during synchronizing profiles.
+2024-10-11 11:23:39.986 [info] Sync done. Took 601ms

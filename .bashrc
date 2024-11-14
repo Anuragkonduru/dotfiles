@@ -18,6 +18,12 @@ alias remove="sudo pacman -Rns"
 alias cdph="cd /run/user/1000/gvfs/mtp:host=realme_RMX2001_7HJRMZOV9DIZGQOR"
 alias fixwaybar="ln -s $XDG_RUNTIME_DIR/hypr /tmp/hypr"
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias mine=" java -jar $HOME/Downloads/stash/Minecrat/TLauncher.v10/TLauncher.jar"
+alias cdph="cd /run/user/1000/gvfs/"
+alias ltt="tree -a -C"
+#alias note="nvim /home/anu/Documents/GitHub/Obsidian-Notes/dailynotes/$(date -u +%d_%m_%Y).md"
+
+
 #######################################################
 # SOURCED ALIAS'S AND SCRIPTS BY zachbrowne.me
 #######################################################
@@ -73,6 +79,7 @@ alias spico='sedit'
 alias nano='edit'
 alias snano='sedit'
 alias vim='nvim'
+alias cat='bat'
 
 # Replace batcat with cat on Fedora as batcat is not available as a RPM in any form
 #if command -v lsb_release > /dev/null; then
@@ -100,27 +107,6 @@ export LESS_TERMCAP_se=$'\E[0m'
 export LESS_TERMCAP_so=$'\E[01;44;33m'
 export LESS_TERMCAP_ue=$'\E[0m'
 export LESS_TERMCAP_us=$'\E[01;32m'
-
-#######################################################
-# MACHINE SPECIFIC ALIAS'S
-#######################################################
-
-# Alias's for SSH
-# alias SERVERNAME='ssh YOURWEBSITE.com -l USERNAME -p PORTNUMBERHERE'
-
-# Alias's to change the directory
-alias web='cd /var/www/html'
-
-# Alias's to mount ISO files
-# mount -o loop /home/NAMEOFISO.iso /home/ISOMOUNTDIR/
-# umount /home/NAMEOFISO.iso
-# (Both commands done as root only.)
-
-#######################################################
-# GENERAL ALIAS'S
-#######################################################
-# To temporarily bypass an alias, we precede the command with a \
-# EG: the ls command is aliased, but to use the normal ls command you would type \ls
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -177,7 +163,7 @@ alias lr='lsd -lRh' # recursive ls
 alias lt='lsd -ltrh' # sort by date
 alias lm='lsd -alh |more' # pipe through 'more'
 alias lw='lsd -xAh' # wide listing format
-alias ll='lsd -Fls' # long listing format
+alias ll='lsd -Fl' # long listing format
 alias labc='lsd -lap' #alphabetical sort
 alias lf="lsd -l | egrep -v '^d'" # files only
 alias ldir="lsd -l | egrep '^d'" # directories only
@@ -715,6 +701,16 @@ lazyg() {
 	git add .
 	git commit -m "$1"
 	git push
+}
+
+
+note() {
+	if [ -z "$1"];then
+		nvim /home/anu/Documents/GitHub/notes/dailynotes/$(date -u +%Y)/$(date -u +%d_%m_%Y).md
+	else
+		nvim /home/anu/Documents/GitHub/notes/in/$1.md
+	fi
+		
 }
 
 # Load Angular CLI autocompletion.

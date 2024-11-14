@@ -1,0 +1,4 @@
+2024/06/13-11:07:17.438 2231c Reusing MANIFEST /home/anu/.config/Postman/Partitions/0ac5f03f-3d89-45f8-a1b1-c3951e90e93c/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/06/13-11:07:17.438 2231c Recovering log #8
+2024/06/13-11:07:17.442 2231c Reusing old log /home/anu/.config/Postman/Partitions/0ac5f03f-3d89-45f8-a1b1-c3951e90e93c/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb/000008.log 
+2024/06/13-11:07:17.442 2231c Delete type=2 #7

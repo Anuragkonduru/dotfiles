@@ -1,0 +1,40 @@
+{
+  "work": [
+    {
+      "id": 1,
+      "company": "Tech Mahindra Limited",
+      "position": "Software Engineer",
+      "url": "https://www.techmahindra.com",
+      "startDate": "26th FEB 2021",
+      "endDate": "29th MAY 2023",
+      "location": "Hyderabad, Telangana ,India",
+      "duration": "2 Years & 3 Months",
+      "achievements": [
+        "Developed performant and scalable Angular modules for SPAs with Angular (Typescript), HTML & CSS, enabling efficient user data access for static and interactive reports.",
+        "Enhanced Angular modules with HttpClient, Observables, RxJS, reactive forms, and optimized routing, boosting performance and ensuring secure data handling.",
+        "Streamlined role-based authorization for enhanced security and leveraged lazy loading for significant improvement in performance.",
+        "Spearheaded comprehensive code reviews, ensuring compliance with coding standards and best practices.",
+        "Resolved system bugs, user problems and software defects, ensuring code quality through rigorous testing, and optimized the code base for enhanced performance across 200+ end-users.",
+        "Fostered strong client relationships, enhanced satisfaction, and collaborated seamlessly with cross-functional teams to implement stable software systems.",
+        "Facilitated a smooth transition to Agile Scrum, amplifying productivity and team collaboration.",
+        "Led a program with the Client team that reduced customer costs and increased service delivery speed.",
+        "Stayed familiar with emerging technologies, industry trends, and best practices to drive continuous improvement."
+      ]
+    },
+    {
+      "id": 2,
+      "company": "Tech Mahindra Limited",
+      "position": "Intern",
+      "url": "https://www.techmahindra.com",
+      "startDate": "25th Nov 2020",
+      "endDate": "25th FEB 2021",
+      "location": "Hyderabad, Telangana ,India",
+      "duration": "3 Months",
+      "responsibilities": "",
+      "achievements": [
+        "Developed a dynamic web application prototype using Angular, leveraging training in IT fundamentals and Mean Stack technologies during a three-month internship.",
+        "Utilized HTML and CSS to create a separate project, showcasing expertise in front-end development and design principles, including the seamless integration of colors and thoughtful topology design."
+      ]
+    }
+  ]
+}

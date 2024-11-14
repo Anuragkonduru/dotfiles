@@ -1,0 +1,15 @@
+.NavBar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.NavBar > * {
+  text-decoration: none;
+  color: black;
+  margin-top: 8px;
+  padding: 2px;
+}
+
+a:hover {
+  background-color: aqua;
+}

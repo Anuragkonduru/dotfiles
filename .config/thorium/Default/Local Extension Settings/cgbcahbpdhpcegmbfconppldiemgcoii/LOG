@@ -1,0 +1,37 @@
+2024/05/23-15:33:42.795 1330 Reusing MANIFEST /home/anu/.config/thorium/Default/Local Extension Settings/cgbcahbpdhpcegmbfconppldiemgcoii/MANIFEST-000001
+2024/05/23-15:33:42.795 1330 Recovering log #11
+2024/05/23-15:33:42.796 1330 Reusing old log /home/anu/.config/thorium/Default/Local Extension Settings/cgbcahbpdhpcegmbfconppldiemgcoii/000011.log 
+2024/05/23-15:33:45.959 132d Level-0 table #15: started
+2024/05/23-15:33:45.975 132d Level-0 table #15: 4767760 bytes OK
+2024/05/23-15:33:45.976 132d Delete type=0 #11
+2024/05/23-15:34:45.675 132d Level-0 table #17: started
+2024/05/23-15:34:45.712 132d Level-0 table #17: 7776080 bytes OK
+2024/05/23-15:34:45.713 132d Delete type=0 #14
+2024/05/23-15:34:45.715 132d Compacting 4@0 + 1@1 files
+2024/05/23-15:34:45.728 132d Generated table #18@0: 6 keys, 2481471 bytes
+2024/05/23-15:34:45.741 132d Generated table #19@0: 8 keys, 2613449 bytes
+2024/05/23-15:34:45.754 132d Generated table #20@0: 4 keys, 2321747 bytes
+2024/05/23-15:34:45.789 132d Generated table #21@0: 2 keys, 4260845 bytes
+2024/05/23-15:34:45.794 132d Generated table #22@0: 7 keys, 996973 bytes
+2024/05/23-15:34:45.794 132d Compacted 4@0 + 1@1 files => 12674485 bytes
+2024/05/23-15:34:45.795 132d compacted to: files[ 0 5 1 0 0 0 0 ]
+2024/05/23-15:34:45.795 132d Delete type=2 #7
+2024/05/23-15:34:45.796 132d Delete type=2 #15
+2024/05/23-15:34:45.796 132d Delete type=2 #9
+2024/05/23-15:34:45.796 132d Delete type=2 #12
+2024/05/23-15:34:45.796 132d Delete type=2 #17
+2024/05/23-15:34:45.800 132d Expanding@1 1+1 (2481471+4219590 bytes) to 5+1 (12674485+4219590 bytes)
+2024/05/23-15:34:45.800 132d Compacting 5@1 + 1@2 files
+2024/05/23-15:34:45.812 132d Generated table #23@1: 6 keys, 2481471 bytes
+2024/05/23-15:34:45.824 132d Generated table #24@1: 8 keys, 2613449 bytes
+2024/05/23-15:34:45.834 132d Generated table #25@1: 6 keys, 2619863 bytes
+2024/05/23-15:34:45.864 132d Generated table #26@1: 2 keys, 4260845 bytes
+2024/05/23-15:34:45.870 132d Generated table #27@1: 14 keys, 998838 bytes
+2024/05/23-15:34:45.870 132d Compacted 5@1 + 1@2 files => 12974466 bytes
+2024/05/23-15:34:45.871 132d compacted to: files[ 0 0 5 0 0 0 0 ]
+2024/05/23-15:34:45.871 132d Delete type=2 #22
+2024/05/23-15:34:45.871 132d Delete type=2 #21
+2024/05/23-15:34:45.871 132d Delete type=2 #19
+2024/05/23-15:34:45.871 132d Delete type=2 #5
+2024/05/23-15:34:45.871 132d Delete type=2 #18
+2024/05/23-15:34:45.871 132d Delete type=2 #20

@@ -1,0 +1,147 @@
+2024-06-18 20:41:31.742 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-06-18 20:41:31.742 [info] Creating merkle client.
+2024-06-18 20:41:31.742 [info] Done creating merkle client.
+2024-06-18 20:41:31.742 [info] Doing a startup handshake.
+2024-06-18 20:41:31.748 [info] Finished initializing merkle tree in 79.78544300049543 ms.
+2024-06-18 20:41:31.862 [info] Doing the initial handshake with hash: 019ef83062529190bae7de819d3a7d0a9fe23acf17fe302f7bf0799612cb157c
+2024-06-18 20:41:31.915 [info] Handshake start
+2024-06-18 20:41:32.933 [info] Handshake timing: 1020.9952149987221
+2024-06-18 20:41:32.933 [info] Handshake result:
+2024-06-18 20:41:32.933 [info] Starting fast remote sync.
+2024-06-18 20:41:32.934 [info] Total num embeddable files: 39
+2024-06-18 20:41:32.934 [info] Root hash: 019ef83062529190bae7de819d3a7d0a9fe23acf17fe302f7bf0799612cb157c
+2024-06-18 20:41:32.934 [info] In the out of sync case.
+2024-06-18 20:41:32.934 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"019ef83062529190bae7de819d3a7d0a9fe23acf17fe302f7bf0799612cb157c"}
+2024-06-18 20:41:32.935 [info] Waiting on semaphore to be released 1
+2024-06-18 20:41:33.135 [info] Waiting on semaphore to be released 1
+2024-06-18 20:41:33.335 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src","hash":"058531600f0d2872eba3765b1ac543d2ab814d15d647dd403ce9ee85a5562a30"}
+2024-06-18 20:41:33.336 [info] Waiting on semaphore to be released 1
+2024-06-18 20:41:33.536 [info] Waiting on semaphore to be released 1
+2024-06-18 20:41:33.736 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/models","hash":"1ec07fae38cc2efc31386c7668efc992919d97337fdc563a02bd49ed2eaf4af5"}
+2024-06-18 20:41:33.737 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/db","hash":"055a30834383d55545ac2120fd35eda915d8aec94a4f497790578332bfec7694"}
+2024-06-18 20:41:33.737 [info] Waiting on semaphore to be released 2
+2024-06-18 20:41:33.936 [info] Waiting on semaphore to be released 2
+2024-06-18 20:41:34.136 [info] setting numJobsToGo to 2
+2024-06-18 20:41:34.137 [info] [startSync]: numJobs: 2
+2024-06-18 20:41:34.137 [info] Uploading 2 files.
+2024-06-18 20:41:36.832 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-06-18 20:41:36.886 [info] Creating merkle client.
+2024-06-18 20:41:36.886 [info] Done creating merkle client.
+2024-06-18 20:41:36.886 [info] Doing a startup handshake.
+2024-06-18 20:41:36.947 [info] Finished initializing merkle tree in 60.17142999917269 ms.
+2024-06-18 20:41:36.992 [info] Doing the initial handshake with hash: 706226380cf7aea5d49a27cce0225d3baffa54b7feb4dcf38b2361d57c244834
+2024-06-18 20:41:37.005 [info] Handshake start
+2024-06-18 20:41:37.115 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/anu/.config/Cursor/User/workspaceStorage/6636398163977448ce10dc36754c44bb/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2024-06-18 20:41:38.790 [info] Handshake timing: 1788.2341669984162
+2024-06-18 20:41:38.790 [info] Handshake result:
+2024-06-18 20:41:38.790 [info] Starting fast remote sync.
+2024-06-18 20:41:38.791 [info] Total num embeddable files: 180
+2024-06-18 20:41:38.792 [info] Root hash: 706226380cf7aea5d49a27cce0225d3baffa54b7feb4dcf38b2361d57c244834
+2024-06-18 20:41:38.792 [info] Starting repository upload from scratch.
+2024-06-18 20:41:38.794 [info] Uploading 180 files.
+2024-06-18 20:45:35.230 [info] Completed 50 jobs for absoluteDirectoryPath: undefined
+2024-06-18 20:46:21.515 [info] Completed 100 jobs for absoluteDirectoryPath: undefined
+2024-06-18 20:48:13.748 [info] Completed 150 jobs for absoluteDirectoryPath: undefined
+2024-06-18 20:51:36.888 [info] Creating merkle client.
+2024-06-18 20:51:36.888 [info] Done creating merkle client.
+2024-06-18 20:51:36.888 [info] Doing a startup handshake.
+2024-06-18 20:51:36.888 [info] Indexing job successfully done or aborted.
+2024-06-18 20:51:36.896 [info] Finished initializing merkle tree in 8.668552998453379 ms.
+2024-06-18 20:51:36.897 [info] Doing the initial handshake with hash: afbc20e6ffde923614ad0fd8e46548a0bcdd6c55c43c6498425565820ca60a5c
+2024-06-18 20:51:36.897 [info] Handshake start
+2024-06-18 20:51:37.223 [info] Handshake timing: 326.11205299943686
+2024-06-18 20:51:37.223 [info] Handshake result:
+2024-06-18 20:51:37.223 [info] Starting fast remote sync.
+2024-06-18 20:51:37.223 [info] Total num embeddable files: 180
+2024-06-18 20:51:37.224 [info] Root hash: afbc20e6ffde923614ad0fd8e46548a0bcdd6c55c43c6498425565820ca60a5c
+2024-06-18 20:51:37.224 [info] In the out of sync case.
+2024-06-18 20:51:37.224 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"afbc20e6ffde923614ad0fd8e46548a0bcdd6c55c43c6498425565820ca60a5c"}
+2024-06-18 20:51:37.225 [info] Waiting on semaphore to be released 1
+2024-06-18 20:51:37.425 [info] Waiting on semaphore to be released 1
+2024-06-18 20:51:37.625 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./asimplecrud","hash":"40f9ff5da2e9882191591c8c5f0aa22565572a88f29efc46b73844469eb92bb4"}
+2024-06-18 20:51:37.626 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./LeetCodes","hash":"d43dc8400a10f5f93a16377fae73e5f4fc4769e82e2bc7b2bf4f2ea3f1234877"}
+2024-06-18 20:51:37.626 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./InterviewQ","hash":"b68f76d7a670ec96fec92e921673d7ab3a3cebcd1079431ae97211f5345ff00c"}
+2024-06-18 20:51:37.626 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn","hash":"a2edcb45c12aea3cca76441b83af1eb01b93a71d5ba4d30794beda6e0517bd0a"}
+2024-06-18 20:51:37.626 [info] Waiting on semaphore to be released 4
+2024-06-18 20:51:37.824 [info] Waiting on semaphore to be released 4
+2024-06-18 20:51:38.025 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./InterviewQ/html","hash":"6609871d7128485eee12293be3eabfaca68921d9f3fa46548d90ddc56f9d76e8"}
+2024-06-18 20:51:38.026 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/misc","hash":"121856a05effb66998bd0a30bc4b91367930ffcf18c43666d5fc1521b90b9d44"}
+2024-06-18 20:51:38.026 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/Routing","hash":"29b518e61e5c4b10567e84fcb84517ebaa597449ef0b990ec956791db7c1f6f5"}
+2024-06-18 20:51:38.026 [info] Waiting on semaphore to be released 3
+2024-06-18 20:51:38.226 [info] Waiting on semaphore to be released 3
+2024-06-18 20:51:38.427 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/misc/src","hash":"f88512daa2947dad7c2be0ef8908a00208419eaa9b87aa1cac75dde93c1fa258"}
+2024-06-18 20:51:38.428 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/Routing/src","hash":"e6e4b79e273f96d70ccaa8c1d2c552febc783c91420491c4c7a3324fa8dc4987"}
+2024-06-18 20:51:38.428 [info] Waiting on semaphore to be released 2
+2024-06-18 20:51:38.628 [info] Waiting on semaphore to be released 2
+2024-06-18 20:51:38.828 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/Routing/src/assets","hash":"cd372fb85148700fa88095e3492d3f9f5beb43e555e5ff26d95f5a6adc36f8e6"}
+2024-06-18 20:51:38.829 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/Routing/src/app","hash":"c437b407cab8a69bd920fc3b1f4243920fcab8e1f39a59b8699dd48f68550a7c"}
+2024-06-18 20:51:38.829 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/misc/src/app","hash":"f3ff8b9fe71ad4e414260d3a2c02405a06d3c35fd8ba07a16e4b49c7768dcdf3"}
+2024-06-18 20:51:38.829 [info] Waiting on semaphore to be released 3
+2024-06-18 20:51:39.029 [info] Waiting on semaphore to be released 3
+2024-06-18 20:51:39.230 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/Routing/src/app/home","hash":"1f6b1c76831ad0486c509c5df622bfeeacfa03025860c0aebc7c611b746f00c5"}
+2024-06-18 20:51:39.231 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/misc/src/app/Components","hash":"fe3d1177a71b27d8a1f533586e917779edf6f9444acd9faa4c19f806179bf87a"}
+2024-06-18 20:51:39.232 [info] Waiting on semaphore to be released 2
+2024-06-18 20:51:39.431 [info] Waiting on semaphore to be released 2
+2024-06-18 20:51:39.632 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/misc/src/app/Components/search","hash":"2b31ae07c2be18c1cc0cbaf70945722dd2a1b5fe843f8688ed93f2d04385388c"}
+2024-06-18 20:51:39.633 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/misc/src/app/Components/promises","hash":"cbaf587552ec5c69cccd18133cd8fc3d3f1f5776ebb57861abc06d281ad24222"}
+2024-06-18 20:51:39.633 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/misc/src/app/Components/subjects","hash":"a3d755364c1092684e45c4cad0ab803a31b8d2200fee1165c3a495cdb86e7fb6"}
+2024-06-18 20:51:39.633 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/misc/src/app/Components/input-output","hash":"3326cbe03dc073820c7d85a98345d2708507ccd575eeb591d9dec0e64c0ace66"}
+2024-06-18 20:51:39.633 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/misc/src/app/Components/forms","hash":"8ebac9692f94f9611cf2eab65ad82d82763c089fda955b8ebf950878f981fd82"}
+2024-06-18 20:51:39.634 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/misc/src/app/Components/notfound","hash":"8dd623c6bc38958c1140b7b0be3ed6c5345b3f9e311757fffc469f6f1db1f20b"}
+2024-06-18 20:51:39.634 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/misc/src/app/Components/http","hash":"89a52fe2b08b03f620c6d6c34460048069bde945bfbeee3fdebc72f73dc59ac4"}
+2024-06-18 20:51:39.634 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/misc/src/app/Components/Directives","hash":"2edad666026f27d338a89d15e755258e625b72247d920ae221b8157b92311bfd"}
+2024-06-18 20:51:39.634 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/misc/src/app/Components/http-interceptor","hash":"aa30135c5befca857999427cb55499c788a762e4d53814f58db1e8f04b304b51"}
+2024-06-18 20:51:39.635 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/misc/src/app/Components/behavioural-subject","hash":"a84b94f479a727b9a2089b6aaf1b91e5e414a929985fb89aedd69c4aac144afb"}
+2024-06-18 20:51:39.635 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/misc/src/app/Components/directives","hash":"33a3a7aa0509452d49cad92d5d4145f63a527b934b73fad7101eb46d63b05120"}
+2024-06-18 20:51:39.636 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/misc/src/app/Components/lifecycle","hash":"02023665255bedf6470c875009a59478d0dca0b4f66b7f5a7671c6ca941b1581"}
+2024-06-18 20:51:39.636 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/misc/src/app/Components/observable","hash":"dd70f727cf4f7029dcebe1612094f2087bfd351a669dd0ca624cd6a9001ff13b"}
+2024-06-18 20:51:39.636 [info] Waiting on semaphore to be released 13
+2024-06-18 20:51:39.832 [info] Waiting on semaphore to be released 13
+2024-06-18 20:51:40.033 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/misc/src/app/Components/Directives/default","hash":"740a594e84b5504572ba9b944f612e47d04222b9c8d862ae258798f978272aa2"}
+2024-06-18 20:51:40.033 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/misc/src/app/Components/Directives/custom","hash":"3c0189ec07754266c1711da7f92a41f122ad5ee5625924a8ec722fdc4ab78f1e"}
+2024-06-18 20:51:40.034 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/misc/src/app/Components/input-output/child","hash":"c267f6f8dde3a0f2ed9068b250db79709479edbcfb5035d1b6d1d273c89c2a34"}
+2024-06-18 20:51:40.034 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/misc/src/app/Components/forms/reactive","hash":"5e6c4419670c8310e261a0d6a96fc732a55b77798fa0994903105e9dbe9cc9fe"}
+2024-06-18 20:51:40.034 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./AngularLearn/misc/src/app/Components/forms/template","hash":"cc3c2a0327e41b348469b404905b8f57c886863cf716397c02578805d8112c39"}
+2024-06-18 20:51:40.035 [info] Waiting on semaphore to be released 7
+2024-06-18 20:51:40.233 [info] Waiting on semaphore to be released 7
+2024-06-18 20:51:40.433 [info] setting numJobsToGo to 50
+2024-06-18 20:51:40.433 [info] [startSync]: numJobs: 50
+2024-06-18 20:51:40.434 [info] Uploading 50 files.
+2024-06-18 20:53:04.585 [info] Indexing job successfully done or aborted.

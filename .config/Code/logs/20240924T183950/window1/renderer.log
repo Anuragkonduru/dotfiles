@@ -1,0 +1,5 @@
+2024-09-24 18:39:51.513 [info] Started local extension host with pid 141586.
+2024-09-24 18:39:51.947 [error] Extension 'ms-python.python' wants API proposal 'terminalShellIntegration' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-09-24 18:39:54.203 [info] [perf] Render performance baseline is 23ms
+2024-09-24 18:39:58.164 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-09-24 18:41:18.921 [warning] [backup tracker] suspended, ignoring unregister event file:///home/anu/Documents/GitHub/profile/package.json 

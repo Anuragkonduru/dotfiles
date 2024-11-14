@@ -1,0 +1,242 @@
+2024-11-08 12:29:11.660 [info] Started local extension host with pid 184140.
+2024-11-08 12:29:11.955 [error] Extension 'ms-python.python' wants API proposal 'terminalShellIntegration' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-11-08 12:29:14.274 [info] [perf] Render performance baseline is 21ms
+2024-11-08 12:29:18.199 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:29:41.315 [info] Started local extension host with pid 184440.
+2024-11-08 12:29:41.937 [error] No registered selector for ID: ms-vscode.npm-command
+2024-11-08 12:29:47.788 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:29:49.008 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:29:50.655 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:29:51.368 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:29:51.869 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:29:53.506 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:30:45.709 [warning] [backup tracker] suspended, ignoring unregister event file:///home/anu/Documents/GitHub/Angular-misc/package.json 
+2024-11-08 12:30:45.711 [warning] [backup tracker] suspended, ignoring register event vscode-userdata:/home/anu/.config/Code/User/settings.json 
+2024-11-08 12:30:45.718 [warning] [backup tracker] suspended, ignoring unregister event vscode-userdata:/home/anu/.config/Code/User/settings.json 
+2024-11-08 12:30:46.135 [info] Started local extension host with pid 184788.
+2024-11-08 12:30:46.498 [error] Extension 'ms-python.python' wants API proposal 'terminalShellIntegration' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-11-08 12:30:48.798 [info] [perf] Render performance baseline is 21ms
+2024-11-08 12:30:52.481 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:31:07.576 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:31:07.768 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:31:09.188 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:31:09.307 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:31:09.464 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:31:09.688 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:31:09.889 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:31:10.201 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:31:11.023 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:31:25.921 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:31:26.847 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:31:37.782 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:31:48.436 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:32:11.811 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:32:15.379 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:32:15.561 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:32:15.738 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:32:15.942 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:32:16.784 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:32:17.369 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:32:26.832 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:22.874 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:23.699 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:25.812 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:27.441 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:28.122 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:29.124 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:29.603 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:30.404 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:30.834 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:30.904 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:31.433 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:31.889 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:31.967 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:33.106 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:33.953 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:35.916 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:36.744 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:39.578 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:40.239 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:41.301 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:42.087 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:43.212 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:55.116 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:55.363 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:57.188 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:57.629 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:58.023 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:58.166 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:58.365 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:58.636 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:33:59.877 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:01.179 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:01.222 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:02.238 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:03.224 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:03.439 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:03.662 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:04.561 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:04.603 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:06.732 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:06.915 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:07.957 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:08.314 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:08.718 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:08.904 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:09.185 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:09.316 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:12.415 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:14.100 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:14.288 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:16.037 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:16.190 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:17.058 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:17.701 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:17.921 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:18.127 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:19.704 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:20.612 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:20.886 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:21.136 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:22.423 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:24.444 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:25.753 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:28.315 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:28.492 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:29.339 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:29.564 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:30.079 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:30.265 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:30.474 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:30.669 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:32.243 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:36.430 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:36.631 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:38.034 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:38.206 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:41.860 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:42.541 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:42.610 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:43.782 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:44.286 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:44.334 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:44.468 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:44.614 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:44.735 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:45.033 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:45.053 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:45.936 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:46.906 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:48.169 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:34:49.200 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:29.745 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:30.396 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:30.447 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:30.469 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:30.531 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:30.706 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:30.739 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:30.790 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:32.742 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:32.872 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:32.906 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:33.077 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:33.215 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:33.657 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:34.848 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:35.008 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:35.025 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:35.082 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:35.178 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:35.258 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:35.435 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:35.583 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:35.643 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:35.984 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:36.724 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:38.836 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:39.969 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:42.391 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:42.520 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:42.534 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:42.547 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:42.567 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:42.585 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:42.609 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:42.616 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:42.637 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:42.651 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:42.660 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:42.690 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:42.700 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:42.715 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:42.727 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:42.740 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:42.753 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:42.795 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:42.821 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:42.856 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:42.904 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:42.956 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:43.021 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:43.075 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:43.101 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:45.008 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:46.355 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:47.253 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:48.245 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:48.440 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:49.315 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:49.527 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:49.857 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:50.033 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:50.232 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:51.871 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:52.889 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:53.754 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:55.046 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:35:55.230 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:36:00.180 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:36:00.325 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:36:00.623 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:36:00.833 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:36:02.409 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:36:03.295 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:36:05.448 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:36:07.466 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:36:07.709 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:36:20.387 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:36:20.500 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:36:20.743 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:36:21.871 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:36:23.865 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:36:32.930 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:37:04.252 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:37:04.396 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:37:04.430 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:37:04.462 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:37:04.481 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:37:04.546 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:37:04.656 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:37:04.759 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:37:04.882 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:37:05.165 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:37:05.435 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:37:09.380 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:37:25.769 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:37:27.435 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:37:27.435 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:37:32.305 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-08 12:37:47.172 [error] [network] #6: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Failed to fetch
+2024-11-08 12:37:47.173 [error] Failed: Failed to fetch
+    at JWe.E (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1318:39744)
+    at async JWe.C (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1318:36805)
+    at async o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1318:35770)
+    at async JWe.query (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1318:36056)
+    at async UXe.queryGallery (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2428:14393)
+    at async j1s.Kc (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2220:21501)
+    at async j1s.uc (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2220:13731)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2220:12171
+2024-11-08 12:38:27.237 [info] Started local extension host with pid 185930.
+2024-11-08 12:38:33.488 [error] [network] #16: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2024-11-08 17:09:41.075 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage, join.workingCopyHistory

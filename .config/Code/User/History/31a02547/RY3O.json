@@ -1,0 +1,10 @@
+{
+  "nav_items": [
+    { "item": "PROJECTS", "to": "projects" },
+    { "item": "EXPERIENCE", "to": "work" },
+    { "item": "SKILLS", "to": "skills" },
+    { "item": "EDUCATION", "to": "education" },
+    { "item": "CERTIFICATIONS", "to": "certification" },
+    { "item": "INTERESTS", "to": "interests" }
+  ]
+}

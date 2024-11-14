@@ -1,0 +1,270 @@
+2024-05-17T16:24:17.228Z - info: [ui] [AppStore] loading 0 repositories from store
+2024-05-17T16:24:17.257Z - info: [ui] launching: 3.3.12-linux2 (Linux 6.8.9-zen1-2-zen)
+2024-05-17T16:24:17.263Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-05-17T16:24:17.283Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-05-17T16:24:17.288Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-05-17T16:24:17.300Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-05-17T16:24:17.878Z - info: [ui] Opt in reported.
+2024-05-17T16:24:18.229Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-05-17T16:24:19.546Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-05-17T16:24:20.834Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2024-05-17T16:24:20.834Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-05-17T16:24:20.838Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=83301e24-5356-4260-9ee5-0c0705f18a1f
+2024-05-17T16:24:20.838Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2024-05-17T16:24:21.943Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2024-05-17T16:24:24.106Z - info: [main] Received possible protocol arguments: 3
+2024-05-17T16:24:24.107Z - info: [main] Processing protocol url
+2024-05-17T16:24:24.107Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-05-17T16:24:24.109Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2024-05-17T16:24:24.210Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T16:24:24.214Z - info: [main] Processing protocol url
+2024-05-17T16:24:25.262Z - info: [ui] [SignInStore] account resolved
+2024-05-17T16:24:25.262Z - info: [ui] [AppStore] adding account Anuragkonduru (Anurag Konduru) to store
+2024-05-17T16:24:25.272Z - error: [ui] Error adding account 'Anuragkonduru'
+Error: The name is not activatable
+2024-05-17T16:24:25.275Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2024-05-17T16:24:25.308Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-05-17T16:24:26.093Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-05-17T16:24:53.432Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-05-17T16:24:53.435Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=256c824f-9c0c-4ffb-ac6c-770b01d9f27a
+2024-05-17T16:24:54.256Z - info: [main] Received possible protocol arguments: 3
+2024-05-17T16:24:54.256Z - info: [main] Processing protocol url
+2024-05-17T16:24:54.256Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-05-17T16:24:54.318Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T16:24:54.362Z - info: [main] Processing protocol url
+2024-05-17T16:24:55.332Z - info: [ui] [SignInStore] account resolved
+2024-05-17T16:24:55.332Z - info: [ui] [AppStore] adding account Anuragkonduru (Anurag Konduru) to store
+2024-05-17T16:24:55.334Z - error: [ui] Error adding account 'Anuragkonduru'
+Error: The name is not activatable
+2024-05-17T16:25:03.189Z - info: [ui] [AppStore] loading 0 repositories from store
+2024-05-17T16:25:03.218Z - info: [ui] launching: 3.3.12-linux2 (Linux 6.8.9-zen1-2-zen)
+2024-05-17T16:25:03.218Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-05-17T16:25:04.038Z - info: [ui] Stats reported.
+2024-05-17T16:25:08.757Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-05-17T16:25:08.761Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=9aaaf89d-6bf9-4560-bde8-72ff94dc5edb
+2024-05-17T16:25:09.533Z - info: [main] Received possible protocol arguments: 3
+2024-05-17T16:25:09.533Z - info: [main] Processing protocol url
+2024-05-17T16:25:09.533Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-05-17T16:25:09.599Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T16:25:09.642Z - info: [main] Processing protocol url
+2024-05-17T16:25:10.708Z - info: [ui] [SignInStore] account resolved
+2024-05-17T16:25:10.708Z - info: [ui] [AppStore] adding account Anuragkonduru (Anurag Konduru) to store
+2024-05-17T16:25:10.711Z - error: [ui] Error adding account 'Anuragkonduru'
+Error: The name is not activatable
+2024-05-17T16:26:00.312Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-05-17T16:26:00.315Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=d2d3cafa-803d-490c-a35e-ae0a24f31803
+2024-05-17T16:26:01.332Z - info: [main] Received possible protocol arguments: 3
+2024-05-17T16:26:01.332Z - info: [main] Processing protocol url
+2024-05-17T16:26:01.332Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-05-17T16:26:01.394Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T16:26:01.438Z - info: [main] Processing protocol url
+2024-05-17T16:26:02.774Z - info: [ui] [SignInStore] account resolved
+2024-05-17T16:26:02.774Z - info: [ui] [AppStore] adding account Anuragkonduru (Anurag Konduru) to store
+2024-05-17T16:26:02.776Z - error: [ui] Error adding account 'Anuragkonduru'
+Error: The name is not activatable
+2024-05-17T16:26:35.482Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-05-17T16:26:35.491Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=e2b1bd1d-e010-41c9-ba53-9b0b9451965b
+2024-05-17T16:26:36.456Z - info: [main] Received possible protocol arguments: 3
+2024-05-17T16:26:36.457Z - info: [main] Processing protocol url
+2024-05-17T16:26:36.457Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-05-17T16:26:36.520Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T16:26:36.563Z - info: [main] Processing protocol url
+2024-05-17T16:26:37.998Z - info: [ui] [SignInStore] account resolved
+2024-05-17T16:26:37.998Z - info: [ui] [AppStore] adding account Anuragkonduru (Anurag Konduru) to store
+2024-05-17T16:26:38.000Z - error: [ui] Error adding account 'Anuragkonduru'
+Error: The name is not activatable
+2024-05-17T16:26:50.375Z - info: [ui] [AppStore] loading 0 repositories from store
+2024-05-17T16:26:50.413Z - info: [ui] launching: 3.3.12-linux2 (Linux 6.8.9-zen1-2-zen)
+2024-05-17T16:26:50.414Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-05-17T16:27:19.782Z - info: [ui] [AppStore] loading 0 repositories from store
+2024-05-17T16:27:19.925Z - info: [ui] launching: 3.3.12-linux2 (Linux 6.8.9-zen1-2-zen)
+2024-05-17T16:27:19.926Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-05-17T16:27:30.256Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-05-17T16:27:30.260Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=8a505a6c-d4c5-4ad6-a509-19e642d7b824
+2024-05-17T16:27:31.339Z - info: [main] Received possible protocol arguments: 3
+2024-05-17T16:27:31.339Z - info: [main] Processing protocol url
+2024-05-17T16:27:31.339Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-05-17T16:27:31.406Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T16:27:31.450Z - info: [main] Processing protocol url
+2024-05-17T16:27:32.884Z - info: [ui] [SignInStore] account resolved
+2024-05-17T16:27:32.885Z - info: [ui] [AppStore] adding account Anuragkonduru (Anurag Konduru) to store
+2024-05-17T16:27:32.888Z - error: [ui] Error adding account 'Anuragkonduru'
+Error: The name is not activatable
+2024-05-17T16:28:32.817Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-05-17T16:28:32.820Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=826a90b2-6f21-4a6e-9aeb-e9f4b96a88be
+2024-05-17T16:28:33.905Z - info: [main] Received possible protocol arguments: 3
+2024-05-17T16:28:33.905Z - info: [main] Processing protocol url
+2024-05-17T16:28:33.906Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-05-17T16:28:34.016Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T16:28:34.019Z - info: [main] Processing protocol url
+2024-05-17T16:28:35.755Z - info: [ui] [SignInStore] account resolved
+2024-05-17T16:28:35.755Z - info: [ui] [AppStore] adding account Anuragkonduru (Anurag Konduru) to store
+2024-05-17T16:28:35.757Z - error: [ui] Error adding account 'Anuragkonduru'
+Error: The name is not activatable
+2024-05-17T17:00:45.204Z - info: [ui] [AppStore] loading 0 repositories from store
+2024-05-17T17:00:45.267Z - info: [ui] launching: 3.3.12-linux2 (Linux 6.8.9-zen1-2-zen)
+2024-05-17T17:00:45.268Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-05-17T17:01:22.914Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-05-17T17:01:22.918Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=bf8e6e52-1d43-4941-8dd8-1e0bc73f2a60
+2024-05-17T17:01:23.946Z - info: [main] Received possible protocol arguments: 3
+2024-05-17T17:01:23.946Z - info: [main] Processing protocol url
+2024-05-17T17:01:23.947Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-05-17T17:01:24.052Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T17:01:24.056Z - info: [main] Processing protocol url
+2024-05-17T17:01:25.594Z - info: [ui] [SignInStore] account resolved
+2024-05-17T17:01:25.595Z - info: [ui] [AppStore] adding account Anuragkonduru (Anurag Konduru) to store
+2024-05-17T17:01:25.601Z - error: [ui] Error adding account 'Anuragkonduru'
+Error: The name is not activatable
+2024-05-17T17:02:58.236Z - info: [ui] [AppStore] loading 0 repositories from store
+2024-05-17T17:02:58.301Z - info: [ui] launching: 3.3.12-linux2 (Linux 6.8.9-zen1-2-zen)
+2024-05-17T17:02:58.302Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-05-17T17:03:04.491Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T17:03:08.203Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T17:04:34.838Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T17:05:18.724Z - info: [ui] [AppStore] loading 0 repositories from store
+2024-05-17T17:05:18.788Z - info: [ui] launching: 3.3.12-linux2 (Linux 6.8.9-zen1-2-zen)
+2024-05-17T17:05:18.789Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-05-17T17:05:25.504Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-05-17T17:05:25.507Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=4a2e4ffb-ceb5-476f-b198-64eb0e358583
+2024-05-17T17:05:30.337Z - info: [main] Received possible protocol arguments: 3
+2024-05-17T17:05:30.337Z - info: [main] Processing protocol url
+2024-05-17T17:05:30.337Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-05-17T17:05:30.420Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T17:05:30.473Z - info: [main] Processing protocol url
+2024-05-17T17:05:31.580Z - info: [ui] [SignInStore] account resolved
+2024-05-17T17:05:31.581Z - info: [ui] [AppStore] adding account Anuragkonduru (Anurag Konduru) to store
+2024-05-17T17:05:40.040Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-05-17T17:05:40.044Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=dde6fc2a-229d-4ef8-8f37-1356042dc5cb
+2024-05-17T17:05:45.457Z - info: [main] Received possible protocol arguments: 3
+2024-05-17T17:05:45.457Z - info: [main] Processing protocol url
+2024-05-17T17:05:45.457Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-05-17T17:05:45.567Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T17:05:45.571Z - info: [main] Processing protocol url
+2024-05-17T17:05:46.524Z - info: [ui] [SignInStore] account resolved
+2024-05-17T17:05:46.525Z - info: [ui] [AppStore] adding account Anuragkonduru (Anurag Konduru) to store
+2024-05-17T17:05:56.885Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-05-17T17:05:56.888Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=ea3dd501-fb21-4632-8f6a-de72fe573177
+2024-05-17T17:05:57.765Z - info: [main] Received possible protocol arguments: 3
+2024-05-17T17:05:57.765Z - info: [main] Processing protocol url
+2024-05-17T17:05:57.766Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-05-17T17:05:57.833Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T17:05:57.878Z - info: [main] Processing protocol url
+2024-05-17T17:05:58.893Z - info: [ui] [SignInStore] account resolved
+2024-05-17T17:05:58.893Z - info: [ui] [AppStore] adding account Anuragkonduru (Anurag Konduru) to store
+2024-05-17T17:06:08.403Z - info: [ui] [AppStore] loading 0 repositories from store
+2024-05-17T17:06:08.469Z - info: [ui] launching: 3.3.12-linux2 (Linux 6.8.9-zen1-2-zen)
+2024-05-17T17:06:08.469Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-05-17T17:06:25.359Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-05-17T17:06:25.362Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=1984cf26-6334-488d-9c81-ee622b21eb9f
+2024-05-17T17:06:26.230Z - info: [main] Received possible protocol arguments: 3
+2024-05-17T17:06:26.230Z - info: [main] Processing protocol url
+2024-05-17T17:06:26.231Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-05-17T17:06:26.294Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T17:06:26.336Z - info: [main] Processing protocol url
+2024-05-17T17:06:27.873Z - info: [ui] [SignInStore] account resolved
+2024-05-17T17:06:27.873Z - info: [ui] [AppStore] adding account Anuragkonduru (Anurag Konduru) to store
+2024-05-17T17:06:40.634Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-05-17T17:06:40.637Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=b4efe695-355c-4e51-8e28-77faefd13181
+2024-05-17T17:06:41.841Z - info: [main] Received possible protocol arguments: 3
+2024-05-17T17:06:41.841Z - info: [main] Processing protocol url
+2024-05-17T17:06:41.841Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-05-17T17:06:41.944Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T17:06:41.948Z - info: [main] Processing protocol url
+2024-05-17T17:06:42.924Z - info: [ui] [SignInStore] account resolved
+2024-05-17T17:06:42.924Z - info: [ui] [AppStore] adding account Anuragkonduru (Anurag Konduru) to store
+2024-05-17T17:06:48.401Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-05-17T17:06:48.404Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=cd88fcc2-d327-4f17-a0e7-d84e0fc97aa2
+2024-05-17T17:06:49.160Z - info: [main] Received possible protocol arguments: 3
+2024-05-17T17:06:49.160Z - info: [main] Processing protocol url
+2024-05-17T17:06:49.161Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-05-17T17:06:49.228Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T17:06:49.278Z - info: [main] Processing protocol url
+2024-05-17T17:06:50.112Z - info: [ui] [SignInStore] account resolved
+2024-05-17T17:06:50.113Z - info: [ui] [AppStore] adding account Anuragkonduru (Anurag Konduru) to store
+2024-05-17T17:08:08.253Z - info: [ui] [AppStore] loading 0 repositories from store
+2024-05-17T17:08:08.320Z - info: [ui] launching: 3.3.12-linux2 (Linux 6.8.9-zen1-2-zen)
+2024-05-17T17:08:08.321Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-05-17T17:08:31.228Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-05-17T17:08:31.232Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=8ea6f3a4-b0d6-4468-86d1-0193bc8595d0
+2024-05-17T17:08:32.175Z - info: [main] Received possible protocol arguments: 3
+2024-05-17T17:08:32.175Z - info: [main] Processing protocol url
+2024-05-17T17:08:32.175Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-05-17T17:08:32.236Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T17:08:32.279Z - info: [main] Processing protocol url
+2024-05-17T17:08:33.828Z - info: [ui] [SignInStore] account resolved
+2024-05-17T17:08:33.828Z - info: [ui] [AppStore] adding account Anuragkonduru (Anurag Konduru) to store
+2024-05-17T17:08:41.444Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-05-17T17:08:41.447Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=638ea434-3e69-4d76-b924-8edc2b453c09
+2024-05-17T17:08:42.318Z - info: [main] Received possible protocol arguments: 3
+2024-05-17T17:08:42.318Z - info: [main] Processing protocol url
+2024-05-17T17:08:42.319Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-05-17T17:08:42.419Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T17:08:42.423Z - info: [main] Processing protocol url
+2024-05-17T17:08:43.659Z - info: [ui] [SignInStore] account resolved
+2024-05-17T17:08:43.660Z - info: [ui] [AppStore] adding account Anuragkonduru (Anurag Konduru) to store
+2024-05-17T17:08:55.236Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-05-17T17:08:55.239Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=ca39d2fa-3993-4ea8-ae27-af55ae568bfc
+2024-05-17T17:08:56.039Z - info: [main] Received possible protocol arguments: 3
+2024-05-17T17:08:56.039Z - info: [main] Processing protocol url
+2024-05-17T17:08:56.039Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-05-17T17:08:56.100Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T17:08:56.143Z - info: [main] Processing protocol url
+2024-05-17T17:08:57.278Z - info: [ui] [SignInStore] account resolved
+2024-05-17T17:08:57.279Z - info: [ui] [AppStore] adding account Anuragkonduru (Anurag Konduru) to store
+2024-05-17T17:09:04.588Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-05-17T17:09:04.592Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=3f8a67e8-188a-4544-93a0-18625c0303e1
+2024-05-17T17:09:05.460Z - info: [main] Received possible protocol arguments: 3
+2024-05-17T17:09:05.460Z - info: [main] Processing protocol url
+2024-05-17T17:09:05.460Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-05-17T17:09:05.561Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T17:09:05.564Z - info: [main] Processing protocol url
+2024-05-17T17:09:06.597Z - info: [ui] [SignInStore] account resolved
+2024-05-17T17:09:06.597Z - info: [ui] [AppStore] adding account Anuragkonduru (Anurag Konduru) to store
+2024-05-17T17:09:18.969Z - info: [ui] [AppStore] loading 0 repositories from store
+2024-05-17T17:09:19.033Z - info: [ui] launching: 3.3.12-linux2 (Linux 6.8.9-zen1-2-zen)
+2024-05-17T17:09:19.034Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-05-17T17:10:34.118Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-05-17T17:10:34.121Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=ecf3cb59-f187-44a6-b453-6de212cc1946
+2024-05-17T17:10:35.176Z - info: [main] Received possible protocol arguments: 3
+2024-05-17T17:10:35.176Z - info: [main] Processing protocol url
+2024-05-17T17:10:35.176Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-05-17T17:10:35.238Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T17:10:35.281Z - info: [main] Processing protocol url
+2024-05-17T17:10:37.132Z - info: [ui] [SignInStore] account resolved
+2024-05-17T17:10:37.132Z - info: [ui] [AppStore] adding account Anuragkonduru (Anurag Konduru) to store
+2024-05-17T17:10:47.939Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-05-17T17:10:47.948Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=7d1ecc77-b2ed-48ae-b01b-1813ddd26fea
+2024-05-17T17:11:00.401Z - info: [main] Received possible protocol arguments: 3
+2024-05-17T17:11:00.401Z - info: [main] Processing protocol url
+2024-05-17T17:11:00.401Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-05-17T17:11:00.465Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T17:11:00.507Z - info: [main] Processing protocol url
+2024-05-17T17:11:01.606Z - info: [ui] [SignInStore] account resolved
+2024-05-17T17:11:01.606Z - info: [ui] [AppStore] adding account Anuragkonduru (Anurag Konduru) to store
+2024-05-17T17:11:11.654Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-05-17T17:11:11.663Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=72aaacf2-fd7b-4e3f-879e-2127f6893053
+2024-05-17T17:11:12.556Z - info: [main] Received possible protocol arguments: 3
+2024-05-17T17:11:12.557Z - info: [main] Processing protocol url
+2024-05-17T17:11:12.557Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-05-17T17:11:12.619Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T17:11:12.661Z - info: [main] Processing protocol url
+2024-05-17T17:11:13.792Z - info: [ui] [SignInStore] account resolved
+2024-05-17T17:11:13.792Z - info: [ui] [AppStore] adding account Anuragkonduru (Anurag Konduru) to store
+2024-05-17T17:11:23.849Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-05-17T17:11:23.859Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=a8e13526-962b-45ef-9c30-181db3cb237f
+2024-05-17T17:11:24.643Z - info: [main] Received possible protocol arguments: 3
+2024-05-17T17:11:24.643Z - info: [main] Processing protocol url
+2024-05-17T17:11:24.643Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-05-17T17:11:24.704Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T17:11:24.747Z - info: [main] Processing protocol url
+2024-05-17T17:11:25.876Z - info: [ui] [SignInStore] account resolved
+2024-05-17T17:11:25.877Z - info: [ui] [AppStore] adding account Anuragkonduru (Anurag Konduru) to store
+2024-05-17T17:11:34.905Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-05-17T17:11:34.908Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=a1782cd9-f406-4b52-b33d-8f15a2c471cd
+2024-05-17T17:11:35.703Z - info: [main] Received possible protocol arguments: 3
+2024-05-17T17:11:35.703Z - info: [main] Processing protocol url
+2024-05-17T17:11:35.703Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-05-17T17:11:35.765Z - info: [main] Received possible protocol arguments: 2
+2024-05-17T17:11:35.808Z - info: [main] Processing protocol url
+2024-05-17T17:11:36.937Z - info: [ui] [SignInStore] account resolved
+2024-05-17T17:11:36.937Z - info: [ui] [AppStore] adding account Anuragkonduru (Anurag Konduru) to store

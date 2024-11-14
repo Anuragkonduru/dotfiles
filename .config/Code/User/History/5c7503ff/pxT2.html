@@ -1,0 +1,76 @@
+<nav
+  class="flex justify-around py-8 px-12 border shaodw-md z-20 sticky inset-0 bg-white"
+>
+  <ul id="home" class="flex items-center gap-6">
+    <li class="hover:cursor-pointer">
+      <span class="bars"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-menu"
+        >
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line></svg
+      ></span>
+      <!-- <span class="name">Menu</span> -->
+    </li>
+    <li class="text-lg font-semibold hover:cursor-pointer" routerLink="/">
+      Arc Stride
+    </li>
+  </ul>
+  <ul id="shortcuts" class="flex gap-6 hover:cursor-pointer">
+    <li>Casuals</li>
+    <li>Sprots</li>
+    <li>Specials</li>
+    <li routerLink="/product">Explore</li>
+  </ul>
+  <ul id="user-management" class="flex gap-6">
+    
+        <li class="hover:cursor-pointer">
+      <!-- <span id="Search">Search</span> -->
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="feather feather-search"
+      >
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </li>
+    <li class="hover:cursor-pointer" routerLink="/login">
+      <!-- <span id="Login">Login</span> -->
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="feather feather-user"
+      >
+        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+        <circle cx="12" cy="7" r="4"></circle>
+      </svg>
+    </li>
+
+
+  </ul>
+</nav>

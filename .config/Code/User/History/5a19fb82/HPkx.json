@@ -1,0 +1,75 @@
+{
+  "education": [
+    {
+      "institution": "MLR Institute of Technology",
+      "url": "https://mlrit.ac.in/",
+      "area": "Computer Science & Engineering",
+      "studyType": "B. Tech",
+      "endDate": "September 2020"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Linux Ricing",
+      "icon": "FcLinux",
+      "summary": "Linux ricing is the art of visually customizing and enhancing the appearance of the Linux operating system through extensive personalization and modifications.",
+      "keywords": ["Linux", "Ricing"]
+    },
+    {
+      "name": "Movies",
+      "icon": "BiMoviePlay",
+      "summary": "A movie is a visual storytelling experience on a screen, combining acting, cinematography, and sound to entertain and convey stories across various genres.",
+      "keywords": ["Movies"]
+    },
+    {
+      "name": "Anime",
+      "icon": "Anime",
+      "summary": "Anime is a form of animated entertainment from Japan known for its diverse genres, vibrant artwork, and engaging storytelling that appeals to audiences worldwide.",
+      "keywords": ["Anime"]
+    },
+    {
+      "name": "Manga",
+      "icon": "Manga",
+      "summary": "Manga is a style of Japanese comic books or graphic novels known for its black-and-white artwork, covering a wide range of genres and captivating readers with its unique storytelling.",
+      "keywords": ["Manga"]
+    },
+    {
+      "name": "Psycology",
+      "icon": "MdPsychologyAlt",
+      "summary": "Psychology is the scientific study of the human mind and behavior, exploring emotions, thoughts, and actions to understand how individuals perceive and interact with the world around them.",
+      "keywords": ["Psycology"]
+    },
+    {
+      "name": "Volleyball",
+      "icon": "FaVolleyball",
+      "summary": "Volleyball is a team sport played on a rectangular court, where two teams try to score points by hitting a ball over a net and into the opponent's side of the court without letting it touch the ground.",
+      "keywords": ["Volleyball"]
+    },
+    {
+      "name": "Kabaddi",
+      "icon": "MdSportsKabaddi",
+      "summary": "Kabaddi is a fast-paced and physically intense team sport originating from South Asia, where two teams take turns sending a 'raider' to tag as many opponents as possible and return safely to their side of the court while holding their breath.",
+      "keywords": ["Kabaddi"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Telugu",
+      "icon": "Telugu",
+      "summary": "Telugu is a Dravidian language predominantly spoken in the Indian state of Andhra Pradesh and Telangana, characterized by its rich literary heritage and widespread usage in various forms of media.",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "icon": "RiEnglishInput",
+      "summary": "English is a global language with roots in Germanic and Romance languages, spoken as a first language by millions and serving as a lingua franca for international communication, business, and cultural exchange.",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Hindi",
+      "icon": "Hindi",
+      "summary": "Hindi is an Indo-Aryan language widely spoken in India and other parts of the world, serving as one of the official languages of India and known for its diverse cultural influence and use in Bollywood films.",
+      "fluency": "Good"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+2024/05/20-11:10:48.837 4ecd9 Creating DB /home/anu/.config/Postman/Partitions/0ac5f03f-3d89-45f8-a1b1-c3951e90e93c/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb since it was missing.
+2024/05/20-11:10:48.839 4ecd9 Reusing MANIFEST /home/anu/.config/Postman/Partitions/0ac5f03f-3d89-45f8-a1b1-c3951e90e93c/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/05/20-11:10:48.863 4ec98 Level-0 table #5: started
+2024/05/20-11:10:48.864 4ec98 Level-0 table #5: 675 bytes OK
+2024/05/20-11:10:48.865 4ec98 Delete type=0 #3
+2024/05/20-11:10:48.865 4ec98 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/05/20-11:10:49.260 4ecd9 Level-0 table #7: started
+2024/05/20-11:10:49.260 4ecd9 Level-0 table #7: 3663 bytes OK
+2024/05/20-11:10:49.261 4ecd9 Delete type=0 #4
+2024/05/20-11:10:49.261 4ecd9 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/05/20-11:10:49.263 4ecd9 Level-0 table #9: started
+2024/05/20-11:10:49.263 4ecd9 Level-0 table #9: 507 bytes OK
+2024/05/20-11:10:49.264 4ecd9 Delete type=0 #6
+2024/05/20-11:10:49.264 4ecd9 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 283 : 1
+2024/05/20-11:10:49.264 4ecd9 Compacting 1@0 + 1@1 files
+2024/05/20-11:10:49.265 4ecd9 Generated table #10@0: 158 keys, 2252 bytes
+2024/05/20-11:10:49.265 4ecd9 Compacted 1@0 + 1@1 files => 2252 bytes
+2024/05/20-11:10:49.266 4ecd9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/20-11:10:49.266 4ecd9 Delete type=2 #9
+2024/05/20-11:10:49.266 4ecd9 Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 283 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

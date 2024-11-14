@@ -1,0 +1,11 @@
+<div class="tab">
+  <h1>Child Component</h1>
+  <div>
+    <h3>From Parent {{ dataFromParent }}</h3>
+  </div>
+  <hr />
+  <div>
+    <input type="text" [(ngModel)]="fromChild" />
+    <button (click)="sendData()"><- Emmit Data To Parent</button>
+  </div>
+</div>

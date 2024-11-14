@@ -1,0 +1,11 @@
+<div class="tab">
+  <div>
+    <h1>Parent Component</h1>
+    <input type="text" [(ngModel)]="fromParent"></input>
+    <button>Send To Child Component</button>
+</div>
+<div>
+    <h1>Child Component</h1>
+      <app-child [dataFromParent]="fromParent"></app-child>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+<div class="content">
+  <h1>Subjects:</h1>
+  <input type="text" [(ngModel)]="NameInput" />
+  <div>
+    <button (click)="addName()" style="margin: 8px">Add Name</button>
+    <button (click)="removeName()" style="margin: 8px">Remove Name</button>
+  </div>
+  <div class="result">
+    <div class="box">
+      <h2>Subjects :</h2>
+      <div *ngFor="let name of NameSubject; let i = index">
+        <p>{{ i + 1 }}. {{ name }}</p>
+      </div>
+    </div>
+    <div class="box">
+      <h2>Behavior subjects :</h2>
+      <div *ngFor="let name of NameBehavioralSubject; let i = index">
+        <p>{{ i + 1 }}. {{ name }}</p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,33 @@
+{
+  "work": [
+    {
+      "id": 1,
+      "company": "Tech Mahindra Limited",
+      "position": "Software Engineer",
+      "url": "https://www.techmahindra.com",
+      "startDate": "26th FEB 2021",
+      "endDate": "29th MAY 2023",
+      "location": "Hyderabad, Telangana ,India",
+      "duration": "2 Years & 3 Months",
+      "achievements": [
+        
+        "Stayed famili of emerging technologies, industry trends, and best practices to drive continuous improvement."
+      ]
+    },
+    {
+      "id": 2,
+      "company": "Tech Mahindra Limited",
+      "position": "Intern",
+      "url": "https://www.techmahindra.com",
+      "startDate": "25th Nov 2020",
+      "endDate": "25th FEB 2021",
+      "location": "Hyderabad, Telangana ,India",
+      "duration": "3 Months",
+      "responsibilities": "",
+      "achievements": [
+        "Developed a dynamic web application prototype using Angular, leveraging training in IT fundamentals and Mean Stack technologies during a three-month internship.",
+        "Utilized HTML and CSS to create a separate project, showcasing expertise in front-end development and design principles, including the seamless integration of colors and thoughtful topology design."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+export interface ProductsModel {
+  productId: number;
+  productname: string;
+  description: string;
+  categoryId: number;
+  inventoryId: string;
+  price: number;
+  discountId: string;
+  reviewId: string;
+  createdAt: Date;
+  modifiedAt: Date;
+  images: ImageModel[];
+}
+export interface ImageModel {
+  link: string;
+  color: string;
+}

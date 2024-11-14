@@ -1,0 +1,27 @@
+[Server(66409) Product-Ecommerce/] onInitialize
+[Server(66409) Product-Ecommerce/] Number of style sheets - 4
+[Server(66409) Product-Ecommerce/] setupInitialStylemap
+API_URL 282
+  ProductsModel 432 445
+Invalid Selector
+API_URL 282
+  ProductsModel 432 445
+Invalid Selector
+ProductsModel[] 327
+  ProductsModel 432 445
+Invalid Selector
+HttpClient) 377
+  ProductsModel 432 445
+Invalid Selector
+productmodel 173
+  ProductsModel 415 428
+Invalid Selector
+ProductdealsService 241
+  ProductsModel 415 428
+Invalid Selector
+this.dealsCount 777
+  this.currentProduct.images.length 924 957
+Invalid Selector
+setInterval(this.changeImage, 841
+  this.currentProduct.images.length 924 957
+Invalid Selector

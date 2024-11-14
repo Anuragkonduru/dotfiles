@@ -1,0 +1,14 @@
+.success {
+  background-color: chartreuse;
+}
+.error {
+  background-color: tomato;
+}
+.center{
+  display:flex;
+  flex-direction:column;
+  gap:1em;
+}
+input{
+  
+}

@@ -1,0 +1,286 @@
+{
+  "skills": {
+    "pro": [
+      {
+        "name": "Angular",
+        "url": "",
+        "icon": "FaAngular",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "HTML",
+        "url": "",
+        "icon": "FaHtml5",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "CSS",
+        "url": "",
+        "icon": "FaCss3Alt",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "JavaScript",
+        "url": "",
+        "icon": "SiJavascript",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "Typescript",
+        "url": "",
+        "icon": "SiTypescript",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+
+      {
+        "name": "React",
+        "url": "",
+        "icon": "FaReact",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "TailWind CSS",
+        "url": "",
+        "icon": "SiTailwindcss",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "Git",
+        "url": "",
+        "icon": "FaGitAlt",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      }
+    ],
+    "frontend": [
+      {
+        "name": "Angular",
+        "url": "",
+        "icon": "FaAngular",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "HTML",
+        "url": "",
+        "icon": "FaHtml5",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "CSS",
+        "url": "",
+        "icon": "FaCss3Alt",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "React",
+        "url": "",
+        "icon": "FaReact",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "Markdown",
+        "url": "",
+        "icon": "FaMarkdown",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "TailWind CSS",
+        "url": "",
+        "icon": "SiTailwindcss",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "Bootstrap",
+        "url": "",
+        "icon": "FaBootstrap",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      }
+    ],
+    "backend": [
+      {
+        "name": "Typescript",
+        "url": "",
+        "icon": "SiTypescript",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "JavaScript",
+        "url": "",
+        "icon": "SiJavascript",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "Node.js",
+        "url": "",
+        "icon": "FaNodeJs",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      }
+    ],
+    "Others": [
+      {
+        "name": "C",
+        "url": "",
+        "icon": "SiC",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "C++",
+        "url": "",
+        "icon": "SiCplusplus",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "Java",
+        "url": "",
+        "icon": "FaJava",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "Python",
+        "url": "",
+        "icon": "FaPython",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "bash",
+        "url": "",
+        "icon": "SiGnubash",
+        "summary": ["Unix Shell Scripting"]
+      }
+    ],
+    "database": [
+      {
+        "name": "SQL & PL/SQL",
+        "url": "",
+        "icon": "PiFileSqlFill",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "Snowflake",
+        "url": "",
+        "icon": "SiSnowflake",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "MongoDB",
+        "url": "",
+        "icon": "SiMongodb",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "AWS",
+        "url": "",
+        "icon": "FaAws",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      }
+    ],
+    "CICD": [
+      {
+        "name": "Git",
+        "url": "",
+        "icon": "FaGitAlt",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "Jenkins",
+        "url": "",
+        "icon": "FaJenkins",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+       {
+        "name": "Vite",
+        "url": "",
+        "icon": "Vite",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      }
+    ],
+    "softskills": [
+      {
+        "name": "Problem-Solving",
+        "url": "",
+        "icon": "FaPuzzlePiece",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "Time Management",
+        "url": "",
+        "icon": "FaClock",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "Communication",
+        "url": "",
+        "icon": "BiSolidConversation",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "Adaptation",
+        "url": "",
+        "icon": "FaUsersGear",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "Empathy",
+        "url": "",
+        "icon": "FaPeopleArrows",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "Critical Thinking",
+        "url": "",
+        "icon": "FcIdea",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      }
+    ],
+    "tools": [
+      {
+        "name": "Jira",
+        "url": "",
+        "icon": "FaJira",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "Rally",
+        "url": "",
+        "icon": "SiBroadcom",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "Informatica",
+        "url": "",
+        "icon": "SiInformatica",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "Control-M",
+        "url": "",
+        "icon": "SiBmcsoftware",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "Microsoft Office",
+        "url": "",
+        "icon": "SiMicrosoftoffice",
+        "summary": ["Excel,Word,PowerPoint"]
+      },
+      {
+        "name": "Visual Studio Code",
+        "url": "",
+        "icon": "SiVisualstudiocode",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "Eclipse",
+        "url": "",
+        "icon": "SiEclipseide",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "name": "Vim",
+        "url": "",
+        "icon": "SiVim",
+        "summary": ["HTML", "CSS", "JavaScript"]
+      }
+    ],
+    "languages": []
+  }
+}

@@ -1,0 +1,7 @@
+<div>
+  <h3>From Parent {{ dataFromParent }}</h3>
+</div>
+<div>
+  <input type="text" [(ngModel)]="fromChild" />
+  <button (click)="sendData()">Emmit Data To Parent</button>
+</div>

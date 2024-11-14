@@ -1,0 +1,10 @@
+2024/05/20-11:10:18.952 4ec96 Creating DB /home/anu/.config/Postman/Partitions/dd015876-aa7c-4b44-9bc9-6a2f37f1c784/IndexedDB/file__0.indexeddb.leveldb since it was missing.
+2024/05/20-11:10:18.954 4ec96 Reusing MANIFEST /home/anu/.config/Postman/Partitions/dd015876-aa7c-4b44-9bc9-6a2f37f1c784/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2024/05/20-11:10:18.959 4ecb9 Level-0 table #5: started
+2024/05/20-11:10:18.959 4ecb9 Level-0 table #5: 492 bytes OK
+2024/05/20-11:10:18.960 4ecb9 Delete type=0 #3
+2024/05/20-11:10:18.960 4ecb9 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/05/20-11:10:19.718 4ec95 Level-0 table #7: started
+2024/05/20-11:10:19.719 4ec95 Level-0 table #7: 477 bytes OK
+2024/05/20-11:10:19.720 4ec95 Delete type=0 #4
+2024/05/20-11:10:19.720 4ec95 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

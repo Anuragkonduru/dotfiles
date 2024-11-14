@@ -1,0 +1,25 @@
+2024-09-24 18:39:51.658 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-09-24 18:39:51.658 [info] Auto Sync is enabled.
+2024-09-24 18:39:51.658 [info] Auto Sync: Suspended until auth token is available.
+2024-09-24 18:39:53.523 [info] Auto Sync: Triggered by Interval
+2024-09-24 18:39:53.523 [info] Sync started.
+2024-09-24 18:39:54.204 [info] Settings: No changes found during synchronizing settings.
+2024-09-24 18:39:54.267 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-09-24 18:39:54.269 [info] Snippets: No changes found during synchronizing snippets.
+2024-09-24 18:39:54.270 [info] Tasks: No changes found during synchronizing tasks.
+2024-09-24 18:39:55.392 [info] GlobalState: Updated remote ui state. Updated: workbench.view.extension.gitlens.state.hidden.
+2024-09-24 18:39:55.399 [info] GlobalState: Updated last synchronized ui state
+2024-09-24 18:39:56.513 [info] Extensions: Updated remote extensions. Updated: ["eamodio.gitlens"].
+2024-09-24 18:39:56.516 [info] Extensions: Updated last synchronized extensions. Skipped: ["msjsdiag.debugger-for-edge","dzannotti.vscode-babel-coloring"].
+2024-09-24 18:39:56.517 [info] Profiles: No changes found during synchronizing profiles.
+2024-09-24 18:39:56.518 [info] Sync done. Took 2995ms
+2024-09-24 18:40:17.624 [info] Auto Sync: Triggered by Activity
+2024-09-24 18:40:17.624 [info] Sync started.
+2024-09-24 18:40:17.749 [info] Settings: No changes found during synchronizing settings.
+2024-09-24 18:40:17.751 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-09-24 18:40:17.753 [info] Snippets: No changes found during synchronizing snippets.
+2024-09-24 18:40:17.754 [info] Tasks: No changes found during synchronizing tasks.
+2024-09-24 18:40:17.756 [info] GlobalState: No changes found during synchronizing ui state.
+2024-09-24 18:40:17.796 [info] Extensions: No changes found during synchronizing extensions.
+2024-09-24 18:40:17.799 [info] Profiles: No changes found during synchronizing profiles.
+2024-09-24 18:40:17.800 [info] Sync done. Took 177ms

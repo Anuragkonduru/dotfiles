@@ -1,0 +1,11 @@
+import "dotenv/config";
+import postgres from "postgres";
+
+async function migration() {
+  const migrationClient = postgres(process.env.POSTGRES_URL, { max: 1 });
+  const db = drizzle(sql);
+  await migrate(db, { migrationsFolder: "drizzle" });
+
+  await sql.end();
+}
+migration();

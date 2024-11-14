@@ -1,0 +1,24 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 7
+    },
+    "auditLog": "/home/anu/.config/ticktick/logs/electron/.0e6b21eb2f3178ab4491da0857d71f87fcf12200-audit.json",
+    "files": [
+        {
+            "date": 1721231211948,
+            "name": "/home/anu/.config/ticktick/logs/electron/electron-2024-07-17.log",
+            "hash": "12b06163052483dfc2fa2c40808158c2"
+        },
+        {
+            "date": 1726630998650,
+            "name": "/home/anu/.config/ticktick/logs/electron/electron-2024-09-18.log",
+            "hash": "a390ead25f3c791d6f63de7dfe57ce24"
+        },
+        {
+            "date": 1727841247517,
+            "name": "/home/anu/.config/ticktick/logs/electron/electron-2024-10-02.log",
+            "hash": "4dabd16cfbd876a3b50e6b4da9b214a8"
+        }
+    ]
+}

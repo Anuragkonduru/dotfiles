@@ -1,0 +1,53 @@
+<div class="content">
+  <h1>Template Driven Form</h1>
+  <form
+    class="formMain"
+    (ngSubmit)="submit(formReference)"
+    #formReference="ngForm"
+  >
+    <div class="feilds">
+      <label for="Name">Enter Name:</label>
+      <input
+        type="text"
+        id="Name"
+        placeholder="YourName"
+        name="Name"
+        ngModel
+        mail
+        required
+      />
+    </div>
+    <div class="feilds">
+      <label for="Email">Enter Email:</label>
+      <input
+        type="email"
+        id="Email"
+        placeholder="Example@gmail.com"
+        name="Email"
+        ngModel
+        email
+        required
+      />
+    </div>
+    <div class="feilds">
+      <label for="Age">Enter Age: </label>
+      <input
+        type="number"
+        id="Age"
+        placeholder="24"
+        name="Age"
+        ngModel
+        mail
+        required
+      />
+    </div>
+    <button type="submit">Add</button>
+  </form>
+  <div class="list">
+    <div *ngFor="let list of lists">
+      <p>{{ list.Name }}</p>
+      <p>{{ list.Email }}</p>
+      <p>{{ list.Age }}</p>
+    </div>
+  </div>
+</div>

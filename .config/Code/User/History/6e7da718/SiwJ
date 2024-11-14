@@ -1,0 +1,2 @@
+DATABASE_URL="mysql://root:BfZaZTioYJqBRsPMkTfowdvXUzPMrDNc@roundhouse.proxy.rlwy.net:40375/railway"
+SECRET_KEY="2396b84fd4698d2ba0fa01729fde7b454234464baaa408b419b5ebbebde62a6e472fbc656221d95fc9c0a50e4c320afc277adb22b0a98e431687aa70d5faf4b8"

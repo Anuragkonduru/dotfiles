@@ -1,0 +1,68 @@
+{
+    "userDataProfilesMigration": true,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/anu/Documents/GitHub/Product-Ecommerce": "__default__profile__",
+            "file:///home/anu/Documents/GitHub/countweather": "__default__profile__",
+            "file:///home/anu/Documents/GitHub/ECDelivery": "__default__profile__",
+            "file:///home/anu/Documents/GitHub/Arc-server": "__default__profile__",
+            "file:///home/anu/Documents/GitHub/Coding": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "profileAssociationsMigration": true,
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "63434a6e310bee1e89f6c5834c082e13cdc4ddcabd8db5efd170750cb835e2aa",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/anu/Documents/GitHub/Arc-server"
+            },
+            {
+                "folderUri": "file:///home/anu/Documents/GitHub/Coding"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e2e",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cdd6f4",
+            "background": "#1e1e2e",
+            "editorBackground": "#1e1e2e",
+            "titleBarBackground": "#11111b",
+            "activityBarBackground": "#11111b",
+            "sideBarBackground": "#181825",
+            "statusBarBackground": "#11111b",
+            "statusBarNoFolderBackground": "#11111b",
+            "windowBorder": "rgba(0, 0, 0, 0)"
+        },
+        "layoutInfo": {
+            "sideBarSide": "right",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 318,
+            "statusBarHeight": 22,
+            "windowBorder": true
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/anu/Documents/GitHub/Coding",
+            "backupPath": "/home/anu/.config/Cursor/Backups/8461794106272a3336dddec75ce8dcc3",
+            "uiState": {
+                "mode": 1,
+                "x": 9,
+                "y": 50,
+                "width": 1902,
+                "height": 1021
+            }
+        },
+        "openedWindows": []
+    }
+}

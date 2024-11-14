@@ -1,0 +1,168 @@
+00:00:00.279 |I| Configuration LogValueChange: ResScale set to: 1
+00:00:00.286 |I| Configuration LogValueChange: ResScaleCustom set to: 1
+00:00:00.286 |I| Configuration LogValueChange: MaxAnisotropy set to: -1
+00:00:00.287 |I| Configuration LogValueChange: AspectRatio set to: Fixed16x9
+00:00:00.288 |I| Configuration LogValueChange: BackendThreading set to: Auto
+00:00:00.289 |I| Configuration LogValueChange: GraphicsBackend set to: Vulkan
+00:00:00.289 |I| Configuration LogValueChange: PreferredGpu set to: 0x1002_0x7340
+00:00:00.290 |I| Configuration LogValueChange: AntiAliasing set to: None
+00:00:00.291 |I| Configuration LogValueChange: ScalingFilter set to: Bilinear
+00:00:00.291 |I| Configuration LogValueChange: ScalingFilterLevel set to: 80
+00:00:00.292 |I| Configuration LogValueChange: EnableDockedMode set to: True
+00:00:00.299 |I| Configuration LogValueChange: EnableVsync set to: True
+00:00:00.299 |I| Configuration LogValueChange: EnableShaderCache set to: True
+00:00:00.299 |I| Configuration LogValueChange: EnableTextureRecompression set to: False
+00:00:00.299 |I| Configuration LogValueChange: EnableMacroHLE set to: True
+00:00:00.299 |I| Configuration LogValueChange: EnableColorSpacePassthrough set to: False
+00:00:00.299 |I| Configuration LogValueChange: EnablePtc set to: True
+00:00:00.299 |I| Configuration LogValueChange: EnableInternetAccess set to: False
+00:00:00.299 |I| Configuration LogValueChange: EnableFsIntegrityChecks set to: True
+00:00:00.300 |I| Configuration LogValueChange: FsGlobalAccessLogMode set to: 0
+00:00:00.300 |I| Configuration LogValueChange: AudioBackend set to: SDL2
+00:00:00.300 |I| Configuration LogValueChange: AudioVolume set to: 1
+00:00:00.302 |I| Configuration LogValueChange: MemoryManagerMode set to: HostMappedUnsafe
+00:00:00.302 |I| Configuration LogValueChange: ExpandRam set to: False
+00:00:00.302 |I| Configuration LogValueChange: IgnoreMissingServices set to: False
+00:00:00.302 |I| Configuration LogValueChange: UseHypervisor set to: True
+00:00:00.305 |I| Configuration LogValueChange: MultiplayerMode set to: Disabled
+00:00:00.312 |W| Application GetActualScaleFactor: Couldn't determine monitor DPI: Wayland not yet supported
+00:00:00.312 |N| Application PrintSystemInfo: Ryujinx Version: 1.1.1334+304952fc82bb759e2316fefc0edf32abe48ceb4d
+00:00:00.324 |N| Application Print: Operating System: Arch Linux (X64)
+00:00:00.324 |N| Application Print: CPU: AMD Ryzen 5 5600H with Radeon Graphics ; 12 logical
+00:00:00.326 |N| Application Print: RAM: Total 7.1 GiB ; Available 4.6 GiB
+00:00:00.328 |N| Application PrintSystemInfo: Logs Enabled: Info, Warning, Error, Guest, Stub
+00:00:00.329 |N| Application PrintSystemInfo: Launch Mode: UserProfile
+00:00:00.197 |I| Gpu : Backend Threading (Auto): True
+00:00:00.389 |N| Application LoadGuestApplication: Using Firmware Version: 18.0.0
+00:00:00.390 |I| Application LoadGuestApplication: Loading as NSP.
+00:00:00.421 |I| ModLoader QueryContentsDir: Searching mods for Application 0100800015926000 in "/home/[redacted]/.config/Ryujinx/mods/contents"
+00:00:00.422 |I| ModLoader QueryContentsDir: Searching mods for Application 0100800015926000 in "/home/[redacted]/.config/Ryujinx/sdcard/atmosphere/contents"
+00:00:00.426 |I| Loader Load: Loading rtld...
+00:00:00.434 |I| Loader PrintRoSectionInfo: rtld:
+    Module: nnrtld
+00:00:00.434 |I| Loader Load: Loading main...
+00:00:00.612 |I| Loader PrintRoSectionInfo: main:
+    Module: E:\Projects\Watermelon\Watermelon\SwitchIL2CPPCache\il2cpp_cache\linkresult_06746CDE3938B806A9E69F891EB21675\SwitchPlayer.nss
+    SDK Libraries: SDK MW+UnityTechnologies+Unity-2019_4_26_f1
+                   SDK MW+Nintendo+NintendoSDK_libcurl-11_4_3-Release
+                   SDK MW+Nintendo+NintendoSDK_libz-11_4_3-Release
+                   SDK MW+Nintendo+NEX_DS-4_6_5
+                   SDK MW+Nintendo+NEX-4_6_5-
+                   SDK MW+Nintendo+NEX_R2-4_6_5
+                   SDK MW+Nintendo+NEX_RK-4_6_5
+                   SDK MW+Nintendo+NEX_CO-4_6_5
+                   SDK MW+Nintendo+NEX_SS-4_6_5
+                   SDK MW+Nintendo+NEX_UT-4_6_5
+00:00:00.613 |I| Loader Load: Loading subsdk0...
+00:00:00.638 |I| Loader PrintRoSectionInfo: subsdk0:
+    Module: multimedia
+    SDK Libraries: SDK MW+Nintendo+NintendoSDK_movie-11_4_3-Release
+00:00:00.638 |I| Loader Load: Loading sdk...
+00:00:00.685 |I| Loader PrintRoSectionInfo: sdk:
+    Module: nnSdk
+    FS SDK Version: 11.4.3
+    SDK Libraries: SDK MW+Nintendo+NintendoSDK_libz-11_4_3-Release
+                   SDK MW+Nintendo+NintendoSdk_nnSdk-11_4_3-Release
+                   SDK MW+Nintendo+NintendoSDK_NVN-11_4_3-Release
+00:00:00.791 |I| Ptc Initialize: Initializing Profiled Persistent Translation Cache (enabled: True).
+00:00:01.266 |I| Ptc Load: Loaded Translation Cache (size: 36759423 bytes, translated functions: 23947).
+00:00:01.279 |I| Ptc Load: Loaded Profiling Info (size: 82784 bytes, profiled functions: 23920).
+00:00:01.284 |I| Loader LoadNsos: Loading image 0 at 0x0000000008500000...
+00:00:01.285 |I| Loader LoadNsos: Loading image 1 at 0x0000000008504000...
+00:00:01.320 |I| Loader LoadNsos: Loading image 2 at 0x000000000b5ce000...
+00:00:01.324 |I| Loader LoadNsos: Loading image 3 at 0x000000000bc74000...
+00:00:01.333 |I| ModLoader LoadCheats: Build ids found for application 0100800015926000:
+    6F8B1226CC8CD958021D6BFD226EBF23F892AB9B000000000000000000000000
+    CF58C17A55E27D47BC91D7F1AED226EE00000000000000000000000000000000
+    507F19D1240D09D00992248E8A0FD77EBD784EB4000000000000000000000000
+    2D369D9999E3E10E665106F840FFFF9BDAA0BB8E000000000000000000000000
+00:00:01.338 |I| Application EnsureSaveData: Ensuring required savedata exists.
+00:00:01.373 |I| Loader Start: Application Loaded: スイカゲーム v1.0.0 [0100800015926000] [64-bit]
+00:00:01.410 |I| GUI.WindowThread Hid Configure: Configured Controller JoyconPair to Player1
+00:00:01.422 |I| GUI.WindowThread Hid SetupNpad: Connected Controller JoyconPair to Player1
+00:00:01.607 |N| GUI.RenderThread Gpu PrintGpuInformation: AMD AMD Radeon RX 5500M (RADV NAVI14) (Vulkan v1.3.278, Driver v24.1.1)
+00:00:01.616 |I| GPU.MainThread Gpu LoadShaders: Loading 10 shaders from the cache...
+00:00:01.692 |I| GPU.MainThread Gpu LoadShaders: Shader cache loaded.
+00:00:02.344 |I| HLE.GuestThread.46 Ptc LoadTranslations: 23920 translated functions loaded
+00:00:02.433 |S| HLE.OsThread.47 ServiceAm GetAppletResourceUserId: Stubbed. {appletResourceUserId: 1}
+00:00:02.442 |S| HLE.OsThread.47 ServiceAm AcquireForegroundRights: Stubbed. 
+00:00:02.443 |S| HLE.OsThread.47 ServiceAm SetFocusHandlingMode: Stubbed. {unknownFlag1: False ; unknownFlag2: False ; unknownFlag3: True}
+00:00:02.443 |S| HLE.OsThread.47 ServiceAm SetOutOfFocusSuspendingEnabled: Stubbed. {outOfFocusSuspendingEnabled: False}
+00:00:02.467 |S| HLE.OsThread.47 ServicePctl Initialize: Stubbed. 
+00:00:02.489 |S| HLE.OsThread.4 ServiceNv FinishInitialize: Stubbed. 
+00:00:02.493 |S| HLE.OsThread.47 ServiceAm SetRestartMessageEnabled: Stubbed. {restartMessageEnabled: True}
+00:00:02.494 |S| HLE.OsThread.47 ServiceAm SetPerformanceModeChangedNotification: Stubbed. {performanceModeChangedNotification: True}
+00:00:02.494 |S| HLE.OsThread.47 ServiceAm SetOperationModeChangedNotification: Stubbed. {operationModeChangedNotification: True}
+00:00:02.523 |S| HLE.OsThread.1 ServiceBsd RegisterClient: Stubbed. 
+00:00:02.523 |S| HLE.OsThread.1 ServiceBsd StartMonitoring: Stubbed. {unknown0: 0}
+00:00:02.658 |S| HLE.OsThread.47 ServiceSsl SetInterfaceVersion: Stubbed. {interfaceVersion: 3}
+00:00:02.665 |S| HLE.OsThread.3 ServiceHid ActivateTouchScreen: Stubbed. {appletResourceUserId: 1}
+00:00:02.666 |S| HLE.OsThread.3 ServiceHid ActiveNpadImpl: Stubbed. {appletResourceUserId: 1 ; revision: 3}
+00:00:02.666 |S| HLE.OsThread.3 ServiceHid SetSupportedNpadStyleSet: Stubbed. {pid: 127 ; appletResourceUserId: 1 ; type: ProController, Handheld, JoyconPair}
+00:00:02.670 |S| HLE.OsThread.3 ServiceHid SetSupportedNpadIdType: Stubbed. 9 Players: Handheld,Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8
+00:00:02.670 |S| HLE.OsThread.3 ServiceHid ActivateDebugPad: Stubbed. {appletResourceUserId: 1}
+00:00:02.684 |S| HLE.OsThread.4 ServiceNv InitializeEx: Stubbed. 
+00:00:02.698 |S| HLE.OsThread.4 ServiceNv GetActiveSlotMask: Stubbed. 
+00:00:02.739 |S| HLE.OsThread.4 ServiceNv SetNvMapFd: Stubbed. 
+00:00:02.739 |S| HLE.OsThread.4 ServiceNv AllocGpfifoEx2: Stubbed. 
+00:00:02.740 |S| HLE.OsThread.4 ServiceNv AllocObjCtx: Stubbed. 
+00:00:02.741 |S| HLE.OsThread.4 ServiceNv SetErrorNotifier: Stubbed. 
+00:00:02.741 |S| HLE.OsThread.4 ServiceNv SetUserData: Stubbed. 
+00:00:02.741 |S| HLE.OsThread.4 ServiceNv SetTimeout: Stubbed. 
+00:00:02.742 |S| HLE.OsThread.4 ServiceNv SetTimeslice: Stubbed. 
+00:00:02.743 |S| HLE.OsThread.4 ServiceNv ZcullBind: Stubbed. 
+00:00:02.748 |I| HLE.OsThread.47 SurfaceFlinger CreateLayerFromId: Creating layer 1
+00:00:02.750 |I| HLE.OsThread.47 SurfaceFlinger CreateLayerFromId: Creating layer 2
+00:00:02.800 |I| HLE.OsThread.11 AudioRenderer AcquireSessionId: Registered new output (0)
+00:00:02.826 |I| HLE.OsThread.11 Audio EnsureAudioStreamSetup: New audio stream setup with a target sample count of 1024
+00:00:04.779 |S| HLE.OsThread.47 ServiceAcc InitializeApplicationInfo: Stubbed. {TitleId: 72198331888197632}
+00:00:04.781 |S| HLE.OsThread.47 ServiceAcc IsUserAccountSwitchLocked: Stubbed. 
+00:00:04.792 |S| HLE.OsThread.47 ServiceNifm CreateRequest: Stubbed. {version: 2}
+00:00:04.793 |S| HLE.OsThread.47 ServiceNifm Submit: Stubbed. 
+00:00:04.793 |S| HLE.OsThread.47 ServiceNifm GetRequestState: Stubbed. 
+00:00:04.793 |S| HLE.OsThread.47 ServiceNifm GetResult: Stubbed. 
+00:00:04.793 |S| HLE.OsThread.47 ServiceNifm GetAppletInfo: Stubbed. 
+00:00:04.864 |I| HLE.OsThread.47 ServiceAm GetDesiredLanguage: Application doesn't support configured language. Using Japanese
+00:00:22.401 |W| HLE.OsThread.4 ServiceNv Wait: GPU processing thread is too slow, waiting on CPU...
+00:00:32.373 |I| .NET TP Worker Ptc Save: Saved Profiling Info (size: 82860 bytes, profiled functions: 23939).
+00:01:02.359 |I| .NET TP Worker Ptc Save: Saved Profiling Info (size: 82863 bytes, profiled functions: 23940).
+00:02:02.362 |I| .NET TP Worker Ptc Save: Saved Profiling Info (size: 82877 bytes, profiled functions: 23943).
+00:03:32.358 |I| .NET TP Worker Ptc Save: Saved Profiling Info (size: 82889 bytes, profiled functions: 23946).
+00:04:34.701 |I| .NET TP Worker ServiceNifm LocalInterfaceCacheHandler: NetworkAddress changed, invalidating cached data.
+00:08:28.274 |W| HLE.OsThread.4 ServiceNv Wait: GPU processing thread is too slow, waiting on CPU...
+00:08:32.359 |I| .NET TP Worker Ptc Save: Saved Profiling Info (size: 82940 bytes, profiled functions: 23959).
+00:08:39.518 |W| HLE.OsThread.4 ServiceNv Wait: GPU processing thread is too slow, waiting on CPU...
+00:09:02.359 |I| .NET TP Worker Ptc Save: Saved Profiling Info (size: 83051 bytes, profiled functions: 23987).
+00:12:02.358 |I| .NET TP Worker Ptc Save: Saved Profiling Info (size: 83054 bytes, profiled functions: 23988).
+00:14:02.359 |I| .NET TP Worker Ptc Save: Saved Profiling Info (size: 83058 bytes, profiled functions: 23989).
+00:17:02.359 |I| .NET TP Worker Ptc Save: Saved Profiling Info (size: 83062 bytes, profiled functions: 23990).
+00:18:05.553 |W| HLE.OsThread.4 ServiceNv Wait: GPU processing thread is too slow, waiting on CPU...
+00:18:11.976 |W| HLE.GuestThread.46 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.49 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.48 KernelSvc : WaitSynchronization(handleIndex: 0xFFFFFFFF) = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.71 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.50 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.76 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.58 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.73 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.53 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.66 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.69 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.72 KernelSvc : WaitSynchronization(handleIndex: 0xFFFFFFFF) = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.54 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.70 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.68 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.55 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.67 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.65 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.64 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.56 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.63 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.62 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.57 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.60 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.61 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.59 KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:18:11.976 |W| HLE.GuestThread.74 KernelSvc : WaitSynchronization(handleIndex: 0xFFFFFFFF) = TerminationRequested
+00:18:12.029 |I| HLE.OsThread.11 AudioRenderer ReleaseSessionId: Unregistered output (0)
+00:18:12.050 |W| GUI.WindowThread ServiceNv Close: Closing channel

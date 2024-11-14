@@ -1,0 +1,29 @@
+2024-11-14 09:23:39.989 [info] Started local extension host with pid 179974.
+2024-11-14 09:23:40.217 [error] Extension 'ms-python.python' wants API proposal 'terminalShellIntegration' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-11-14 09:23:40.598 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-14 09:23:40.598 [info] Settings Sync: Authentication providers updated []
+2024-11-14 09:23:40.668 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-14 09:23:40.668 [info] Settings Sync: Authentication providers updated ["github"]
+2024-11-14 09:23:40.668 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-14 09:23:40.669 [info] Settings Sync: Authentication providers updated ["github"]
+2024-11-14 09:23:40.669 [info] Settings Sync: Updating due to declared authentication providers changed
+2024-11-14 09:23:40.669 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-14 09:23:40.669 [info] Settings Sync: Authentication providers updated ["github"]
+2024-11-14 09:23:40.669 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-14 09:23:40.669 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-14 09:23:40.669 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-14 09:23:40.670 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-14 09:23:40.670 [info] Settings Sync: Updating due to declared authentication providers changed
+2024-11-14 09:23:40.670 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-14 09:23:40.670 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-14 09:23:40.933 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-14 09:23:40.933 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-14 09:23:42.865 [info] [perf] Render performance baseline is 23ms
+2024-11-14 09:23:52.250 [info] Started local extension host with pid 180292.
+2024-11-14 09:23:52.751 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-14 09:23:52.751 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-14 09:24:23.920 [warning] [perf] Renderer reported VERY LONG TASK (497ms), starting profiling session '287a59d0-5300-4e27-b554-3e0c3f6845d8'
+2024-11-14 09:24:23.934 [info] Started local extension host with pid 180687.
+2024-11-14 09:24:24.700 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-14 09:24:24.700 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-14 09:24:54.365 [warning] [perf] Renderer reported VERY LONG TASK (526ms), starting profiling session 'caf637e9-0542-4f8b-9998-42c1cf687bf8'

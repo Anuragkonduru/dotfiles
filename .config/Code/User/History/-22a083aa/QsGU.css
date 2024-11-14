@@ -1,0 +1,20 @@
+.success {
+  background-color: chartreuse;
+}
+.error {
+  background-color: tomato;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+input[type=number] {
+	width: 3em;
+	padding: 0.5em;
+	border: .2em solid #E91E63;
+	border-radius: 4px;
+	text-align: center;
+	appearance: textfield;
+	margin: 0;
+}

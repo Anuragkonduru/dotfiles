@@ -1,0 +1,44 @@
+2024-06-18 20:41:39.864 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-06-18 20:41:39.864 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-06-18 20:41:39.864 [info] Experiment 'pythonSurveyNotification' is active
+2024-06-18 20:41:39.864 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-06-18 20:41:39.864 [info] Experiment 'pythonTestAdapter' is active
+2024-06-18 20:41:39.897 [info] Default formatter is set to esbenp.prettier-vscode for workspace /home/anu/Documents/GitHub/Coding
+2024-06-18 20:41:39.910 [info] Test server listening.
+2024-06-18 20:41:39.921 [info] > conda info --json
+2024-06-18 20:41:40.242 [info] Found: /bin/python --> /bin/python3.12
+2024-06-18 20:41:40.243 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-06-18 20:41:40.243 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-06-18 20:41:40.243 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-06-18 20:41:40.243 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-06-18 20:41:40.243 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-06-18 20:41:40.243 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-06-18 20:41:40.244 [info] Found: /bin/python3 --> /bin/python3.12
+2024-06-18 20:41:40.244 [info] Found: /bin/python3.12 --> /bin/python3.12
+2024-06-18 20:41:40.275 [info] > /bin/python -I ~/.cursor/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2024-06-18 20:41:40.296 [info] Found: /sbin/python --> /sbin/python3.12
+2024-06-18 20:41:40.296 [info] Found: /sbin/python3 --> /sbin/python3.12
+2024-06-18 20:41:40.296 [info] Found: /sbin/python3.12 --> /sbin/python3.12
+2024-06-18 20:41:40.300 [info] Found: /usr/bin/python --> /usr/bin/python3.12
+2024-06-18 20:41:40.300 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2024-06-18 20:41:40.300 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2024-06-18 20:41:40.318 [info] Python interpreter path: /bin/python
+2024-06-18 20:41:40.321 [info] Found: /usr/sbin/python --> /usr/sbin/python3.12
+2024-06-18 20:41:40.321 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.12
+2024-06-18 20:41:40.321 [info] Found: /usr/sbin/python3.12 --> /usr/sbin/python3.12
+2024-06-18 20:41:40.336 [info] > /sbin/python -I ~/.cursor/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2024-06-18 20:41:40.350 [info] > /usr/bin/python -I ~/.cursor/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2024-06-18 20:41:40.378 [info] > /usr/sbin/python -I ~/.cursor/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2024-06-18 20:41:40.418 [info] Send text to terminal: echo /usr/bin/bash
+2024-06-18 20:41:40.440 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-06-18 20:41:40.935 [info] Starting Pylance language server.
+2024-06-18 20:42:07.725 [info] Discover tests for workspace name: Coding - uri: /home/anu/Documents/GitHub/Coding/LeetCodes/mostprofitassign.py
+2024-06-18 20:42:08.947 [info] Discover tests for workspace name: Coding - uri: /home/anu/Documents/GitHub/Coding/LeetCodes/mostprofitassign.py
+2024-06-18 20:43:48.783 [info] Discover tests for workspace name: Coding - uri: /home/anu/Documents/GitHub/Coding/LeetCodes/mostprofitassign.py
+2024-06-18 20:46:51.578 [info] Discover tests for workspace name: Coding - uri: /home/anu/Documents/GitHub/Coding/LeetCodes/mostprofitassign.py
+2024-06-18 20:46:54.047 [info] Discover tests for workspace name: Coding - uri: /home/anu/Documents/GitHub/Coding/LeetCodes/mostprofitassign.py
+2024-06-18 20:46:56.255 [info] Discover tests for workspace name: Coding - uri: /home/anu/Documents/GitHub/Coding/LeetCodes/mostprofitassign.py
+2024-06-18 20:47:15.731 [info] Discover tests for workspace name: Coding - uri: /home/anu/Documents/GitHub/Coding/LeetCodes/mostprofitassign.py
+2024-06-18 20:47:30.405 [info] Discover tests for workspace name: Coding - uri: /home/anu/Documents/GitHub/Coding/LeetCodes/mostprofitassign.py
+2024-06-18 20:47:33.121 [info] Discover tests for workspace name: Coding - uri: /home/anu/Documents/GitHub/Coding/LeetCodes/mostprofitassign.py
+2024-06-18 20:52:27.365 [info] Discover tests for workspace name: Coding - uri: /home/anu/Documents/GitHub/Coding/LeetCodes/mostprofitassign.py

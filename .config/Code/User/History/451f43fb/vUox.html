@@ -1,0 +1,35 @@
+<div class="flex flex-col">
+
+  <form [formGroup]="login" (ngSubmit)="onLogin()" class="flex flex-col">
+    <label for="userName">Email</label>
+    <input
+    id="userName"
+    type="email"
+    formControlName="userName"
+    placeholder="Example@mail.com"
+    />
+    <input id="password" type="text" formControlName="password" />
+    <label for="password">Password</label>
+    <button class="w-8 text-xl p-1 m-0 border-2 border-black">Login</button>
+  </form>
+  <form [formGroup]="signUp" (ngSubmit)="onSignUp()" class="flex flex-col">
+    <label for="userName">Email</label>
+    <input
+    id="userName"
+    type="email"
+    formControlName="userName"
+    placeholder="Example@mail.com"
+    />
+    <label for="password"> Password</label>
+    <input id="password" type="text" formControlName="password" />
+    <label for="matchPassword">Confirm Password</label>
+    <input id="matchPassword" type="text" formControlName="matchPassword" />
+    <label for="firstName">First Name</label>
+    <input id="firstName" type="text" formControlName="firstName" />
+    <label for="lastName">Last Name</label>
+    <input id="lastName" type="text" formControlName="lastName" />
+    <label for="telephone">Phone No.</label>
+    <input id="telephone" type="text" formControlName="telephone" />
+    <button class=" text-xl p-1 m-0 border-2 border-black">SignUp</button>
+  </form>
+</div>

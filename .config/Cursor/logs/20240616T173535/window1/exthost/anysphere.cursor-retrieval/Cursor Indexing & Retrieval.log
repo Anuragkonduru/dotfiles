@@ -1,0 +1,30 @@
+2024-06-16 17:35:40.985 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-06-16 17:35:40.985 [info] Creating merkle client.
+2024-06-16 17:35:40.985 [info] Done creating merkle client.
+2024-06-16 17:35:40.985 [info] Doing a startup handshake.
+2024-06-16 17:35:40.985 [info] Finished initializing merkle tree in 17.98105699988082 ms.
+2024-06-16 17:35:40.985 [info] Doing the initial handshake with hash: 25885a235f22e3f0d8942a6495c86558594d5f31d397fd8c92f2d84e445e31c5
+2024-06-16 17:35:40.985 [info] Handshake start
+2024-06-16 17:35:41.930 [info] Handshake timing: 977.736727999989
+2024-06-16 17:35:41.930 [info] Handshake result:
+2024-06-16 17:35:41.930 [info] Starting fast remote sync.
+2024-06-16 17:35:41.931 [info] Total num embeddable files: 29
+2024-06-16 17:35:41.931 [info] Root hash: 25885a235f22e3f0d8942a6495c86558594d5f31d397fd8c92f2d84e445e31c5
+2024-06-16 17:35:41.931 [info] In the out of sync case.
+2024-06-16 17:35:41.931 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"25885a235f22e3f0d8942a6495c86558594d5f31d397fd8c92f2d84e445e31c5"}
+2024-06-16 17:35:41.933 [info] Waiting on semaphore to be released 1
+2024-06-16 17:35:42.131 [info] Waiting on semaphore to be released 1
+2024-06-16 17:35:42.332 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src","hash":"d8cfdc58ec0361ab53d33572265528450967e1618ea67c0f6593f38657631932"}
+2024-06-16 17:35:42.333 [info] Waiting on semaphore to be released 1
+2024-06-16 17:35:42.532 [info] Waiting on semaphore to be released 1
+2024-06-16 17:35:42.733 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/models","hash":"02132b4e4e31d7e05c829da401f656c3ae55d96d5d0f7d1f5c7db647ad2a7b7a"}
+2024-06-16 17:35:42.734 [info] Waiting on semaphore to be released 1
+2024-06-16 17:35:42.934 [info] Waiting on semaphore to be released 1
+2024-06-16 17:35:43.134 [info] setting numJobsToGo to 1
+2024-06-16 17:35:43.134 [info] [startSync]: numJobs: 1
+2024-06-16 17:35:43.135 [info] Uploading 1 files.
+2024-06-16 17:35:45.276 [info] Finished indexing repository.
+2024-06-16 17:35:45.276 [info] Indexing job successfully done or aborted.

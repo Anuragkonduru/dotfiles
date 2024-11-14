@@ -1,0 +1,7 @@
+[Global] Creating projects: [{"folder":"/home/anu/Documents/GitHub/Product-Ecommerce","configPath":"/home/anu/Documents/GitHub/Product-Ecommerce/tailwind.config.js","isUserConfigured":false,"documentSelector":[{"pattern":"/home/anu/Documents/GitHub/Product-Ecommerce/tailwind.config.js","priority":0},{"pattern":"/home/anu/Documents/GitHub/Product-Ecommerce/src/**/*.{html,ts}","priority":1},{"pattern":"/home/anu/Documents/GitHub/Product-Ecommerce/**","priority":3}]}]
+[Global] Adding watch patterns: /home/anu/Documents/GitHub/Product-Ecommerce/tailwind.config.js, /home/anu/Documents/GitHub/Product-Ecommerce
+[tailwind.config.js] Initializing...
+[tailwind.config.js] Loaded Tailwind CSS config file: /home/anu/Documents/GitHub/Product-Ecommerce/tailwind.config.js
+[tailwind.config.js] Loaded postcss v8.4.38: /home/anu/Documents/GitHub/Product-Ecommerce/node_modules/postcss
+[tailwind.config.js] Loaded tailwindcss v3.4.3: /home/anu/Documents/GitHub/Product-Ecommerce/node_modules/tailwindcss
+[tailwind.config.js] Building...

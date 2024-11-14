@@ -1,0 +1,39 @@
+.tab {
+  display: flex;
+  gap: 2rem;
+    margin-top: 2rem;
+}
+.tab > * {
+  padding: 4px;
+  border: 0.2em solid rgb(0, 0, 0);
+  width: 45vw;
+  height: 80vh;
+}
+
+.inner {
+  gap: 12px;
+}
+.inner,
+.inner > * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inner > * {
+  justify-content: center;
+}
+input[type="text"] {
+  width: 12em;
+  padding: 0.5em;
+  border: 0.2em solid #000000;
+  border-radius: 4px;
+  text-align: center;
+  appearance: textfield;
+  margin: 0;
+}
+
+.box {
+  width: 80%;
+  height: 30vh;
+  border: 0.2em solid rgb(0, 0, 0);
+}

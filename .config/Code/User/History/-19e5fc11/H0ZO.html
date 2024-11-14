@@ -1,0 +1,25 @@
+<div class="tab">
+  <h1>Child Component</h1>
+  <div>
+    <h3>From Parent {{ dataFromParent }}</h3>
+  </div>
+  <hr />
+  <div>
+    <input type="text" [(ngModel)]="fromChild" />
+    <button (click)="sendData()"><- Emmit Data To Parent</button>
+  </div>
+</div>
+
+<div class="tab">
+  <div class="inner">
+    <h1>Parent Component</h1>
+    <div class="box">
+      <h2>Send Data To Child -></h2>
+      <input type="text" [(ngModel)]="fromParent" />
+    </div>
+    <div class="box">
+      <h3>Data From Child Using Output :</h3>
+      <h2>{{ fromChild }}</h2>
+    </div>
+  </div>
+</div>
