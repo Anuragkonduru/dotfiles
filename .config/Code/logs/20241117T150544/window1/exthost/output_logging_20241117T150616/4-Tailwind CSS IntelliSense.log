@@ -7,3 +7,11 @@ Searching for Tailwind CSS projects in the workspace's folders.
 [Global] Preparing projects...
 [Global] Initializing projects...
 [Global] Initialized 0 projects
+[Info  - 3:07:31 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/Documents/GitHub/dotfiles/.config/nvim/init.lua',
+  normalPath: '/home/anu/Documents/GitHub/dotfiles/.config/nvim/init.lua'
+}
+[Info  - 3:07:46 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/anu/Documents/GitHub/dotfiles/.config/nvim/init.lua',
+  normalPath: '/home/anu/Documents/GitHub/dotfiles/.config/nvim/init.lua'
+}

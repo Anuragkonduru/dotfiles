@@ -1,0 +1,5 @@
+2024-11-17 15:07:03.971 [info] MessagesManager: '[nvim-treesitter] [0/1] Downloading tree-sitter-gitcommit...\n'
+2024-11-17 15:07:05.291 [info] MessagesManager: '[nvim-treesitter] [0/1] Creating temporary directory\n'
+2024-11-17 15:07:05.292 [info] MessagesManager: '[nvim-treesitter] [0/1] Extracting tree-sitter-gitcommit...\n'
+2024-11-17 15:07:05.311 [info] MessagesManager: '[nvim-treesitter] [0/1] Compiling...\n'
+2024-11-17 15:07:08.666 [info] MessagesManager: '[nvim-treesitter] [1/1] Treesitter parser for gitcommit has been installed\n'

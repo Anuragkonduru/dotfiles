@@ -176,3 +176,6 @@
 2024-11-17 15:06:17.385 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
 2024-11-17 15:06:17.425 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
 2024-11-17 15:06:26.974 [info] ExtensionService#_doActivateExtension sumneko.lua, startup: false, activationEvent: 'onLanguage:lua'
+2024-11-17 15:07:03.631 [warning] TextEditor is closed/disposed
+2024-11-17 15:07:35.809 [warning] TextEditor is closed/disposed
+2024-11-17 15:08:06.207 [warning] TextEditor is closed/disposed
