@@ -88,4 +88,8 @@ return {
 			vim.cmd.colorscheme("solarized")
 		end,
 	},
+	{
+		'kevinhwang91/nvim-ufo',
+		dependencies = {'kevinhwang91/promise-async'}
+	}
 }
