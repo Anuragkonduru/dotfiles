@@ -13,5 +13,6 @@
   <property name="last-details-view-column-widths" type="string" value="50,50,123,50,50,86,50,50,1428,50,50,72,50,103"/>
   <property name="last-sort-column" type="string" value="THUNAR_COLUMN_NAME"/>
   <property name="last-sort-order" type="string" value="GTK_SORT_ASCENDING"/>
-  <property name="last-splitview-separator-position" type="int" value="863"/>
+  <property name="last-splitview-separator-position" type="int" value="832"/>
+  <property name="last-side-pane" type="string" value="ThunarShortcutsPane"/>
 </channel>

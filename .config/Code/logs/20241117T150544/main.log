@@ -6,3 +6,5 @@
 2024-11-17 15:06:15.362 [error] Extension host with pid 901393 still exists, forcefully killing it...
 2024-11-17 15:06:15.428 [warning] [perf] profiling STARTED f5375aae-1b5e-4bcb-b570-b70977447a3c
 2024-11-17 15:06:20.486 [warning] [perf] profiling DONE f5375aae-1b5e-4bcb-b570-b70977447a3c
+2024-11-17 15:13:34.868 [info] Extension host with pid 901733 exited with code: 0, signal: unknown.
+2024-11-17 15:13:35.406 [info] Extension host with pid 901697 exited with code: 0, signal: unknown.

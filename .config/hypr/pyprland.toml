@@ -63,8 +63,8 @@ size = "60% 60%"
 
 [scratchpads.message]
 animation = "fromTop"
-command = "whatsapp-for-linux"
-class = "whatsapp-for-linux"
+command = "wasistlos"
+class = "WasIstLos"
 lazy = true
 unfocus = "hide"
 size = "60% 60%"

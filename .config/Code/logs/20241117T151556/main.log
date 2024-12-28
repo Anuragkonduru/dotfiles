@@ -1,0 +1,5 @@
+2024-11-17 15:15:56.687 [info] update#setState idle
+2024-11-17 15:16:26.687 [info] update#setState checking for updates
+2024-11-17 15:16:26.691 [info] update#setState available for download
+2024-11-17 15:22:45.179 [info] Extension host with pid 905946 exited with code: 0, signal: unknown.
+2024-11-17 15:22:45.787 [info] Extension host with pid 905906 exited with code: 0, signal: unknown.

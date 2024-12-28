@@ -38,7 +38,8 @@
             "file:///home/anu/Documents/GitHub/Angular-misc": "__default__profile__",
             "file:///home/anu/.config/waybar/themes/solarized": "__default__profile__",
             "file:///home/anu/.config/hypr/themes": "__default__profile__",
-            "file:///home/anu/Documents/GitHub/dotfiles/.config/nvim": "__default__profile__"
+            "file:///home/anu/Documents/GitHub/dotfiles/.config/nvim": "__default__profile__",
+            "file:///home/anu/Documents/GitHub/things-ng": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -49,7 +50,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/anu/.config/waybar/themes/solarized"
+                "folderUri": "file:///home/anu/Documents/GitHub/things-ng"
             },
             {
                 "folderUri": "file:///home/anu/Documents/GitHub/dotfiles/.config/nvim"
@@ -107,7 +108,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -122,6 +124,17 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Documents/GitHub/dotfiles/.config/nvim"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/anu/Documents/GitHub/things-ng",
+                                        "path": "/home/anu/Documents/GitHub/things-ng",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/GitHub/things-ng"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -210,17 +223,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Documents/GitHub/Arc-server"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/anu/Documents/GitHub/tool",
-                                        "path": "/home/anu/Documents/GitHub/tool",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/GitHub/tool"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -380,7 +382,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -484,8 +487,7 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
@@ -1025,8 +1027,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -1034,7 +1035,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1043,7 +1045,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1561,9 +1564,8 @@
                 "userSettingsLabel": "ctrl+k ctrl+t"
             },
             "workbench.action.closeActiveEditor": {
-                "label": "Ctrl+W Q",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+w q"
+                "label": "Ctrl+W",
+                "userSettingsLabel": "ctrl+w"
             },
             "workbench.action.closeFolder": {
                 "label": "Ctrl+K F",
@@ -1713,16 +1715,6 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
             },
-            "workbench.action.splitEditorDown": {
-                "label": "Ctrl+W S",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+w s"
-            },
-            "workbench.action.splitEditorRight": {
-                "label": "Ctrl+W V",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+w v"
-            },
             "workbench.action.splitEditorInGroup": {
                 "label": "Ctrl+K Ctrl+Shift+\\",
                 "isNative": false,
@@ -1825,11 +1817,6 @@
             "workbench.action.focusFifthEditorGroup": {
                 "label": "Ctrl+5",
                 "userSettingsLabel": "ctrl+5"
-            },
-            "workbench.action.focusNextGroup": {
-                "label": "Ctrl+W Ctrl+W",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+w ctrl+w"
             },
             "workbench.action.focusLeftGroup": {
                 "label": "Ctrl+K Ctrl+LeftArrow",
@@ -1960,13 +1947,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/anu/.config/waybar/themes/solarized",
-            "backupPath": "/home/anu/.config/Code/Backups/b5e28be27771a22754d218b46e06f60e",
+            "folder": "file:///home/anu/Documents/GitHub/things-ng",
+            "backupPath": "/home/anu/.config/Code/Backups/e9387dc359d1a50faf459421268ce3e8",
             "uiState": {
                 "mode": 1,
-                "x": 1929,
+                "x": 2982,
                 "y": 51,
-                "width": 1902,
+                "width": 849,
                 "height": 1020
             }
         },
@@ -2002,5 +1989,5 @@
             "windowBorder": false
         }
     },
-    "telemetry.devDeviceId": "2b91461b-b6c8-4d00-9843-0d14b4b40654"
+    "telemetry.devDeviceId": "ce7cbd1b-eb24-459d-b09a-a1514d54a85e"
 }

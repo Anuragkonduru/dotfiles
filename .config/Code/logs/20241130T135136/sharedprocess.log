@@ -1,0 +1,28 @@
+2024-11-30 14:10:04.191 [info] Getting Manifest... esbenp.prettier-vscode
+2024-11-30 14:10:04.192 [info] Getting Manifest... miguelsolorio.fluent-icons
+2024-11-30 14:10:04.374 [info] Installing extension: miguelsolorio.fluent-icons {"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/anu/.vscode/extensions/extensions.json","path":"/home/anu/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-11-30 14:10:04.379 [info] Installing extension: esbenp.prettier-vscode {"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/anu/.vscode/extensions/extensions.json","path":"/home/anu/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-11-30 14:10:06.704 [info] Extension signature verification result for esbenp.prettier-vscode: UnknownError. Executed: true. Duration: 16ms.
+2024-11-30 14:10:06.786 [info] Extracted extension to file:///home/anu/.vscode/extensions/esbenp.prettier-vscode-11.0.0: esbenp.prettier-vscode
+2024-11-30 14:10:06.788 [info] Renamed to /home/anu/.vscode/extensions/esbenp.prettier-vscode-11.0.0
+2024-11-30 14:10:06.799 [info] Marked extension as uninstalled esbenp.prettier-vscode-10.4.0
+2024-11-30 14:10:06.816 [info] Extension installed successfully: esbenp.prettier-vscode vscode-userdata:/home/anu/.vscode/extensions/extensions.json
+2024-11-30 14:10:06.878 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/anu/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/anu/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-11-30 14:10:07.667 [info] Extension signature verification result for miguelsolorio.fluent-icons: UnknownError. Executed: true. Duration: 7ms.
+2024-11-30 14:10:07.732 [info] Extracted extension to file:///home/anu/.vscode/extensions/miguelsolorio.fluent-icons-0.0.19: miguelsolorio.fluent-icons
+2024-11-30 14:10:07.734 [info] Renamed to /home/anu/.vscode/extensions/miguelsolorio.fluent-icons-0.0.19
+2024-11-30 14:10:07.742 [info] Marked extension as uninstalled miguelsolorio.fluent-icons-0.0.18
+2024-11-30 14:10:07.760 [info] Extension installed successfully: miguelsolorio.fluent-icons vscode-userdata:/home/anu/.vscode/extensions/extensions.json
+2024-11-30 14:10:07.812 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/anu/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/anu/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)

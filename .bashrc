@@ -706,12 +706,15 @@ lazyg() {
 
 note() {
 	if [ -z "$1"];then
+		mkdir -p /home/anu/Documents/GitHub/notes/dailynotes/$(date -u +%Y)
 		nvim /home/anu/Documents/GitHub/notes/dailynotes/$(date -u +%Y)/$(date -u +%d_%m_%Y).md
 	else
 		nvim /home/anu/Documents/GitHub/notes/in/$1.md
 	fi
 		
 }
+
+export MANPAGER='nvim +Man!'
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)

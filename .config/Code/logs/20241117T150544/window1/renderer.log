@@ -14,3 +14,4 @@
 2024-11-17 15:06:16.396 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
 2024-11-17 15:06:16.396 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
 2024-11-17 15:06:18.405 [info] [perf] Render performance baseline is 24ms
+2024-11-17 15:13:35.372 [warning] [perf] Renderer reported VERY LONG TASK (519ms), starting profiling session '32329ce6-8c64-4576-88b1-f9f76a9729a3'

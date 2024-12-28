@@ -1,0 +1,14 @@
+2024-11-30 13:51:36.569 [info] update#setState idle
+2024-11-30 13:52:06.545 [info] update#setState checking for updates
+2024-11-30 13:52:06.658 [info] update#setState idle
+2024-11-30 14:24:55.645 [info] Extension host with pid 1100963 exited with code: 0, signal: unknown.
+2024-11-30 14:24:56.646 [error] Extension host with pid 1100963 still exists, forcefully killing it...
+2024-11-30 14:49:00.345 [error] CodeWindow: detected unresponsive
+2024-11-30 14:49:05.598 [info] Extension host with pid 1109613 exited with code: 0, signal: unknown.
+2024-11-30 14:52:06.547 [info] update#setState checking for updates
+2024-11-30 14:52:07.159 [info] update#setState idle
+2024-11-30 15:52:06.551 [info] update#setState checking for updates
+2024-11-30 15:52:07.028 [info] update#setState idle
+2024-11-30 16:52:06.555 [info] update#setState checking for updates
+2024-11-30 16:52:07.134 [info] update#setState idle
+2024-11-30 17:45:35.905 [info] Extension host with pid 1115897 exited with code: 0, signal: unknown.

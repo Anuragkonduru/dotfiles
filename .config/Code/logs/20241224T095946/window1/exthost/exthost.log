@@ -1,0 +1,5 @@
+2024-12-24 09:59:47.935 [info] Extension host with pid 567782 started
+2024-12-24 09:59:47.935 [info] Skipping acquiring lock for /home/anu/.config/Code/User/workspaceStorage/3feea9ff58c7930770fa771924ea1a14.
+2024-12-24 09:59:48.040 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-12-24 09:59:48.078 [info] Extension host terminating: renderer closed the MessagePort
+2024-12-24 09:59:48.078 [info] Extension host with pid 567782 exiting with code 0

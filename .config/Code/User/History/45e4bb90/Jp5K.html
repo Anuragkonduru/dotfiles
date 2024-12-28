@@ -1,0 +1,15 @@
+@for(item of data;track item){
+<h1>
+  {{ item }}
+</h1>
+}
+
+<input type="number" [()]="signalInput">
+
+<button (mouseDown)="updateSignal()">
+  update signal
+</button>
+
+<h1>signalMultiplier : {{signalService.signalCount}}</h1>
+
+<h1> signalMultiplier : {{signalService.signalMultiplier}}</h1>

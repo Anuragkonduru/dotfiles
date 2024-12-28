@@ -1,0 +1,1 @@
+export const add = createAction('[FavoriteProduct] Add', props < {item: FavoriteProduct} >);

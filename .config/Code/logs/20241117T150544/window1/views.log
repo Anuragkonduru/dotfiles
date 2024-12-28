@@ -41,3 +41,4 @@
 2024-11-17 15:06:18.079 [info] Added views:gitlens.views.timeline in workbench.view.extension.gitlensInspect
 2024-11-17 15:06:18.080 [info] Added views:gitlens.views.worktrees in workbench.view.scm
 2024-11-17 15:06:54.518 [info] Added views:workbench.scm.repositories,workbench.scm.history in workbench.view.scm
+2024-11-17 15:13:35.359 [info] Removed views:workbench.scm.history,workbench.scm.repositories from workbench.view.scm

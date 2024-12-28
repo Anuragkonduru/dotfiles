@@ -248,3 +248,13 @@
 2024-11-02 01:55:32 Success.
 2024-11-02 01:55:32 Latest version is 1.7.4
 2024-11-02 01:55:32 App is up to date.
+2024-11-19 03:36:49 Loading main app package /usr/lib/obsidian/obsidian.asar
+2024-11-19 03:36:49 Checking for update using Github
+2024-11-19 03:36:49 Success.
+2024-11-19 03:36:49 Latest version is 1.7.7
+2024-11-19 03:36:49 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v1.7.7/obsidian-1.7.7.asar.gz
+2024-12-08 13:26:01 Loading main app package /usr/lib/obsidian/obsidian.asar
+2024-12-08 13:26:01 Checking for update using Github
+2024-12-08 13:26:01 Success.
+2024-12-08 13:26:01 Latest version is 1.7.7
+2024-12-08 13:26:01 App is up to date.

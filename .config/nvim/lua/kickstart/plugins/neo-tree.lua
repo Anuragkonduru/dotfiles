@@ -10,14 +10,12 @@ return {
     'MunifTanjim/nui.nvim',
   },
   cmd = 'Neotree',
-  position = 'right',
   keys = {
     { '\\', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
   },
   opts = {
     filesystem = {
       window = {
-          position = 'right',
         mappings = {
           ['\\'] = 'close_window',
         },

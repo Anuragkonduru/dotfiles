@@ -26,7 +26,7 @@ default.txt
 0
 
 [Initial dir for file/archive browser]
-/media/Data/Important/Data/Images/wallpapers/
+/home/anu/Downloads/
 
 [default archiving format]
 18
@@ -84,8 +84,8 @@ default.txt
 
 [save history of recent archives]
 1
-/home/anu/.icons/rose-pine-icons.tar.gz
 /media/Data/Important/Data/phone bkp 2024/Download.zip
+
 
 
 
@@ -117,13 +117,13 @@ default.txt
 2982
 
 [top]
-50
+567
 
 [width]
 849
 
 [height]
-1021
+504
 
 [archive formats to show in favourite popup menu]
 1
@@ -409,13 +409,13 @@ PeaZip
 0
 
 [save history of recent directories]
-/home/anu/.icons/rose-pine-icons.tar.gz
+/home/anu/Downloads/
+/home/anu/Downloads/torentz/Torentz/
+/media/Data/Important/Music/Music/
 /home/anu/.icons/
 /media/Data/Important/Data/Images/wallpapers/
 /media/Data/Important/Data/phone bkp 2024/
-/home/anu/Downloads/
 /home/anu/Downloads/Docs/cert/EPFO ,Other  Forms/Anurag EPFO Passbook/
-
 
 
 [enumerate content of directories sent to archiving operations: 0 no (faster) 1 yes (default, slower)]

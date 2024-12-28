@@ -1,0 +1,26 @@
+<div
+  class="text-3xl flex flex-col gap-4 justify-center items-center text-center mx-4"
+>
+  @for(item of data;track item){
+  <h1>
+    {{ item }}
+  </h1>
+  }
+
+  <input
+    class="py-3 px-4 border-2 border-black rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none"
+    type="number"
+    [(ngModel)]="signalInput"
+  />
+
+  <button
+    class="border-2 border-blue-600 bg-blue-800 text-white rounded-md p-2"
+    (click)="updateSignal()"
+  >
+    update signal
+  </button>
+
+  <h1>SignalCount : {{ signalService.signalCount() }}</h1>
+
+  <h1>SignalMultiplier : {{ signalService.signalMultiplier() }}</h1>
+</div>
