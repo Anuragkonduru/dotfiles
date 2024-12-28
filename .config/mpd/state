@@ -1,9 +1,9 @@
 sw_volume: 63
 audio_device_state:1:pulseaudio
 audio_device_state:1:Visualizer
-state: play
-current: 429
-time: 29.718000
+state: pause
+current: 128
+time: 0.000000
 random: 1
 repeat: 0
 single: 1
