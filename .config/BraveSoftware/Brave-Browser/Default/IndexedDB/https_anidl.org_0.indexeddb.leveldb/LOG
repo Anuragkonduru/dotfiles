@@ -1,6 +1,0 @@
-2024/12/18-23:20:11.952 10d95 Creating DB /home/anu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_anidl.org_0.indexeddb.leveldb since it was missing.
-2024/12/18-23:20:11.966 10d95 Reusing MANIFEST /home/anu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_anidl.org_0.indexeddb.leveldb/MANIFEST-000001
-2024/12/18-23:20:11.989 10d93 Level-0 table #5: started
-2024/12/18-23:20:11.990 10d93 Level-0 table #5: 1387 bytes OK
-2024/12/18-23:20:11.991 10d93 Delete type=0 #3
-2024/12/18-23:20:11.991 10d81 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

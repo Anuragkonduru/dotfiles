@@ -1,3 +1,5 @@
+---@diagnostic disable: undefined-global
+---@require("keymaps")
 --[[
 
 =====================================================================
@@ -146,7 +148,7 @@ vim.opt.splitbelow = true
 --  See `:help 'list'`
 --  and `:help 'listchars'`
 vim.opt.list = true
-vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
+vim.opt.listchars = { tab = '  ', trail = '·', nbsp = '␣' }
 
 -- Preview substitutions live, as you type!
 vim.opt.inccommand = 'split'
@@ -676,11 +678,10 @@ require('lazy').setup({
 
   { -- Autoformat
     'stevearc/conform.nvim',
-    event = { 'BufWritePre' },
-    cmd = { 'ConformInfo' },
+    lazy = false,
     keys = {
       {
-        '<leader>f',
+        '<leader>F',
         function()
           require('conform').format { async = true, lsp_format = 'fallback' }
         end,
@@ -690,30 +691,33 @@ require('lazy').setup({
     },
     opts = {
       notify_on_error = false,
-      format_on_save = function(bufnr)
-        -- Disable "format_on_save lsp_fallback" for languages that don't
-        -- have a well standardized coding style. You can add additional
-        -- languages here or re-enable it for the disabled ones.
-        local disable_filetypes = { c = true, cpp = true }
-        local lsp_format_opt
-        if disable_filetypes[vim.bo[bufnr].filetype] then
-          lsp_format_opt = 'never'
-        else
-          lsp_format_opt = 'fallback'
-        end
-        return {
-          timeout_ms = 500,
-          lsp_format = lsp_format_opt,
-        }
-      end,
       formatters_by_ft = {
         lua = { 'stylua' },
         -- Conform can also run multiple formatters sequentially
         -- python = { "isort", "black" },
         --
         -- You can use 'stop_after_first' to run the first available formatter from the list
-        -- javascript = { "prettierd", "prettier", stop_after_first = true },
-      },
+        javascript = { "prettierd", "prettier", stop_after_first = true },
+        svelte = { { "prettierd", "prettier", stop_after_first = true } },
+        astro = { { "prettierd", "prettier", stop_after_first = true } },
+        typescript = { { "prettierd", "prettier", stop_after_first = true } },
+        javascriptreact = { { "prettierd", "prettier", stop_after_first = true } },
+        typescriptreact = { { "prettierd", "prettier", stop_after_first = true } },
+        json = { { "prettierd", "prettier", stop_after_first = true } },
+        java = { "google-java-format" },
+        markdown = { { "prettierd", "prettier", stop_after_first = true } },
+        erb = { "htmlbeautifier" },
+        html = { "htmlbeautifier" },
+        bash = { "beautysh" },
+        proto = { "buf" },
+        rust = { "rustfmt" },
+        yaml = { "yamlfix" },
+        toml = { "taplo" },
+        css = { { "prettierd", "prettier", stop_after_first = true } },
+        scss = { { "prettierd", "prettier", stop_after_first = true } },
+        sh = { "shellcheck" },
+        go = { "gofmt" },
+        },
     },
   },
 
@@ -930,14 +934,14 @@ require('lazy').setup({
   -- require 'kickstart.plugins.indent_line',
   -- require 'kickstart.plugins.lint',
   -- require 'kickstart.plugins.autopairs',
-  -- require 'kickstart.plugins.neo-tree',
+   require 'kickstart.plugins.neo-tree',
   -- require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.
   --
   --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
-  -- { import = 'custom.plugins' },
+  { import = 'custom.plugins' },
   --
   -- For additional information with loading, sourcing and examples see `:help lazy.nvim-🔌-plugin-spec`
   -- Or use telescope!
@@ -967,3 +971,9 @@ require('lazy').setup({
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
+vim.o.background = "dark" -- or "light" for light mode
+--vim.cmd([[colorscheme gruvbox]])
+vim.cmd([[colorscheme catppuccin-mocha]])
+--vim.cmd([[colorscheme dracula]])
+--vim.cmd([[colorscheme rose-pine]])
+--vim.cmd([[colorscheme solarized]])

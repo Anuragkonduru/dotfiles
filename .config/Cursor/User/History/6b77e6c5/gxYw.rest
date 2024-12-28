@@ -1,3 +1,0 @@
-Get  http://localhost:3000/Products/getAllProducts
-
-# GET http://localhost:3000/Products//getProduct/1000007

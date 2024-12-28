@@ -1,1 +1,0 @@
-export const selectAppstore = createSelector()

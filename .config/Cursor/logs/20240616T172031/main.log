@@ -1,7 +1,0 @@
-2024-06-16 17:20:31.731 [info] update#setState disabled
-2024-06-16 17:20:31.743 [info] update#ctor - updates are disabled as there is no update URL
-2024-06-16 17:20:31.819 [error] [storage state.vscdb] error checking size of src.vs.platform.reactivestorage.browser.reactiveStorageServiceImpl.persistentStorage.workspaceUser: Error: Unexpected number of rows - 0
-2024-06-16 17:20:31.819 [error] [storage state.vscdb] error checking size of workbench.panel.aichat.view.aichat.chatdata: Error: Unexpected number of rows - 0
-2024-06-16 17:20:31.819 [error] [storage state.vscdb] error checking size of workbench.panel.aichat.view.aichat.chatdata: Error: Unexpected number of rows - 0
-2024-06-16 17:20:40.060 [info] Extension host with pid 10296 exited with code: 0, signal: unknown.
-2024-06-16 17:33:12.607 [info] Extension host with pid 10721 exited with code: 0, signal: unknown.
