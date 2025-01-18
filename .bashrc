@@ -21,6 +21,7 @@ alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias mine=" java -jar $HOME/Downloads/stash/Minecrat/TLauncher.v10/TLauncher.jar"
 alias cdph="cd /run/user/1000/gvfs/"
 alias ltt="tree -a -C"
+alias linutil="curl -fsSL https://christitus.com/linux | sh"
 #alias note="nvim /home/anu/Documents/GitHub/Obsidian-Notes/dailynotes/$(date -u +%d_%m_%Y).md"
 
 
