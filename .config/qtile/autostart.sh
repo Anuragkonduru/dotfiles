@@ -1,5 +1,5 @@
 #!/bin/sh
-xrandr --output HDMI-A-1-0 --rate 75 --right-of eDP --rate 60 --auto &
+xrandr --output HDMI-1-1 --rate 75 --right-of eDP-1 --rate 60 --auto &
 #nitrogen --restore &
 #variety &
 #wal -q -i ~/Pictures/Wallpapers/
