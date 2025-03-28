@@ -19,5 +19,8 @@ sleep 10 && mpd &
 volumeicon &
 kitty
 #cbatticon -u 5 &
-xfce4-power-manager &
+# xfce4-power-manager &
 xset -dpms &
+
+
+

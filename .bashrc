@@ -22,6 +22,10 @@ alias mine=" java -jar $HOME/Downloads/stash/Minecrat/TLauncher.v10/TLauncher.ja
 alias cdph="cd /run/user/1000/gvfs/"
 alias ltt="tree -a -C"
 alias linutil="curl -fsSL https://christitus.com/linux | sh"
+alias grubu="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias xopen="env -u WAYLAND_DISPLAY"
+
+
 #alias note="nvim /home/anu/Documents/GitHub/Obsidian-Notes/dailynotes/$(date -u +%d_%m_%Y).md"
 
 
@@ -713,6 +717,30 @@ note() {
 		nvim /home/anu/Documents/GitHub/notes/in/$1.md
 	fi
 		
+}
+
+mvsub() {
+  # Move all files from subdirectories to the current directory
+  find . -mindepth 2 -type f -exec mv -t . {} +
+
+  # Optionally, remove empty directories
+  find . -mindepth 1 -type d -empty -delete
+
+  echo "All files moved to the current directory."
+}
+
+unzipall() {
+    for file in *.zip *.rar *.tar; do
+        [ -e "$file" ] || continue  # Skip if no matching files
+        echo "Extracting \"$file\"..."
+
+        case "$file" in
+            *.zip) unzip -o "$file" -d "${file%.zip}" ;;
+            *.rar) rar x -o+ "$file" "${file%.rar}" ;;
+            *.tar) mkdir -p "${file%.tar}" && tar -xf "$file" -C "${file%.tar}" ;;
+        esac
+    done
+    echo "Extraction complete!"
 }
 
 export MANPAGER='nvim +Man!'
