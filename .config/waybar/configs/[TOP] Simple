@@ -19,10 +19,7 @@
 "margin-top": 2,
 
 "modules-left": [	
-	"idle_inhibitor", 
-	"group/mobo_drawer",
 	"hyprland/workspaces#rw",
-	"tray",
 	"mpris", 
 	],
     
@@ -32,10 +29,11 @@
 	],
     
 "modules-right": [
-	"hyprland/window",  
+	"hyprland/window", 
+	"group/mobo_drawer",
 	"battery",
- 	"group/audio", 
-	"custom/power",
+ 	"group/audio",
+	"tray",
 	],
 }
 
