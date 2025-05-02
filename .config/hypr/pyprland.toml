@@ -1,15 +1,19 @@
+# /* ----------- 💫 https://github.com/JaKooLit 💫 -------- */ #
+
 [pyprland]
-plugins = [   
-	"scratchpads"
+
+plugins = [
+  "scratchpads",
+  "magnify",
 ]
 
 [scratchpads.term]
 animation = "fromTop"
-command = "kitty --class term1"
-class = "term1"
+command = "kitty --class kitty-dropterm"
+class = "kitty-dropterm"
+size = "75% 60%"
 lazy = true
 unfocus = "hide"
-size = "80% 80%"
 
 
 [scratchpads.rangerf]
@@ -31,7 +35,7 @@ size = "60% 60%"
 [scratchpads.music]
 animation = "fromTop"
 command = "youtube-music"
-class = "Youtube Music"
+class = "com.github.th_ch.youtube_music"
 lazy = true
 unfocus = "hide"
 size = "60% 60%"
@@ -39,7 +43,7 @@ size = "60% 60%"
 [scratchpads.pavucontrol]
 animation = "fromTop"
 command = "pavucontrol"
-class = "org.pulseaudio.pavucontrol"
+class = "Pavucontrol"
 lazy = true
 unfocus = "hide"
 size = "60% 60%"
@@ -64,7 +68,7 @@ size = "60% 60%"
 [scratchpads.message]
 animation = "fromTop"
 command = "wasistlos"
-class = "WasIstLos"
+class = "wasistlos"
 lazy = true
 unfocus = "hide"
 size = "60% 60%"

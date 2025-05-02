@@ -54,9 +54,9 @@ return {
         vim.keymap.set('n', lhs, rhs, opts or {})
       end
       map('<leader>ha', function()
-        harpoon:list():append()
+        harpoon:list():add()
       end)
-      map('<leader>hs', function()
+      map('<leader>hl', function()
         harpoon.ui:toggle_quick_menu(harpoon:list())
       end)
       -- map("<c-h><c-h>", function() harpoon:list():select(3) end)
@@ -133,5 +133,43 @@ return {
     keys = {
       { '<leader>nd', '<cmd>NoiceDismiss<CR>', desc = 'Dismiss Noice Messages' },
     },
+  },
+  {
+    'kevinhwang91/nvim-ufo',
+    dependencies = 'kevinhwang91/promise-async',
+    event = 'VimEnter', -- needed for folds to load in time and comments closed
+    keys = {
+			-- stylua: ignore start
+			{ "zm", function() require("ufo").closeAllFolds() end, desc = " 󱃄 Close All Folds" },
+			{ "zr", function() require("ufo").openFoldsExceptKinds { "comment", "imports" } end, desc = " 󱃄 Open All Regular Folds" },
+			{ "zR", function() require("ufo").openFoldsExceptKinds {} end, desc = " 󱃄 Open All Folds" },
+			{ "z1", function() require("ufo").closeFoldsWith(1) end, desc = " 󱃄 Close L1 Folds" },
+			{ "z2", function() require("ufo").closeFoldsWith(2) end, desc = " 󱃄 Close L2 Folds" },
+			{ "z3", function() require("ufo").closeFoldsWith(3) end, desc = " 󱃄 Close L3 Folds" },
+			{ "z4", function() require("ufo").closeFoldsWith(4) end, desc = " 󱃄 Close L4 Folds" },
+      -- stylua: ignore end
+    },
+    opts = {
+      -- New config replacing deprecated option
+      close_fold_kinds_for_ft = {
+        lua = { 'imports', 'comment' },
+        python = { 'imports', 'comment' },
+        typescript = { 'imports', 'comment' },
+        javascript = { 'imports', 'comment' },
+        -- Add other filetypes as needed
+      },
+    },
+  },
+  {
+    'NvChad/nvim-colorizer.lua',
+    opts = {
+      user_default_options = {
+        tailwind = true,
+      },
+    },
+  },
+  {
+    'akinsho/bufferline.nvim',
+    enabled = true,
   },
 }

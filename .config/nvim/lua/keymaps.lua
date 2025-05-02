@@ -6,6 +6,7 @@ vim.g.mapleader = ' '
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 
 keymap('n', '<F5>', '<cmd> UndotreeToggle <CR> <cmd> UndotreeFocus <CR>', opts)
+keymap('n', '<leader>u', '<cmd> UndotreeToggle <CR> <cmd> UndotreeFocus <CR>', opts)
 
 --tabs
 keymap('n', '<leader>1', '1gt<CR>', opts)
