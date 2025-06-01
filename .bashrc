@@ -24,6 +24,7 @@ alias ltt="tree -a -C"
 alias linutil="curl -fsSL https://christitus.com/linux | sh"
 alias grubu="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias xopen="env -u WAYLAND_DISPLAY"
+alias eartag="flatpak run app.drey.EarTag"
 
 
 #alias note="nvim /home/anu/Documents/GitHub/Obsidian-Notes/dailynotes/$(date -u +%d_%m_%Y).md"

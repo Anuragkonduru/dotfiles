@@ -2,48 +2,48 @@
  /* wallust template - colors-rofi */
 
 * {
-active-background: #1DFCCE;
-active-foreground: #A7FEF7;
-normal-background: #161718;
-normal-foreground: #A7FEF7;
-urgent-background: #8BFA64;
-urgent-foreground: #A7FEF7;
+active-background: #CA7994;
+active-foreground: #E6E9ED;
+normal-background: #202024;
+normal-foreground: #E6E9ED;
+urgent-background: #F18EAB;
+urgent-foreground: #E6E9ED;
 
-alternate-active-background: #82FA6C;
-alternate-active-foreground: #A7FEF7;
-alternate-normal-background: #161718;
-alternate-normal-foreground: #A7FEF7;
-alternate-urgent-background: #161718;
-alternate-urgent-foreground: #A7FEF7;
+alternate-active-background: #5E5B6C;
+alternate-active-foreground: #E6E9ED;
+alternate-normal-background: #202024;
+alternate-normal-foreground: #E6E9ED;
+alternate-urgent-background: #202024;
+alternate-urgent-foreground: #E6E9ED;
 
-selected-active-background: #8BFA64;
-selected-active-foreground: #A7FEF7;
-selected-normal-background: #8BFA64;
-selected-normal-foreground: #A7FEF7;
-selected-urgent-background: #1DFCCE;
+selected-active-background: #F18EAB;
+selected-active-foreground: #E6E9ED;
+selected-normal-background: #F18EAB;
+selected-normal-foreground: #E6E9ED;
+selected-urgent-background: #CA7994;
 background: rgba(0,0,0,0.7);
 
-background-color: #161718;
+background-color: #202024;
 background: rgba(0,0,0,0.7);
-foreground: #A7FEF7;
-border-color: #1DFCCE;
+foreground: #E6E9ED;
+border-color: #CA7994;
 
-color0: #3C3E3F;
-color1: #0C1214;
-color2: #173A35;
-color3: #62BC51;
-color4: #15BD9B;
-color5: #68BC4B;
-color6: #02BEAD;
-color7: #79F6EB;
-color8: #54ACA4;
-color9: #10181B;
-color10: #1F4D46;
-color11: #82FA6C;
-color12: #1DFCCE;
-color13: #8BFA64;
-color14: #03FDE7;
-color15: #79F6EB;
+color0: #47464A;
+color1: #211C2A;
+color2: #5C3C4C;
+color3: #464451;
+color4: #975B6F;
+color5: #B56B80;
+color6: #8A9099;
+color7: #D3D7DD;
+color8: #94969B;
+color9: #2C2638;
+color10: #7B5066;
+color11: #5E5B6C;
+color12: #CA7994;
+color13: #F18EAB;
+color14: #B8C0CC;
+color15: #D3D7DD;
 
 
 }
