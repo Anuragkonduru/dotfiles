@@ -6,6 +6,7 @@ vim.g.mapleader = ' '
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 
 keymap('n', '<F5>', '<cmd> UndotreeToggle <CR> <cmd> UndotreeFocus <CR>', opts)
+keymap('n', '<leader>u', '<cmd> UndotreeToggle <CR> <cmd> UndotreeFocus <CR>', opts)
 
 --tabs
 keymap('n', '<leader>1', '1gt<CR>', opts)
@@ -24,8 +25,8 @@ keymap('i', 'jj', '<ESC>', opts)
 keymap('v', '<', '<gv', opts)
 keymap('v', '>', '>gv', opts)
 
-keymap('n', '<leader>/', "<cmd>lua require('Comment.api').toggle.linewise.current()<CR>", opts)
-keymap('x', '<leader>/', '<ESC><CMD>lua require("Comment.api").toggle.linewise(vim.fn.visualmode())<CR>')
+-- keymap('n', '<leader>/', "<cmd>lua require('Comment.api').toggle.linewise.current()<CR>", opts)
+-- keymap('x', '<leader>/', '<ESC><CMD>lua require("Comment.api").toggle.linewise(vim.fn.visualmode())<CR>')
 
 keymap('n', '<C-/>', "<cmd>lua require('Comment.api').toggle.linewise.current()<CR>", opts)
 keymap('x', '<C-/>/', '<ESC><CMD>lua require("Comment.api").toggle.linewise(vim.fn.visualmode())<CR>')
