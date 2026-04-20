@@ -1,5 +1,4 @@
 require 'keymaps'
-
 --[[
 
 
@@ -437,6 +436,7 @@ require('lazy').setup({
       vim.keymap.set('n', '<leader>s.', builtin.oldfiles, { desc = '[S]earch Recent Files ("." for repeat)' })
       vim.keymap.set('n', '<leader><leader>', builtin.buffers, { desc = '[ ] Find existing buffers' })
       vim.keymap.set('n', '<leader>ff', builtin.git_files, { desc = '[S]earch [G]it [F]iles' })
+      vim.keymap.set('n', '<leader>fg', builtin.git_status, { desc = '[G]it [S]tatus' })
       --vim.keymap.set('n', '<leader>fe', builtin.file_browser, { desc = '[S]earch [F]iles' })
       -- Slightly advanced example of overriding default behavior and theme
       vim.keymap.set('n', '<leader>/', function()
@@ -1041,6 +1041,7 @@ require('lazy').setup({
   --
   --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
   { import = 'custom.plugins' },
+  { import = 'custom.theme' },
   --
   -- For additional information with loading, sourcing and examples see `:help lazy.nvim-🔌-plugin-spec`
   -- Or use telescope!
@@ -1078,4 +1079,4 @@ vim.o.background = 'dark' -- or "light" for light mode
 --vim.cmd([[colorscheme dracula]])
 --vim.cmd([[colorscheme rose-pine]])
 --vim.cmd([[colorscheme solarized]])
-vim.cmd [[colorscheme tokyonight-night]]
+--vim.cmd [[colorscheme tokyonight-night]]

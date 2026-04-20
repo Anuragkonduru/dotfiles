@@ -4,6 +4,8 @@ local opts = { silent = true }
 
 vim.g.mapleader = ' '
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
+vim.g.lazyvim_check_order = false
+
 
 keymap('n', '<F5>', '<cmd> UndotreeToggle <CR> <cmd> UndotreeFocus <CR>', opts)
 keymap('n', '<leader>u', '<cmd> UndotreeToggle <CR> <cmd> UndotreeFocus <CR>', opts)

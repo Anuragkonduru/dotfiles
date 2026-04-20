@@ -24,7 +24,6 @@ return {
     end,
   },
   'lambdalisue/suda.vim',
-  'lambdalisue/suda.vim',
   'jvgrootveld/telescope-zoxide',
   {
     'nvim-telescope/telescope-file-browser.nvim',
@@ -65,26 +64,25 @@ return {
       -- map("<c-h><c-l>", function() harpoon:list():select(4) end)
     end,
   },
-  {
-    'MeanderingProgrammer/render-markdown.nvim',
-    opts = {},
-    dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.nvim' }, -- if you use the mini.nvim suite
-    -- dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.icons' }, -- if you use standalone mini plugins
-    -- dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-tree/nvim-web-devicons' }, -- if you prefer nvim-web-devicons
-  },
-  {
-    'iamcco/markdown-preview.nvim',
-    cmd = { 'MarkdownPreviewToggle', 'MarkdownPreview', 'MarkdownPreviewStop' },
-    build = 'cd app && npm install',
-    init = function()
-      vim.g.mkdp_filetypes = { 'markdown' }
-    end,
-    ft = { 'markdown' },
-  },
+  -- {
+  --   'MeanderingProgrammer/render-markdown.nvim',
+  --   opts = {},
+  --   dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.nvim' }, -- if you use the mini.nvim suite
+  --   -- dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.icons' }, -- if you use standalone mini plugins
+  --   -- dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-tree/nvim-web-devicons' }, -- if you prefer nvim-web-devicons
+  -- },
+  -- {
+  --   'iamcco/markdown-preview.nvim',
+  --   cmd = { 'MarkdownPreviewToggle', 'MarkdownPreview', 'MarkdownPreviewStop' },
+  --   build = 'cd app && npm install',
+  --   init = function()
+  --     vim.g.mkdp_filetypes = { 'markdown' }
+  --   end,
+  --   ft = { 'markdown' },
+  -- },
   {
     'tpope/vim-fugitive',
   },
-  { 'rose-pine/neovim', name = 'rose-pine' },
   {
     'maxmx03/solarized.nvim',
     lazy = false,
@@ -97,10 +95,6 @@ return {
       require('solarized').setup(opts)
       vim.cmd.colorscheme 'solarized'
     end,
-  },
-  {
-    'kevinhwang91/nvim-ufo',
-    dependencies = { 'kevinhwang91/promise-async' },
   },
   -- add this to your lua/plugins.lua, lua/plugins/init.lua,  or the file you keep your other plugins:
   {
@@ -172,4 +166,51 @@ return {
     'akinsho/bufferline.nvim',
     enabled = true,
   },
+  {
+    'ribru17/bamboo.nvim',
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    'sainnhe/everforest',
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    'kepano/flexoki-neovim',
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    'rebelot/kanagawa.nvim',
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    'tahayvr/matteblack.nvim',
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    'loctvl842/monokai-pro.nvim',
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    'shaunsingh/nord.nvim',
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    'rose-pine/neovim',
+    name = 'rose-pine',
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    'folke/tokyonight.nvim',
+    lazy = true,
+    priority = 1000,
+  },
+  { 'folke/snacks.nvim' },
 }
